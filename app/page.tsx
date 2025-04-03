@@ -1,103 +1,212 @@
-import Image from "next/image";
+"use client";
+
+import { useState, useCallback } from "react"; // Added useCallback
+// Import the main component and the type
+import {
+  V0AIChat,
+  type Message as V0ChatMessage,
+} from "@/components/ui/v0-ai-chat"; // Renamed import type
+import { ThemeToggle } from "@/components/theme-toggle"; // Import ThemeToggle
+
+// Define a new Message type that allows AsyncIterable
+type Message = Omit<V0ChatMessage, "content"> & {
+  content: string | AsyncIterable<string>;
+};
+
+// Define shimmer messages here as they are used for state in this component
+const shimmerMessages = [
+  "Safya is pondering your request...",
+  "Processing with Safya's brilliance...",
+  "Safya is crafting a response...",
+  "Thinking deeply, Safya-style...",
+  "Safya’s gears are turning...",
+  "Hold on, Safya’s got this...",
+  "Safya is working her magic...",
+  "Analyzing with Safya’s wisdom...",
+  "Safya’s thoughts are loading...",
+  "Give Safya a moment to shine...",
+];
 
 export default function Home() {
-  return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+  // Removed chatActive state as V0AIChat handles the layout now
+  const [messages, setMessages] = useState<Message[]>([]); // Use the new Message type
+  const [isLoading, setIsLoading] = useState(false);
+  const [currentShimmerText, setCurrentShimmerText] = useState("");
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+  const handleSendMessage = async (userMessageContent: string) => {
+    // Removed setting chatActive
+
+    const newUserMessage: Message = {
+      id: Date.now().toString(),
+      role: "user",
+      content: userMessageContent,
+    };
+
+    // Removed: setMessages((prev) => [...prev, newUserMessage]); // This was causing duplication
+    setIsLoading(true);
+
+    // Add an empty assistant message placeholder
+    const assistantMessageId = (Date.now() + 1).toString();
+    const newAssistantPlaceholder: Message = {
+      id: assistantMessageId,
+      role: "assistant",
+      content: "", // Start with empty content
+    };
+
+    // Capture the history *before* adding the new messages
+    const historyForAPI = messages;
+
+    // Update state first to add user message and placeholder
+    setMessages((prevMessages) => [
+      ...prevMessages,
+      newUserMessage,
+      newAssistantPlaceholder,
+    ]);
+
+    // Call the API *after* the state update, using the captured history
+    fetchAndStreamResponse(
+      userMessageContent,
+      historyForAPI as V0ChatMessage[], // Use captured history (cast needed)
+      assistantMessageId,
+      setMessages // Pass setter to update the specific message
+    );
+  };
+
+  // Function to create the async iterable for the stream
+  const createStreamIterable = useCallback(
+    async function* (
+      stream: ReadableStream<Uint8Array>,
+      assistantMessageId: string,
+      setMessagesFn: React.Dispatch<React.SetStateAction<Message[]>>
+    ): AsyncIterable<string> {
+      const reader = stream.getReader();
+      const decoder = new TextDecoder();
+      let firstChunkReceived = false;
+
+      try {
+        while (true) {
+          const { done, value } = await reader.read();
+          if (done) {
+            break;
+          }
+
+          if (!firstChunkReceived) {
+            // Stop shimmer on first chunk by setting isLoading false globally
+            setIsLoading(false);
+            firstChunkReceived = true;
+          }
+
+          const chunkText = decoder.decode(value, { stream: true });
+          yield chunkText; // Yield the chunk for ResponseStream
+        }
+      } catch (error) {
+        console.error("Error reading stream:", error);
+        // Update the specific message with an error state
+        setMessagesFn((prev) =>
+          prev.map((msg) =>
+            msg.id === assistantMessageId
+              ? {
+                  ...msg,
+                  content: "Sorry, something went wrong reading the stream.",
+                }
+              : msg
+          )
+        );
+      } finally {
+        // Ensure loading is false globally when stream ends
+        setIsLoading(false);
+      }
+    },
+    [] // No dependencies needed for useCallback as it uses passed args
+  );
+
+  // Separate function to handle fetching and setting up the stream iterable
+  const fetchAndStreamResponse = async (
+    userMessageContent: string,
+    historyForAPI: V0ChatMessage[], // Use V0ChatMessage for API history
+    assistantMessageId: string,
+    setMessagesFn: React.Dispatch<React.SetStateAction<Message[]>> // Receive setter
+  ) => {
+    // Select random shimmer message while loading
+    const randomShimmer =
+      shimmerMessages[Math.floor(Math.random() * shimmerMessages.length)];
+    setCurrentShimmerText(randomShimmer);
+    setIsLoading(true); // Ensure loading is true before fetch
+    try {
+      const response = await fetch("/api/chat", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          message: userMessageContent,
+          // Ensure history sent to API only contains strings
+          history: historyForAPI.map((msg) => ({
+            ...msg,
+            content: typeof msg.content === "string" ? msg.content : "",
+          })),
+        }),
+      });
+
+      if (!response.ok) {
+        throw new Error(`API error: ${response.statusText}`);
+      }
+
+      if (!response.body) {
+        throw new Error("Response body is null");
+      }
+
+      // Create the async iterable
+      const streamIterable = createStreamIterable(
+        response.body,
+        assistantMessageId,
+        setMessagesFn // Pass the setter down
+      );
+
+      // Update the specific assistant message content with the iterable
+      setMessagesFn((prev) =>
+        prev.map((msg) =>
+          msg.id === assistantMessageId
+            ? { ...msg, content: streamIterable } // Assign the iterable here
+            : msg
+        )
+      );
+
+      // Note: isLoading is set to false inside createStreamIterable now
+    } catch (error) {
+      console.error("Error initiating stream:", error);
+      // Update the specific message with an error state
+      setMessagesFn((prev) =>
+        prev.map((msg) =>
+          msg.id === assistantMessageId
+            ? {
+                ...msg,
+                content: "Sorry, something went wrong initiating the stream.",
+              }
+            : msg
+        )
+      );
+      setIsLoading(false); // Ensure loading is false on fetch error
+    }
+    // No finally block needed here for isLoading, handled in iterable or catch
+  };
+  // Render the main V0AIChat component, passing all necessary state and handlers
+  // Cast messages back to V0ChatMessage[] for the prop type
+  return (
+    // Add relative positioning to the main container to position the toggle
+    <main className="relative bg-neutral-950">
+      {/* Add ThemeToggle button */}
+      <div className="absolute top-4 right-4 z-10">
+        {" "}
+        {/* Position top-right */}
+        <ThemeToggle />
+      </div>
+      <V0AIChat
+        messages={messages as V0ChatMessage[]} // Cast messages for V0AIChat props
+        isLoading={isLoading}
+        currentShimmerText={currentShimmerText}
+        onSendMessage={handleSendMessage}
+      />
+    </main>
   );
 }
