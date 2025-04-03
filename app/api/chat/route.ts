@@ -1,8 +1,9 @@
-import { GoogleGenAI, Content } from "@google/genai"; // Removed incorrect GenerateContentStreamResult import
+import { GoogleGenAI, Content } from "@google/genai";
 // Remove StreamingTextResponse import from 'ai'
 import { NextRequest, NextResponse } from "next/server";
-import fs from "fs"; // Import fs for server-side file reading
-import path from "path"; // Import path for constructing file paths
+// Import markdown content using raw-loader
+import gymsContent from "../../../public/files/gyms.md";
+import instructionContent from "../../../public/files/instructions.md";
 
 // Ensure the API key is available
 const apiKey = process.env.GEMINI_API_KEY;
@@ -23,24 +24,6 @@ function formatHistory(
     role: msg.role === "assistant" ? "model" : "user",
     parts: [{ text: msg.content }],
   }));
-}
-
-/**
- * Reads the content of a file relative to the project root.
- * @param relativePath - The path to the file relative to the project root (e.g., 'files/gyms.md').
- * @returns The content of the file as a string, or null if an error occurs.
- */
-function readFileContent(relativePath: string): string | null {
-  try {
-    // Construct the absolute path from the project root
-    const absolutePath = path.join(process.cwd(), relativePath);
-    // Read the file synchronously
-    return fs.readFileSync(absolutePath, "utf-8");
-  } catch (error) {
-    console.error(`Error reading file at ${relativePath}:`, error);
-    // Return null or throw error, depending on desired handling
-    return null;
-  }
 }
 
 // --- API Route Handler ---
@@ -73,14 +56,15 @@ export async function POST(req: NextRequest) {
 
     const formattedHistory = formatHistory(history); // Original chat history from frontend (Use const)
 
-    // --- Read content from markdown files ---
-    const gymsContent =
-      readFileContent("files/gyms.md") || "Gyms information not found."; // Provide fallback
-    const instructionContent =
-      readFileContent("files/instructions.md") || "Instructions not found."; // Provide fallback
+    // --- Content from imported markdown files ---
+    // Note: Fallbacks are less necessary now as build would fail if files are missing,
+    // but kept for safety or if imports could somehow be undefined.
+    const finalGymsContent = gymsContent || "Gyms information not found.";
+    const finalInstructionContent =
+      instructionContent || "Instructions not found.";
 
     // --- Construct the system instruction text ---
-    const systemInstructionText = `You are Safya, the AI assistant, helping franchise partners open their Gym: ${instructionContent}\n\n---\n\nGym Information:\n${gymsContent}`;
+    const systemInstructionText = `You are Safya, the AI assistant, helping franchise partners open their Gym: ${finalInstructionContent}\n\n---\n\nGym Information:\n${finalGymsContent}`;
 
     // --- Prepend System Instruction to History (Common Pattern) ---
     // Instead of config, add system instructions as the first turns in the history.

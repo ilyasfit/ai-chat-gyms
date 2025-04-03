@@ -14,5 +14,11 @@ declare global {
   }
 }
 
+// Add type declaration for raw-loader
+declare module "*.md" {
+  const content: string;
+  export = content; // Use export = syntax
+}
+
 // Export something to make it a module (even if empty)
 export {};
