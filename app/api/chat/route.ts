@@ -1,4 +1,4 @@
-import { GoogleGenAI, Content } from "@google/genai"; // Reverted to correct import name per docs
+import { GoogleGenAI, Content } from "@google/genai"; // Removed incorrect GenerateContentStreamResult import
 // Remove StreamingTextResponse import from 'ai'
 import { NextRequest, NextResponse } from "next/server";
 import fs from "fs"; // Import fs for server-side file reading
@@ -71,7 +71,7 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    const formattedHistory = formatHistory(history);
+    const formattedHistory = formatHistory(history); // Original chat history from frontend (Use const)
 
     // --- Read content from markdown files ---
     const gymsContent =
@@ -79,17 +79,34 @@ export async function POST(req: NextRequest) {
     const instructionContent =
       readFileContent("files/instructions.md") || "Instructions not found."; // Provide fallback
 
-    // --- Construct the system instruction ---
-    // Note: Adjusted the formatting slightly for clarity
-    const systemInstruction = `You are Safya, the AI assistant, helping franchise partners open their Gym: ${instructionContent}\n\n---\n\nGym Information:\n${gymsContent}`;
+    // --- Construct the system instruction text ---
+    const systemInstructionText = `You are Safya, the AI assistant, helping franchise partners open their Gym: ${instructionContent}\n\n---\n\nGym Information:\n${gymsContent}`;
 
-    // --- Create a chat instance with history ---
-    const chat = genAI.chats.create({
-      model: "gemini-2.0-flash", // Use the specified model
-      history: formattedHistory, // Pass the formatted history
-      config: {
-        systemInstruction: systemInstruction, // Use the combined content
-      },
+    // --- Prepend System Instruction to History (Common Pattern) ---
+    // Instead of config, add system instructions as the first turns in the history.
+    const systemHistory: Content[] = [
+      { role: "user", parts: [{ text: systemInstructionText }] },
+      {
+        role: "model",
+        parts: [{ text: "Understood. I am Safya, ready to assist." }],
+      }, // Simple acknowledgement
+    ];
+
+    // Combine system history with the actual chat history from the frontend
+    const fullHistory = [...systemHistory, ...formattedHistory]; // Use const as it's not reassigned
+
+    // --- Use generateContentStream directly (Stateless Approach) ---
+    // Construct the 'contents' array expected by generateContentStream
+    // It needs the full history PLUS the current user message as the last element
+    const contents: Content[] = [
+      ...fullHistory,
+      { role: "user", parts: [{ text: message }] }, // Add current user message
+    ];
+
+    // Call generateContentStream instead of chat methods
+    const streamResult = await genAI.models.generateContentStream({
+      model: "gemini-2.0-flash",
+      contents: contents, // Pass the full history + current message
       // Optional: Add safety settings if needed
       // safetySettings: [
       //   { category: HarmCategory.HARM_CATEGORY_HARASSMENT, threshold: HarmBlockThreshold.BLOCK_MEDIUM_AND_ABOVE },
@@ -98,22 +115,22 @@ export async function POST(req: NextRequest) {
       // Optional: Add generation config if needed
       // generationConfig: { maxOutputTokens: 200, temperature: 0.7 },
     });
+    // Note: We are no longer using chat.sendMessageStream
 
-    // --- Send the current message and get the stream ---
-    const streamResult = await chat.sendMessageStream({
-      message: message, // Send only the current message text
-    });
-
-    // --- Convert the async iterator into a ReadableStream ---
+    // --- Convert the async iterator from generateContentStream into a ReadableStream ---
     const encoder = new TextEncoder();
     const readableStream = new ReadableStream({
       async start(controller) {
-        // Iterate over the stream from chat.sendMessageStream
+        // Iterate over the stream from generateContentStream
+        // The structure of the stream response might be slightly different
+        // Check Gemini SDK docs for generateContentStream response structure if needed
+        // Iterate directly over streamResult, as it's the async generator
         for await (const chunk of streamResult) {
-          // Access the text from the response chunk using chunk.text per docs
-          const text = chunk.text; // Use chunk.text property per docs
+          // It's common for generateContentStream chunks to be nested, e.g., chunk.candidates[0].content.parts[0].text
+          // Safely access potentially nested text
+          const text = chunk?.candidates?.[0]?.content?.parts?.[0]?.text;
           if (text) {
-            controller.enqueue(encoder.encode(text));
+            controller.enqueue(encoder.encode(text)); // Encode and send the text chunk
           }
         }
         controller.close();

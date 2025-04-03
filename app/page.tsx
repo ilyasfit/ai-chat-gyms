@@ -53,20 +53,20 @@ export default function Home() {
       content: "", // Start with empty content
     };
 
-    // Capture the history *before* adding the new messages
-    const historyForAPI = messages;
+    // Construct the history *including* the new user message
+    const historyForAPI = [...messages, newUserMessage];
 
     // Update state first to add user message and placeholder
     setMessages((prevMessages) => [
       ...prevMessages,
       newUserMessage,
-      newAssistantPlaceholder,
+      newAssistantPlaceholder, // Correctly add only one user message and one placeholder
     ]);
 
-    // Call the API *after* the state update, using the captured history
+    // Call the API *after* the state update, using the CORRECT history
     fetchAndStreamResponse(
       userMessageContent,
-      historyForAPI as V0ChatMessage[], // Use captured history (cast needed)
+      historyForAPI as V0ChatMessage[], // Use correct history (cast needed)
       assistantMessageId,
       setMessages // Pass setter to update the specific message
     );
@@ -81,10 +81,12 @@ export default function Home() {
     ): AsyncIterable<string> {
       const reader = stream.getReader();
       const decoder = new TextDecoder();
-      let firstChunkReceived = false;
+      let firstChunkReceived = false; // Restore firstChunkReceived flag
+      let accumulatedText = ""; // Accumulate text here
 
       try {
         while (true) {
+          // isLoading is handled below now
           const { done, value } = await reader.read();
           if (done) {
             break;
@@ -97,27 +99,27 @@ export default function Home() {
           }
 
           const chunkText = decoder.decode(value, { stream: true });
-          yield chunkText; // Yield the chunk for ResponseStream
+          accumulatedText += chunkText; // Append to accumulated text
+          yield chunkText; // Restore yielding chunks for incremental rendering
         }
       } catch (error) {
         console.error("Error reading stream:", error);
-        // Update the specific message with an error state
+        accumulatedText = "Sorry, something went wrong reading the stream."; // Set error message in accumulated text
+        // Note: We'll update the state in the finally block
+      } finally {
+        // Ensure loading is false globally when stream ends/errors
+        setIsLoading(false);
+        // Update the message state with the FINAL accumulated string
         setMessagesFn((prev) =>
           prev.map((msg) =>
             msg.id === assistantMessageId
-              ? {
-                  ...msg,
-                  content: "Sorry, something went wrong reading the stream.",
-                }
+              ? { ...msg, content: accumulatedText } // Replace iterable with final string
               : msg
           )
         );
-      } finally {
-        // Ensure loading is false globally when stream ends
-        setIsLoading(false);
       }
     },
-    [] // No dependencies needed for useCallback as it uses passed args
+    [] // No dependencies needed
   );
 
   // Separate function to handle fetching and setting up the stream iterable
@@ -140,10 +142,15 @@ export default function Home() {
         },
         body: JSON.stringify({
           message: userMessageContent,
-          // Ensure history sent to API only contains strings
+          // Ensure history sent to API uses the correct structure and final string content
           history: historyForAPI.map((msg) => ({
-            ...msg,
-            content: typeof msg.content === "string" ? msg.content : "",
+            // Map to the structure expected by the backend's formatHistory
+            role: msg.role,
+            // Content should be string here due to the fix in createStreamIterable's finally block
+            content:
+              typeof msg.content === "string"
+                ? msg.content
+                : "Error: Content was not string",
           })),
         }),
       });

@@ -112,6 +112,14 @@
   --sidebar-ring: oklch(0.556 0 0);
 }
 
+/* ElevenLabs Convai Widget Styling */
+elevenlabs-convai {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000; /* Ensure it stays on top */
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
