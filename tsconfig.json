@@ -27,7 +27,8 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "types/**/*.ts"
+    "types/global.d.ts", // Explicitly include the global declaration file
+    "types/**/*.ts" // Keep the broader pattern too
   ],
   "exclude": ["node_modules"]
 }

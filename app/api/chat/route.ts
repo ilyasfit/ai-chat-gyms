@@ -1,9 +1,27 @@
 import { GoogleGenAI, Content } from "@google/genai";
-// Remove StreamingTextResponse import from 'ai'
 import { NextRequest, NextResponse } from "next/server";
-// Import markdown content using raw-loader
-import gymsContent from "../../../public/files/gyms.md";
-import instructionContent from "../../../public/files/instructions.md";
+import fs from "fs"; // Import Node.js file system module
+import path from "path"; // Import Node.js path module
+
+// --- Read Markdown Files ---
+// Construct absolute paths relative to the current file's directory
+const filesDir = path.resolve(process.cwd(), "public/files"); // Use process.cwd() for project root
+const gymsPath = path.join(filesDir, "gyms.md");
+const instructionsPath = path.join(filesDir, "instructions.md");
+
+let gymsContent: string;
+let instructionContent: string;
+
+try {
+  gymsContent = fs.readFileSync(gymsPath, "utf-8");
+  instructionContent = fs.readFileSync(instructionsPath, "utf-8");
+} catch (error) {
+  console.error("Error reading markdown files:", error);
+  // Set default content or re-throw error depending on desired behavior
+  gymsContent = "Gyms information could not be loaded.";
+  instructionContent = "Instructions could not be loaded.";
+  // Optionally: throw new Error("Failed to load essential markdown content.");
+}
 
 // Ensure the API key is available
 const apiKey = process.env.GEMINI_API_KEY;
@@ -56,15 +74,8 @@ export async function POST(req: NextRequest) {
 
     const formattedHistory = formatHistory(history); // Original chat history from frontend (Use const)
 
-    // --- Content from imported markdown files ---
-    // Note: Fallbacks are less necessary now as build would fail if files are missing,
-    // but kept for safety or if imports could somehow be undefined.
-    const finalGymsContent = gymsContent || "Gyms information not found.";
-    const finalInstructionContent =
-      instructionContent || "Instructions not found.";
-
-    // --- Construct the system instruction text ---
-    const systemInstructionText = `You are Safya, the AI assistant, helping franchise partners open their Gym: ${finalInstructionContent}\n\n---\n\nGym Information:\n${finalGymsContent}`;
+    // --- Construct the system instruction text using file content read via fs ---
+    const systemInstructionText = `You are Safya, the AI assistant, helping franchise partners open their Gym: ${instructionContent}\n\n---\n\nGym Information:\n${gymsContent}`;
 
     // --- Prepend System Instruction to History (Common Pattern) ---
     // Instead of config, add system instructions as the first turns in the history.
