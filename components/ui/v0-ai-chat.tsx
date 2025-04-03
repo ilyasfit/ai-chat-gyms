@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image"; // Import Next Image
 import { useEffect, useRef, useCallback, useState } from "react";
 import { Textarea } from "@/components/ui/textarea";
 import { cn } from "@/lib/utils";
@@ -125,10 +126,10 @@ export function V0AIChat({
 
   // Default layout when messages exist
   return (
-    // Use theme variable for background
-    <div className="flex flex-col h-screen bg-background">
-      {" "}
-      {/* Main container */}
+    // Use theme variable for background, add relative positioning for the logo
+    <div className="relative flex flex-col h-screen bg-background">
+      {/* Logo Container - Positioned Top Left */}
+      {/* Main container content */}
       <AIChatMessages
         messages={messages}
         isLoading={isLoading}
@@ -211,10 +212,10 @@ ChatInputProps) {
               "resize-none",
               "bg-transparent",
               "border-none",
-              "text-foreground text-sm", // Use theme variable
+              "text-foreground text-base", // Increased font size from text-sm
               "focus:outline-none",
               "focus-visible:ring-0 focus-visible:ring-offset-0",
-              "placeholder:text-muted-foreground placeholder:text-sm", // Use theme variable
+              "placeholder:text-muted-foreground placeholder:text-base", // Increased placeholder font size
               "min-h-[60px]"
             )}
             style={{
@@ -317,13 +318,19 @@ function AIChatMessages({
         </div>
       ))}
       {/* Loading Indicator */}
+      {/* Loading Indicator */}
       {isLoading && (
-        // Wrap loading indicator in the same centering container as messages
+        // Wrap loading indicator in the exact same structure as an assistant message for alignment
         <div className="flex w-full max-w-2xl mx-auto justify-start">
-          {/* Apply same padding/rounding AND prose base styles as assistant message container for alignment */}
-          {/* Note: prose-sm might affect shimmer text size/style slightly, adjust if needed */}
-          <div className="rounded-lg px-4 py-2 text-muted-foreground prose-sm dark:prose-invert max-w-none">
-            <TextShimmer>{currentShimmerText}</TextShimmer>
+          {/* Inner container matching assistant message (no padding/border/color here) */}
+          <div className="text-foreground">
+            {/* Prose wrapper matching assistant message */}
+            <div className="prose-sm dark:prose-invert max-w-none">
+              {/* Apply text-muted-foreground directly to shimmer if needed, or rely on prose styles */}
+              <TextShimmer className="text-muted-foreground">
+                {currentShimmerText}
+              </TextShimmer>
+            </div>
           </div>
         </div>
       )}
