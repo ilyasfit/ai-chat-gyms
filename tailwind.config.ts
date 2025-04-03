@@ -1,9 +1,5 @@
 import type { Config } from "tailwindcss";
 import defaultTheme from "tailwindcss/defaultTheme"; // Correct import style
-// Use require for plugin without types and disable eslint rule for this line
-// eslint-disable-next-line
-const twAnimatePlugin = require("tw-animate-css");
-import typography from "@tailwindcss/typography";
 
 const config = {
   darkMode: "class", // Correct darkMode value for class strategy
@@ -83,7 +79,7 @@ const config = {
       },
     },
   },
-  plugins: [twAnimatePlugin, typography], // Use the imported plugin
+  plugins: [], // Temporarily remove plugins for diagnostics
 } satisfies Config;
 
 export default config;
