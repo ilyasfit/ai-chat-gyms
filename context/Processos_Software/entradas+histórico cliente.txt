@@ -1,0 +1,36 @@
+# Procedimento Operacional Padrão (POP)
+
+## 1. Objetivo
+
+Fornecer instruções passo a passo para alterar o estado de um utente de 'Suspenso' (S) para 'Ativo' (A) dentro do software SportStudio (v. 3.08.8811).
+
+## 2. Âmbito
+
+Este POP aplica-se a todos os utilizadores responsáveis pela gestão de contas de utentes no módulo "Utentes" do SportStudio.
+
+## 3. Pré-requisitos
+
+- Utilizador com sessão iniciada na aplicação SportStudio.
+- O ecrã/separador "Utentes" está aberto.
+- O utente a ser ativado está identificado e tem atualmente o estado 'S' (Suspenso).
+
+## 4. Procedimento
+
+| Passo | Ação                                | Descrição e Elemento da Interface                                                                                                |
+| :---- | :---------------------------------- | :------------------------------------------------------------------------------------------------------------------------------- |
+| 1     | [00:19] – Selecionar Utente         | Garantir que o utente desejado (ex: "Formação SportStudio") está selecionado na lista principal do ecrã "Utentes".                 |
+| 2     | [00:25] – Ver Entradas              | Clicar no botão "Entradas" na barra de ferramentas superior.                                                                     |
+| 3     | [00:57] – Voltar                    | Clicar no botão "Voltar" no canto superior direito do ecrã "Entradas".                                                           |
+| 4     | [01:03] – Abrir Menu Histórico      | Clicar no botão "Histórico" na barra de ferramentas superior.                                                                    |
+| 5     | [01:11] – Ver Histórico de Status   | Selecionar a opção "Status" no menu suspenso que aparece.                                                                        |
+| 6     | [01:17] – Voltar                    | Clicar no botão "Voltar" no canto superior direito do ecrã "Histórico de status".                                                |
+| 7     | [01:20] – Abrir Menu Histórico      | Clicar novamente no botão "Histórico" na barra de ferramentas superior.                                                           |
+| 8     | [01:24] – Ver Histórico do Utente   | Selecionar a opção "Utente" no menu suspenso.                                                                                    |
+| 9     | [01:29] – Voltar                    | Clicar no botão "Voltar" no canto superior direito do ecrã "Histórico".                                                          |
+| 10    | [01:33] – Abrir Menu Histórico      | Clicar novamente no botão "Histórico" na barra de ferramentas superior.                                                           |
+| 11    | [01:39] – Ver Histórico de Pagamentos | Selecionar a opção "Pagamentos" no menu suspenso.                                                                                |
+| 12    | [01:42] – Voltar                    | Clicar no botão "Voltar" no canto superior direito do ecrã "Histórico de pagamentos" para retornar ao ecrã principal "Utentes". |
+
+## 5. Resultado Esperado
+
+O estado da conta do utente

@@ -1,0 +1,46 @@
+# Procedimento Operacional Padrão (POP)
+
+## 1. Objetivo
+
+Fornecer instruções passo a passo para verificar dívidas, entradas (créditos) e realizar/efetuar marcações para um utente dentro do software SportStudio (v. 3.08.8811), conforme demonstrado no vídeo. *(Nota: O objetivo original do modelo foi ajustado para corresponder ao conteúdo do vídeo fornecido)*
+
+## 2. Âmbito
+
+Este POP aplica-se a todos os utilizadores responsáveis pela gestão de contas de utentes, incluindo a verificação de saldos e agendamento de marcações no SportStudio.
+
+## 3. Pré-requisitos
+
+- Utilizador com sessão iniciada na aplicação SportStudio.
+- O ecrã/separador "Utentes" está aberto.
+- O utente ("Formação SportStudio" no vídeo) está selecionado ou localizado.
+
+## 4. Procedimento
+
+| Passo | Ação                                                              | Descrição e Elemento da Interface                                                                 |
+| :---- | :---------------------------------------------------------------- | :------------------------------------------------------------------------------------------------ |
+| 1     | [00:30] – Clicar na linha do utente                               | Selecionar a linha correspondente ao utente "Formação SportStudio" na lista principal.            |
+| 2     | [00:37] – Clicar no botão "Dívidas"                               | Abrir o ecrã de Conta Corrente do utente selecionado clicando no botão "Dívidas" na barra de ferramentas. |
+| 3     | [00:53] – Clicar no botão "Voltar"                                | Regressar ao ecrã principal de "Utentes".                                                         |
+| 4     | [00:57] – Clicar no botão "Entradas"                              | Abrir o ecrã de Créditos/Entradas do utente selecionado clicando no botão "Entradas".             |
+| 5     | [01:21] – Clicar no botão "Voltar"                                | Regressar ao ecrã principal de "Utentes".                                                         |
+| 6     | [01:28] – Clicar no botão "Agenda"                                | Abrir o módulo de Agenda/Calendário clicando no botão "Agenda".                                   |
+| 7     | [01:35] – Clicar em "Gala"                                        | Selecionar o local/recurso "Gala" na lista à esquerda para visualizar a sua agenda.               |
+| 8     | [01:39] – Duplo clique no horário                                 | Fazer duplo clique no slot de tempo das 07:00 na Terça-feira (2023-09-05) para iniciar uma nova marcação. |
+| 9     | [01:47] – Selecionar o recurso específico                         | Escolher "Gala->Estudo Musculação (Gala)->Filipe Pinto" no dropdown "Recurso" da janela "Marcação". |
+| 10    | [01:51] – Digitar nome do utente                                  | Começar a digitar "sport" no campo "Nome".                                                        |
+| 11    | [01:53] – Selecionar utente                                       | Escolher "Formação SportStudio (nº: 402295)" da lista de sugestões que aparece.                   |
+| 12    | [01:57] – Clicar no dropdown "Inventários"                        | Abrir a lista de serviços/inventários disponíveis ou pré-comprados.                               |
+| 13    | [01:58] – Selecionar serviço                                      | Escolher "FISIO60" da lista "Disponível (pré-comprado)".                                          |
+| 14    | [02:00] – Clicar no botão "Gravar"                                | Salvar a nova marcação.                                                                           |
+| 15    | [02:07] – Clicar no botão "Efectuada"                             | Marcar a consulta recém-criada (selecionada na lista à direita) como concluída/efetuada.          |
+| 16    | [02:13] – Clicar no botão "Voltar"                                | Regressar ao ecrã principal de "Utentes".                                                         |
+| 17    | [02:16] – Clicar no botão "Entradas"                              | Reabrir o ecrã de Créditos/Entradas do utente para verificar a dedução do crédito.                |
+| 18    | [02:33] – Clicar no botão "Voltar"                                | Regressar ao ecrã principal de "Utentes".                                                         |
+
+## 5. Resultado Esperado
+
+O utilizador consegue verificar as dívidas e créditos (entradas) de um utente, agendar uma nova marcação utilizando um crédito pré-comprado e marcar essa consulta como efetuada, verificando posteriormente a atualização do saldo de créditos do utente.
+
+## 6. Referências
+
+Vídeo: "Video#7 Gestão Cliente (DívidasMarcações)" (implícito, nome do ficheiro não fornecido, mas conteúdo analisado)

@@ -1,0 +1,39 @@
+# Procedimento Operacional Padrão (POP)
+
+## 1. Objetivo
+
+Fornecer instruções passo a passo para associar um modelo de contrato a um utente e gerar um link de partilha (potencialmente para assinatura digital) dentro do software SportStudio (v. 3.08.8811).
+
+## 2. Âmbito
+
+Este POP aplica-se a todos os utilizadores responsáveis pela gestão de contratos de utentes no módulo "Utentes" do SportStudio.
+
+## 3. Pré-requisitos
+
+- Utilizador com sessão iniciada na aplicação SportStudio.
+- O ecrã/separador "Utentes" está aberto.
+- O utente ao qual o contrato será associado está identificado e selecionado na lista (ex: "Formação SportStudio").
+- Modelos de contrato pré-configurados no sistema.
+
+## 4. Procedimento
+
+1.  [02:17] – Click 'Imprimir' button.
+2.  [02:20] – Click 'Contrato Adesão (baseado em Modelo)' option.
+3.  [02:22] – Click 'Associar' button.
+4.  [02:26] – Click dropdown arrow (Empresa).
+5.  [02:28] – Click '#4 Myo Clinic...' option.
+6.  [02:31] – Click dropdown arrow (Modelo de contrato).
+7.  [02:33] – Click '#4-516958550 (GUIMARÃES)' option.
+8.  [02:39] – Click 'OK' button (Assistente de impressão).
+9.  [03:14] – Click 'Gravar' button (Ficheiro associado).
+10. [03:45] – Click 'Gerar URL partilha' link (Ficheiro associado).
+11. [04:19] – Click Close button (X) (Ficheiro associado).
+12. [04:22] – Click Close button (X) (Listagens disponíveis).
+
+## 5. Resultado Esperado
+
+Um ficheiro de contrato, baseado no modelo selecionado, é associado ao registo do utente. Uma janela "Ficheiro associado" é apresentada, permitindo guardar os detalhes e gerar um URL de partilha e um QR Code para o documento associado.
+
+## 6. Referências
+
+Vídeo: "contrato cliente - assinatura.mp4"

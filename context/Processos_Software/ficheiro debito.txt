@@ -1,0 +1,51 @@
+# Procedimento Operacional Padrão (POP)
+
+## 1. Objetivo
+
+Fornecer instruções passo a passo para gerar um ficheiro de débito direto SEPA através do software SportStudio (v. 3.08.8811).
+
+## 2. Âmbito
+
+Este POP aplica-se a todos os utilizadores responsáveis pela geração de ficheiros de cobrança (débitos diretos) no módulo "Transferências" do SportStudio.
+
+## 3. Pré-requisitos
+
+- Utilizador com sessão iniciada na aplicação SportStudio.
+- Acesso ao módulo "Transferências".
+- Existência de parcelas de conta corrente prontas para serem incluídas no ficheiro de débito.
+- Configuração prévia dos protocolos SEPA necessários.
+
+## 4. Procedimento
+
+| Passo | Ação                     | Descrição e Elemento da Interface                                                                                                                            |
+| :---- | :----------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1     | [00:49] Abrir Manutenção | Clicar no menu "Manutenção" na barra de menus superior.                                                                                                      |
+| 2     | [00:50] Abrir Transferências | No menu suspenso "Manutenção", clicar em "Transferências".                                                                                                   |
+| 3     | [01:37] Selecionar Pesquisa | No painel esquerdo "Transferências", em "Pesquisas guardadas", clicar na pesquisa relevante (ex: "DD Guimarães").                                            |
+| 4     | [01:58] Abrir Filtro Data  | Clicar no menu suspenso ao lado do campo de data "entre".                                                                                                    |
+| 5     | [02:02] Selecionar Período | Selecionar o período desejado (ex: "Mês actual").                                                                                                            |
+| 6     | [02:05] Executar Pesquisa  | Clicar no botão "Pesquisa" (ícone de lupa).                                                                                                                  |
+| 7     | [04:16] Iniciar Processo   | Após a lista de parcelas carregar, clicar no botão "Processar" na barra de ferramentas superior.                                                             |
+| 8     | [04:22] Avançar Passo 1    | Na janela "Processamento", clicar no botão "Seguinte".                                                                                                       |
+| 9     | [04:30] Avançar Passo 2    | No passo "Gerar cobranças / Processar retornos", clicar em "Seguinte".                                                                                       |
+| 10    | [04:38] Avançar Passo 3    | No passo "Sistema de Débitos Directos / Pagamento de Serviços", clicar em "Seguinte".                                                                        |
+| 11    | [04:43] Selecionar Protocolo | No passo "Protocolos", selecionar a linha correspondente ao protocolo/conta a ser usado para o ficheiro (ex: linha "Guimarães").                            |
+| 12    | [04:47] Avançar Passo 4    | Clicar em "Seguinte".                                                                                                                                        |
+| 13    | [04:53] Avançar Passo 5    | No passo "Pesquisa", verificar as parcelas selecionadas e clicar em "Seguinte".                                                                              |
+| 14    | [04:57] Definir Nome Ficheiro | No passo "Ficheiros de envio", introduzir o nome desejado para o ficheiro no campo "Nome do ficheiro:" (ex: "GUIM1_OUT2023").                             |
+| 15    | [05:07] Selecionar Pasta   | Marcar a caixa de verificação "Gravar na pasta:" e confirmar o caminho (ex: "C:\SEPA\Para Enviar").                                                          |
+| 16    | [05:11] Avançar Passo 6    | Clicar em "Seguinte".                                                                                                                                        |
+| 17    | [05:15] Agrupar Parcelas   | No passo "Parcelas no ficheiro", selecionar a opção "Linhas agrupadas".                                                                                      |
+| 18    | [05:18] Abrir Calendário   | Clicar no campo "Data de processamento".                                                                                                                     |
+| 19    | [05:28] Selecionar Data    | No calendário, clicar na data desejada para o processamento bancário (ex: "6" de Outubro de 2023).                                                           |
+| 20    | [05:30] Avançar Passo 7    | Clicar em "Seguinte".                                                                                                                                        |
+| 21    | [05:32] Confirmar Resumo   | No passo "Resumo", rever as informações (Protocolo, IBAN, BIC, Nº Parcelas, Data, Referência) e clicar em "Seguinte" para iniciar a geração do ficheiro. |
+| 22    | [06:15] Concluir Processo  | Após a barra de progresso indicar "Processamento concluído" e as estatísticas serem exibidas, clicar no botão "Concluir".                                  |
+
+## 5. Resultado Esperado
+
+Um ficheiro SEPA XML contendo as instruções de débito direto para as parcelas selecionadas é gerado com sucesso e guardado na pasta especificada (ex: C:\SEPA\Para Enviar) com o nome definido (ex: GUIM1_OUT2023.xml). O sistema retorna ao ecrã "Transferências".
+
+## 6. Referências
+
+Vídeo: "ficheiro debito.mp4" (Nome inferido do pedido)

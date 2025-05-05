@@ -1,0 +1,3070 @@
+# myo clinic
+
+## Exercício com saúde
+
+[Image description: A collage of black and white stylized photographs showing different areas of a fitness facility. The images show exercise equipment, workout spaces, and people using various fitness machines. The collage appears to showcase the interior of the Myo Clinic facility with multiple exercise stations and training areas.]
+
+# MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS
+---
+# MYO CLINIC
+
+![A circular diagram showing the integrated services of MYO CLINIC. In the center is a stylized human figure icon. Around it, clockwise from top: EXERCÍCIO FÍSICO (light blue section with a person exercising icon), NUTRIÇÃO (blue section with fruit icons), MEDICINA DESPORTIVA (dark blue section with a stethoscope icon), and FISIOTERAPIA (navy blue section with a massage/therapy table icon).]
+
+![A stylized graphic representation showing three abstract human figures in increasing height, representing the "myo" concept.]
+
+**myo - definition: muscle, muscle and:**
+**myograph, myoneural Origin of myo**
+**from Classical Greek mys (gen. myos), a muscle...**
+
+Este *Manual de Cultura e Procedimentos Internos* foi desenvolvido pelo grupo MYO CLINIC – EXERCÍCIO COM SAÚDE e tem como objetivo fornecer suporte teórico sustentado na base da sua atuação. Os procedimentos aqui descritos são para uso interno dos colaboradores da Myo Clinic e não poderão ser transmitidos a terceiros sem consentimento prévio do grupo MYO CLINIC – EXERCÍCIO COM SAÚDE, sob pena das devidas consequências judiciais. Os colaboradores da Myo Clinic comprometem-se sob sua honra a cumprir estas normas.
+
+----
+
+*MYO CLINIC – EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS*
+---
+# ÍNDICE
+
+* Cultura
+* A nossa História..........................................................................................................................................7
+* Código de Conduta....................................................................................................................................8
+* Descritivo de Funções..............................................................................................................................11
+* Processo Comercial..................................................................................................................................12
+* Progressão de Carreira............................................................................................................................15
+* Mapa de Comissões....................................................................................................................15
+* Cálculo do Volume de Negócios.................................................................................................16
+* Procedimentos Internos
+* Escala de Procedimentos.........................................................................................................................17
+* Modelo Operacional de Avaliação Myo Health........................................................................................18
+* Fisioterapia..............................................................................................................................................26
+* Software – SportStudio............................................................................................................................27
+* Registo de Ponto........................................................................................................................29
+* Utentes.......................................................................................................................................31
+* Criação de Utentes (Visitante / Individual)...............................................................................31
+* Conversão Utente Visitante -> Utente Individual.........................................................35
+* Contrato......................................................................................................................................36
+* Adicionar Perfil de Contrato..........................................................................................36
+* Contrato Manual...........................................................................................................38
+* Fim de Contrato............................................................................................................40
+* Assinatura Contrato Digital...........................................................................................41
+* Imprimir Contrato Manual.............................................................................................44
+* Pagamentos................................................................................................................................46
+* Conta Corrente Cliente (Dívidas) .................................................................................46
+* Entradas.......................................................................................................................48
+* Pagamentos de Mensalidades.....................................................................................48
+* Outros
+Pagamentos.................................................................................................................51
+* Agenda.......................................................................................................................................54
+* Divisões da Agenda.....................................................................................................54
+* Marcações na Agenda.................................................................................................55
+* Marcações de Sessões Individuais..................................................................55
+* Marcações de Aulas de Grupo Privadas (AGP) ..............................................57
+* Considerações Importantes.........................................................................................57
+* Gestão Operacional (Responsáveis) .........................................................................................58
+* Histórico de Ponto.......................................................................................................58
+* Mapa de Comissões....................................................................................................61
+* Débitos Diretos............................................................................................................64
+* Pasta SEPA.....................................................................................................65
+* Ficheiro de Débito...........................................................................................65
+* Ficheiro de Retorno........................................................................................70
+* APP Myo Clinic........................................................................................................................................73
+* Colaboradores............................................................................................................................73
+* Marcações na Agenda.................................................................................................75
+* Marcações de Presenças AGP....................................................................................76
+* Clientes......................................................................................................................................77
+* Clientes Individuais.....................................................................................................78
+* Clientes AGP...............................................................................................................79
+
+MYO CLINIC – EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS
+---
+# CULTURA
+
+Este capítulo tem como objetivo dar a conhecer aos colaboradores a história do grupo MYO CLINIC – EXERCÍCIO COM SAÚDE, bem como as regras de conduta que devem guiar a sua ação dentro das empresas do grupo. São também detalhadas as funções a desempenhar no que concerne à sua atividade diária e, ainda, a progressão de carreira dentro da organização.
+
+## A NOSSA HISTÓRIA
+
+Personalização | Profissionalismo | Proatividade | Paixão | Melhoria Contínua
+
+Foi com base nestes valores que em 2013 foi fundada a marca Wellness Solutions. A experiência adquirida com a acompanhamento de proximidade aos clientes e das tendências na área do Exercício Físico, impulsionaram a abertura de um leque de possibilidades em que o contexto médico e terapêutico são um fator decisivo e diferenciador. Assim, fomos pioneiros neste tipo de abordagem multidisciplinar, lançando em 2019 a marca MYO CLINIC – EXERCÍCIO COM SAÚDE.
+
+Tendo como missão proporcionar uma melhoria contínua com vista a hábitos de vida mais saudáveis desenvolvemos e aplicamos metodologias e práticas personalizadas, sempre sustentadas no conhecimento científico do Exercício Físico, seja na anatomia, fisiologia, biomecânica e neurociências.
+
+E porque queremos contribuir para um futuro em que todos terão consciência da importância da adoção de hábitos e práticas promotoras de uma melhor saúde, lançamos em 2020 uma metodologia que engloba todo o conhecimento do Exercício com áreas complementares como a Fisioterapia Avançada, a Medicina Desportiva e a Nutrição.
+
+Atualmente, o grupo MYO CLINIC – EXERCÍCIO COM SAÚDE engloba várias empresas que operam com um conceito comum e multidisciplinar, na área da Saúde e do Exercício Físico, sendo as suas clínicas licenciadas e reguladas pela ERS – Entidade Reguladora da Saúde.
+
+*[Note: There appears to be faded text at the bottom of the page that reads: "myo - definition: muscle, muscle and myograph, myogenic. Origin of myo from Classical Greek: my (gen. myos) = muscle"]*
+
+**7**
+
+----
+
+*MYO CLINIC – EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS*
+---
+# CÓDIGO DE CONDUTA
+
+A MYO CLINIC – EXERCÍCIO COM SAÚDE considera que os seus colaboradores devem:
+
+1. Guiar a sua ação atendendo sempre aos melhores interesses do cliente
+a. A responsabilidade primária é a segurança, saúde e bem-estar do cliente. Essa responsabilidade não deverá ser comprometida pelo colaborador para seu próprio interesse, vantagem pessoal ou ganho monetário
+b. A recomendação de produtos ou serviços deve ser feita apenas se estes trouxerem benefícios à saúde e ao bem-estar do cliente e não para benefício pessoal.
+c. O aconselhamento do tipo e número de sessões de Treino Personalizado e/ou Fisioterapia deve atentar às necessidades e objetivos do cliente.
+
+2. Manter os limites profissionais
+a. Nunca explorar sexualmente, economicamente ou de qualquer outra forma uma relação profissional com um cliente.
+b. Respeitar o direito do cliente à sua privacidade. As conversas, comportamentos, resultados e a identidade dos clientes deve ser mantida em sigilo, se essa for a sua vontade.
+c. Admitir que o sigilo de informação no âmbito profissional constitui um princípio fundamental para salvaguardar o interesse de todos os elementos intervenientes, em especial o interesse do cliente.
+d. Usar o contacto físico de forma adequada durante as sessões de treino e/ou tratamento, como forma de corrigir o alinhamento e/ou redirecionar o foco de atenção do cliente numa área específica. Interromper imediatamente o uso do toque, a pedido do cliente e/ou se o cliente apresentar sinais de desconforto.
+e. Manter uma relação profissional, e não pessoal, com o cliente, exceto se a situação for apropriada a tal.
+f. Evitar brincadeiras de orientação sexual e contacto físico inapropriado.
+g. Sendo incapaz de manter as fronteiras profissionais apropriadas ou trabalhar dentro dos tramites legítimos da relação de treino, seja pelas suas próprias atitudes e/ou comportamentos ou pelas do cliente, queira reportar o sucedido a alguém com funções específicas (hierarquicamente superior) na organização para agir em conformidade.
+
+3. Procurar a formação e a experiência necessárias para prescrever treinos e/ou tratamentos de qualidade adequada à necessidade de cada cliente
+a. Esforçar-se continuamente para se manter a par dos novos desenvolvimentos, conceitos e práticas essenciais para a prestação dos serviços da mais alta qualidade aos clientes.
+b. Reconhecer as suas limitações nos serviços e técnicas e participar apenas em atividades que se enquadram dentro dos limites das suas competências técnicas e profissionais. Aconselhar outros profissionais aos clientes nas questões que ultrapassem as fronteiras da profissão ou as suas atuais competências.
+c. Prever, na execução do exercício profissional, as medidas necessárias para combater todas as práticas imorais, não éticas e condutas de ações classificadas como doping ou comprovadas como nefastas para o organismo humano.
+
+4. Usar a verdade, a justiça e a integridade para orientar todas as decisões e relações profissionais
+a. Em todas as relações profissionais e comerciais, demonstrar e fundamentar claramente a honestidade, integridade e confiabilidade.
+b. Assumir, no desempenho da sua profissão, a responsabilidade por todos os atos diretamente realizados ou em colaboração com outros profissionais, e garantir em primeiro lugar o alcance do interesse do cliente a quem se destina.
+c. Representar as suas qualificações com precisão.
+d. Em materiais de publicidade, ser verdadeiro e justo. Ao descrever os serviços de Treino Personalizado e/ou Fisioterapia guiar a própria ação pela obrigação principal de ajudar o cliente a desenvolver
+
+MYO CLINIC — EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS
+---
+## 5. Mostrar respeito para com os clientes e colegas de profissão
+a. Agir com integridade nos relacionamentos com os colegas, e outros profissionais de saúde para ajudar a garantir que cada cliente recebe de forma otimizada os benefícios de todos os profissionais.
+b. Proporcionar benefício ao cliente de acordo com o seu interesse, mantendo sempre o respeito sobre a dignidade e os direitos da pessoa humana, independentemente de qualquer consideração relativa à idade, sexo, etnia, nacionalidade, credo político, religião e condição socioeconómica e cultural.
+c. Na existência de desentendimentos e/ou conflitos, focar a análise no comportamento, na evidência factual e formas não interrogatórias de comunicação, e não em declarações de julgamentos, boatos, colocação de culpa ou outras respostas destrutivas.
+d. Apresentar informações completas e precisas, de modo a ajudar o cliente a tomar decisões informadas e conscientes.
+
+## 6. Manter uma imagem profissional através do seu comportamento e aparência
+a. Evitar fumar e optar por hábitos alimentares pouco saudáveis, enquanto Profissional de Exercício Físico e/ou Profissional de Saúde.
+b. Durante o exercício das suas funções usar todo o equipamento fornecido pela MYO CLINIC engomado e sem nódoas.
+c. Manter em bom estado todo o equipamento fornecido.
+d. Ter sempre uma imagem cuidada e apresentável.
+Homens: barba desfeita ou aparada; unhas cortadas; cabelo cuidado e lavado. (Obrigatório), calções ligeiramente acima do joelho.
+Mulheres: cabelo arranjado e lavado; maquilhagem suave; unhas cuidadas. (Obrigatório), uso de *leggings*.
+e. Proibido comer dentro das instalações refeições sólidas que deixem cheiro. Aceitável comer snack/peça de fruta.
+f. Proibido treinar nas instalações com t-shirt caveada e num horário com muito fluxo de clientes.
+g. Deixar, no final de cada sessão ministrada, todo o material arrumado nos devidos locais. É da responsabilidade do colaborador cuidar do material que utilizar, bem como arranjar o material que danificar.
+h. Velar pela conservação e boa utilização do material disponibilizado pela MYO CLINIC, podendo ser responsabilizado, nos termos gerais, pelos prejuízos causados fruto de um uso negligente e inadequado do material.
+
+## 7. Excelência da atividade profissional
+a. Assegurar as condições de trabalho necessárias para exercer a profissão com dignidade, autonomia de máxima qualidade possível, e comunicar, a quem seja competente para tal, as deficiências que prejudicam a qualidade do serviço prestado.
+b. Avaliar regularmente o trabalho realizado e reconhecer eventuais imperfeições passíveis de alteração.
+c. Assumir todos os erros que eventualmente decorram da sua ação profissional, e promover o reparo imediato dos efeitos negativos que daí possam resultar na melhor das suas capacidades.
+d. Certificar que o serviço prestado ao cliente é concebido com o fim de responder à verdadeira necessidade do cliente, tendo como princípios basilares de conceção fundamentos fisiológicos/anatómicos/biomecânicos e neuromotores, que atuem sobre os mecanismos que originam a necessidade.
+
+----
+
+MYO CLINIC – EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS
+---
+# MYO CLINIC
+
+e. Recorrer à fundamentação pedagógica para selecionar as técnicas e estratégias de ensino, que mais
+se adequem ao entendimento capaz e perfil psicossocial do cliente, para desenvolver a motivação
+necessária que permita o alcance do fim descrito no ponto anterior.
+
+f. Fundamentar perante o cliente a razão do serviço prestado, assegurando que este não tem dúvidas
+sobre a sua conceção.
+
+g. Tomar decisões e atuar sempre auxiliado de procedimentos de avaliação devidamente válidos.
+
+h. Garantir a atualização contínua dos seus conhecimentos de natureza científica e de eficácia
+comprovada, de todas as ciências que capacitem a sua ação profissional.
+
+[*Note: The center of the page contains a stylized graphic showing three simplified human figure symbols arranged in ascending order from left to right*]
+
+[*Note: Below the graphic is faded text that appears to read:*]
+myo - definition: muscle, muscle and myograph, myogenat. Origin of myo from Classical Greek: my (gen. myos): a muscle
+
+**10**
+
+----
+
+MYO CLINIC - EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS
+---
+# DESCRITIVO DE FUNÇÕES
+
+A MYO CLINIC – EXERCÍCIO COM SAÚDE considera que os seus colaboradores devem ter como:
+
+## 1. Missão
+a. Executar todos os processos de angariação e gestão de clientes.
+b. Executar e controlar os processos de avaliação e planeamento da sessão de treino e/ou fisioterapia.
+c. Executar *reports* mensais;
+d. Colocar em prática todos os procedimentos e novos projetos implementados pelo grupo.
+
+## 2. Principais Responsabilidades
+a. Realizar Avaliação de Saúde Física Myo Health.
+b. Realizar *Follow up* de avaliação (reavaliações) nos seguintes momentos: 3/6/9/12 meses.
+c. Prescrever e executar planos de intervenção clínica personalizados.
+d. Realizar *reports* de vendas e retenção no final do mês.
+e. Zelar pela imagem profissional e competente da Myo Clinic, assegurando o bom trato e qualidade técnica de todo o staff perante o cliente.
+f. Zelar pelo bom funcionamento, limpeza e arrumação de cada clínica.
+
+## 3. Competências Técnicas
+a. Conhecimento de Anatomia/Fisiologia geral e Exercício/Biomecânica/Neurociências/Área da Dor/Técnicas Avançadas de Recuperação e Reabilitação.
+b. Conhecimento do mercado de Fitness e/ou Fisioterapia/Reabilitação.
+c. *Skills* de gestão de agenda.
+d. *Skills* de vendas e comunicação com diversos tipos de personalidade.
+
+## 4. Competências Comportamentais
+a. Relacionamento interpessoal.
+b. Atitude e comportamento no trabalho.
+c. Gestão de clientes.
+d. Assiduidade e pontualidade.
+e. Clareza de propósito.
+f. Rigor na execução da tarefa.
+g. Gestão de tempo.
+h. Compromisso e alinhamento.
+i. Proatividade e criatividade.
+
+----
+
+MYO CLINIC – EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS
+---
+# PROCESSO COMERCIAL
+
+O processo comercial é um guia feito pelo grupo MYO CLINIC – EXERCÍCIO COM SAÚDE que contém as etapas de como um serviço deverá ser apresentado e vendido aos seus potenciais clientes. O objetivo é aumentar o número de clientes ativos a frequentar clínicas existentes nos vários serviços que dispõe, aumentando as suas Taxas de Ocupação.
+
+O grupo MYO CLINIC – EXERCÍCIO COM SAÚDE investe constantemente na área do marketing através de estratégias previamente definidas que visam aumentar a notoriedade da marca e o reconhecimento do público. Construir uma marca de confiança e de qualidade e reforçar a relação de proximidade com os consumidores são as principais premissas.
+
+Através destas estratégias de marketing são geradas *LEADS*, e são precisamente estas *LEADS* que terão de ser o foco para o processo comercial. As *LEADS* são contactos que nos irão chegar de diversas formas, seja por integração no Software de gestão, seja por contacto direto, presencial ou telefónico. Cabe à equipa a capacidade de as converter em novos clientes.
+
+Para que tal seja possível, é fundamental o conhecimento por parte da equipa do que é a Myo Clinic, de todos os serviços que estão disponíveis para oferecer aos clientes e como é que nos diferenciamos do restante mercado.
+
+O objetivo primordial deve ser sempre conseguir o agendamento de uma avaliação diagnóstico ou de uma sessão experimental.
+
+A partir do momento em que conseguimos converter uma *LEAD* numa avaliação presencial, podemos dar início ao processo de venda, que conta com 5 etapas:
+
+Abertura | Descoberta | Apresentação de Oportunidade | Recomendação | Fecho
+
+Antes de partirmos para a descrição de cada uma das etapas é importante refletir nas seguintes afirmações:
+
+- "As pessoas não querem saber que o teu produto ou serviço é o melhor - só tu é que te preocupas com isso".
+
+- "As pessoas querem saber como é que tu vais resolver os seus problemas. Tu precisas de os convencer de que o preço que estás a pedir é menor do que o valor de lhes resolveres os problemas".
+
+- "Fala apenas sobre os problemas deles e, só depois de ouvir e entender, fala sobre como tu o podes ajudar".
+
+- "Não descrevas recursos. Descreve o caminho para resolver o problema".
+
+## 1. Abertura
+
+A Abertura é o início do processo de venda e o que poderá ter maior impacto, já que é o 1º momento em que existe contacto entre o cliente e o colaborador Myo Clinic.
+
+Assim sendo, é importante fazer com que o cliente se sinta bem, se sinta em casa; desejar-lhe as boas-vindas, questionar como correu o dia, se chegou bem, ou se teve facilidade em encontrar a clínica.
+
+No fundo, como recebemos um amigo em casa. Queremos que se sinta bem. Aqui não importa a venda, mas sim a empatia.
+
+Temos que encontrar âncoras para nos ligarmos o mais possível ao cliente de forma que se sinta o mais descontraído possível.
+
+Este momento pode perfeitamente servir para apresentar o espaço e mostrar o trabalho a ser feito por outros membros da equipa Myo Clinic, claro está sem atrapalhar as sessões que poderão estar a decorrer.
+
+É importante que o cliente seja cumprimentado por todos os membros da equipa presentes no espaço – preferencialmente pelo nome – para criar um ambiente acolhedor e o mais profissional possível.
+
+*MYO CLINIC – EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS*
+---
+## 2. Descoberta
+
+A Descoberta passa por perceber o que verdadeiramente trouxe o cliente à Myo Clinic. É um momento onde temos de questionar, e ouvir mais do que falamos.
+
+Devemos demonstrar preocupação genuína com os problemas que o levaram a procurar-nos e mostrar que temos a solução para os seus problemas.
+
+Nesta etapa importa perceber qual a importância que a resolução do problema tem (por exemplo, numa escala de 1-10, o grau de importância atribuído), e de que forma podemos ajudar.
+
+As questões que faremos para a descoberta serão importantes para sabermos qual o "*game changer*" do cliente, ou seja, o que motiva o cliente para a prática de exercício físico e a querer mudar os seus hábitos/comportamentos.
+
+Esta motivação do cliente poderá ser o "gatilho" para que reconheça a necessidade de contratar um serviço.
+
+## 3. Apresentação da Oportunidade
+
+Esta etapa é onde temos a oportunidade de explicar tudo o que é a Myo Clinic, onde nos diferenciamos e, acima de tudo, mostrar que temos a solução para o problema que o cliente tem e que o levou a procurar os nossos serviços.
+
+A Myo Clinic tem um conceito multidisciplinar de exercício e saúde que atua em 4 áreas: Exercício, Fisioterapia Avançada, Medicina Desportiva e Nutrição.
+
+Podemos comparar a um centro de explicações onde aprendemos a fazer exercício corretamente e de forma segura para que, desta forma, se consigam melhorias a diferentes níveis, seja a nível de saúde geral, mobilidade e bem-estar, ou também de autoestima, motivação e um estilo de vida saudável.
+
+A Myo Health é um processo de avaliação física desenvolvido pela Myo Clinic para aferir a condição física geral de um indivíduo com base numa avaliação cardiovascular, articular, muscular, de movimento e de força. Este processo avaliativo permite desenvolver um plano de treino e/ou tratamento ajustado a cada indivíduo, realizado em diferentes etapas, o que permite avaliar e monitorizar a evolução de cada cliente.
+
+Neste momento, podemos criar uma cronologia que permita ao cliente perceber, consoante os seus objetivos, que mudanças de comportamento terão de acontecer (compromisso), e quais os benefícios do exercício para a sua saúde. A aplicação do processo avaliativo pode servir de valor acrescentado a este momento.
+
+Será importante mostrar também conhecimento através da utilização de termos técnicos.
+
+## 4. Recomendação
+
+A Recomendação é o momento em que vamos sugerir um desenho operacional de "x" sessões por semana, que aconselhamos tendo em conta os objetivos do cliente e, sempre que possível ajustado ao historial que apuramos no momento da Descoberta.
+
+> "O nosso processo contempla dois tipos de abordagem: mensalidades e packs. A grande diferença entre ambos prende-se com a continuidade no processo.
+>
+> As mensalidades variam de acordo com 3 pressupostos: a duração das sessões, o número de sessões semanais e o tempo de permanência na Myo Clinic. A conjugação destes 3 fatores faz variar o preço"
+
+(Nunca falar em fidelização; referir antes um acordo ou tempo de permanência)
+
+Exemplo: "para 2x/semana com um acordo de 6 meses o valor é 354€, o que lhe parece?"
+
+### GOLDEN RULES
+
+- Sempre do recomendado ao essencial - o 1º preço é para posicionar.
+
+- Diz o preço com confiança e não fales mais!
+
+MYO CLINIC — EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS
+---
+# MYO CLINIC
+
+- Não mostres a tabela de preços.
+
+- Guia-te pelo que o cliente te disse que queria e não pela tua opinião sobre o preço.
+
+- Caso seja preciso, reformula a tua proposta inicial com base no treino ou acrescentando valor.
+
+É neste momento que poderão surgir objeções! E vão sempre surgir objeções: "Tenho de pensar, é muito caro", "A concorrência é mais barata", "Não tenho tempo", "Vou falar com o meu marido/esposa", "O meu médico disse que." são exemplos daquilo que os clientes podem dizer ao ouvir o preço. No entanto, cabe-nos a nós encontrar soluções para cada obstáculo. E é aqui que poderemos usar os motivos que fizeram com que o cliente nos procurasse e tentar chegar à sua dor e/ou problema, fazendo perceber o impacto que isso terá na sua vida.
+
+É uma questão de prioridades, e quanto mais prioritário for o "problema", menos relevância terá o preço apresentado.
+
+O primeiro valor que iremos apresentar é um valor sem fidelização, o cliente pode cancelar a inscrição quando pretender, sempre dentro do que são as normas. Mas também interessa que o cliente mantenha o compromisso durante bastante tempo. Assim, existem outras estratégias que poderemos usar neste ponto:
+
+- Fidelização – Evitar usar este termo e substituir por Acordo/Tempo de Permanência;
+
+- Oferta de uma sessão experimental com avaliação;
+
+- 10% Desconto na Mensalidade por cada amigo/familiar que traga e se mantenha como cliente ativo.
+
+## 5. Fecho
+
+É o momento de "acompanhe-me por favor à receção", e de satisfação pelo cumprir do objetivo. Além da contribuição para os objetivos individuais e coletivos na Myo Clinic, existe o impacto que se pode gerar na melhoria do estilo de vida e/ou saúde do cliente.
+
+De todo o modo, não deixa de ser um momento de responsabilidade, pois haverá uma checklist a ter em conta:
+
+- Solicitar cartão de cidadão e preencher devidamente a ficha de cliente;
+
+- Explicar as condições do contrato;
+
+- Agendar 1ª sessão (obrigatório);
+
+- Receber pagamento ao balcão (obrigatório);
+
+- No caso de contrato de mensalidade, solicitar o IBAN e assinar o contrato e a autorização de débito SEPA;
+
+- Emitir a fatura (a fatura seguirá por mail no dia seguinte).
+
+----
+
+MYO CLINIC – EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS
+---
+# PROGRESSÃO DE CARREIRA
+
+## MAPA DE COMISSÕES
+
+O Mapa de Comissões é um documento onde constam os valores das sessões, comissões de vendas e valores das aulas que cada colaborador recebe, no caso da prestação de serviços, por ter efetuado as sessões de treino/fisioterapia, ou nutrição ou outros serviços. Estes valores são calculados de forma automática, de acordo com o patamar de Volume de Negócios (VN) correspondente (Nível I, Nível II ou Nível III).
+
+1. O Mapa de Comissões corresponde ao período mensal, desde o dia 1 ao último dia do mês
+
+2. São contabilizadas todas as sessões que passaram ao estado 'Efetuada' e as sessões no estado 'Cancelada (-3 Horas)'
+
+3. São contabilizadas as marcações da agenda que tenham associado um item de inventário, isto é, algum tipo de serviço que tenha sido pago pelo cliente onde possam ser debitadas entradas.
+
+No documento irão constar as seguintes informações:
+
+1. Número de inscrição e nome do cliente
+
+2. Número de sessões realizadas com cada cliente
+
+3. Valores de comissão correspondente – de acordo com o patamar do VN – multiplicado pelo número de sessões realizadas
+
+O documento está dividido em duas tabelas distintas:
+
+1. Pagamentos (Pag.) – valor de comissão correspondente à venda de algum serviço, de acordo com as comissões de venda do colaborador
+
+2. Agenda – valor de comissão correspondente às sessões realizadas pelo colaborador
+
+A listagem de comissões das Aulas de Grupo Privadas (AGP) tem também um documento próprio onde constam: a data da aula, o nome da turma e horário, e os valores de comissão gerados por cada aula, de acordo com as regras de comissão das AGP.
+
+Para que o Mapa de Comissões seja o mais confiável possível, é fundamental que o colaborador Myo Clinic conheça em detalhe a forma de realizar as suas marcações, seja através do Software ou da APP Myo Clinic.
+
+As marcações da Agenda devem corresponder às sessões que aparecem no Mapa de Comissões. Com efeito, existem algumas regras específicas que têm de ser respeitadas:
+
+1. As marcações da Agenda têm de estar no Estado 'Efetuada' ou 'Cancelada (-3 Horas)'
+
+2. As sessões 'Cancelada (+3 Horas)' não entram nesta contabilização, ficando o cliente com a entrada para usufruir quando for oportuno
+
+3. As sessões que permaneçam no estado 'Marcada' também não são contabilizadas. Tal acontece quando o sistema não consegue encontrar uma forma de debitar a entrada correspondente na sessão agendada
+
+4. A escolha do Recurso (dentro da Instalação correspondente), do Serviço (PT60, FISIO60, FISIO PACK, etc.) e do Responsável de cada marcação deve ser corretamente realizada
+
+Caso as sessões do Mapa de Comissões não correspondam às sessões presentes na Agenda, a situação terá de ser analisada e retificada pelo responsável.
+
+----
+
+MYO CLINIC - EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS
+---
+# CÁLCULO DO VOLUME DE NEGÓCIOS
+
+O Volume de Negócios (VN) de um determinado período de tempo corresponde à soma dos valores pagos pelos clientes pelas sessões individuais que constam da Agenda de cada colaborador Myo Clinic durante esse período.
+
+O cálculo do VN permite posicionar o colaborador em diferentes níveis/patamares e, no caso da prestação de serviços, definir as percentagens de comissionamento das sessões individuais ministradas no período. A saber:
+
+| | |
+| --------------- | ------------------ |
+| Nível | Volume de Negócios |
+| Nível I – 30% | 0€ - 2000€ |
+| Nível II – 35% | 2001€ - 4000€ |
+| Nível III – 40% | > 4001€ |
+
+Desta forma, entenda-se que os diferentes níveis/patamares de VN visam premiar a produtividade do colaborador Myo Clinic. No Nível I recebe 30% do valor pago pelos clientes por cada sessão, no Nível II recebe 35% e no Nível III recebe 40%.
+
+Relativamente às Aulas de Grupo Privadas (AGP) é essencial que o colaborador confirme as presenças dos clientes através do Software SportStudio ou da APP Myo Clinic. As comissões neste serviço são as seguintes:
+
+| | |
+| ----------------- | ----- |
+| Nr. Clientes/aula | Valor |
+| 1 cliente/aula | 9€ |
+| 2 clientes/aula | 10€ |
+| 3 clientes/aula | 11€ |
+| 4 clientes/aula | 12€ |
+| 5 clientes/aula | 13€ |
+| 6 clientes/aula | 14€ |
+| 7 clientes/aula | 15€ |
+| 8 clientes/aula | 16€ |
+
+Outra forma de incentivar a produtividade e premiar o sucesso do processo comercial diz respeito às comissões de venda dos diferentes tipo de serviços da Myo Clinic. Estas são diferentes para os colaboradores com contrato de trabalho ou em prestação de serviço. Assim:
+
+| | | |
+| --------------- | ------------------------ | ------------------------ |
+| Tipo de Serviço | % (contrato de trabalho) | % (prestação de serviço) |
+| Mensalidades | 7% | 10% |
+| Packs | 2% | 3% |
+
+Note-se que as comissões de venda relativamente aos novos contratos de mensalidades dizem respeito a percentagens (7% ou 10%) do valor da primeira mensalidade. Estas comissões de venda são pagas, no caso das mensalidades, no mês seguinte à venda e, no caso dos packs, no mês corrente.
+
+MYO CLINIC – EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS
+---
+# PROCEDIMENTOS INTERNOS
+
+Este capítulo visa abordar as normas gerais de funcionamento da Myo Clinic e os procedimentos internos a adotar pelos seus colaboradores e responsáveis nas relações com os diferentes tipos de clientes e serviços, bem como no manuseamento das ferramentas de apoio à gestão de clientes, de agenda e financeira: Software SportStudio e APP Myo Clinic.
+
+## ESCALA DE PROCEDIMENTOS
+
+```mermaid
+flowchart TD
+A[LEAD/CONTACTO/VISITA] --> B[Criar Utente Visitante]
+B --> C[Marcação Agenda]
+C --> D[Fisioterapia]
+C --> E[Avaliação Física]
+D --> F[Processo Comercial]
+E --> F
+F --> G[Criar/Converter Utente Individual]
+G --> H[Contrato/Packs/Sessão avulso]
+H --> I[Pagamento]
+I --> J[Marcação Agenda]
+B --> G
+```
+
+MYO CLINIC - EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS
+---
+# MODELO OPERACIONAL DE AVALIAÇÃO MYO HEALTH
+
+A Myo Health é um processo de avaliação física desenvolvido pela Myo Clinic para aferir a condição física geral de um indivíduo com base nas componentes cardiovascular, articular, muscular, de movimento e de força.
+
+A avaliação Myo Health pode ser realizada em diversos momentos: pode ser usada como etapa do processo comercial ou na primeira sessão do cliente. Está dividida em 2 fases: no gabinete e no espaço/estúdio reservado ao exercício físico. As reavaliações devem ser efetuadas a cada 3 meses, o que permite aferir a evolução do cliente e ajustar o plano de exercício.
+
+O material a ser utilizado para a avaliação Myo Health tem de ser previamente preparado, bem como o espaço definido para a avaliação. Será importante a comunicação entre os colaboradores Myo Clinic de modo a avaliação poder decorrer de forma fluída, não prejudicando outras sessões que estejam a acontecer em simultâneo.
+
+- Folha de Avaliação Myo Health;
+- Medidor de Pressão Arterial;
+- Medidor de Saturação do Oxigénio;
+- Medidor ADM e Dinamómetro (opcionais).
+
+## Avaliação | Myo Health
+
+| | | |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | - |---|
+| **Avaliação \| Myo Health**myo clinic | |
+| Nome: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_Objetivo: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_Idade: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_Altura/Peso/IMC 1ª Med. 2ª Med. 3ª Med. | | |
+
+| |
+| ---------------- |
+| IMC |
+| Pressão Arterial |
+| Freq. Cardíaca |
+| O2 Sangue |
+| Peso |
+| Massa Muscular |
+| Gordura |
+| Massa Visceral |
+| Idade Metabólica |
+| Água |
+
+[Questionnaire fields for medical history and conditions]
+
+## ROTAÇÃO COLUNA
+
+[Image showing three figures demonstrating spine rotation positions]
+
+| | |
+| ---------------------- | ----- |
+| ADM + Lado + Dir. Esq. | Notas |
+| 1.Execução: | |
+| 2.Dor/Lado: | |
+| 3.Observação: | |
+| 4.Conclusão: | |
+
+## ROTAÇÃO OMBRO
+
+[Image showing three figures demonstrating shoulder rotation positions]
+
+| | |
+| ---------------------- | ----- |
+| ADM + Lado + Dir. Esq. | Notas |
+| 1.Execução: | |
+| 2.Dor/Lado: | |
+| 3.Observação: | |
+| 4.Conclusão: | |
+
+## FLEXÃO DO OMBRO
+
+[Image showing two figures demonstrating shoulder flexion]
+
+| | |
+| ---------------------- | ----- |
+| ADM + Lado + Dir. Esq. | Notas |
+| 1.Execução: | |
+| 2.Dor/Lado: | |
+| 3.Observação: | |
+| 4.Conclusão: | |
+
+## DORSIFLEXÃO
+
+[Image showing a figure demonstrating ankle dorsiflexion]
+
+| | |
+| ---------------------- | ----- |
+| ADM + Lado + Dir. Esq. | Notas |
+| 1.Execução: | |
+| 2.Dor/Lado: | |
+| 3.Observação: | |
+| 4.Conclusão: | |
+
+## FLEXÃO DA ANCA COM JOELHO DOBRADO
+
+[Image showing figures demonstrating hip flexion with bent knee]
+
+| | |
+| ---------------------- | ----- |
+| ADM + Lado + Dir. Esq. | Notas |
+| 1.Execução: | |
+| 2.Dor/Lado: | |
+| 3.Observação: | |
+| 4.Conclusão: | |
+
+## ABDUÇÃO HORIZONTAL DO OMBRO
+
+[Image showing figures demonstrating horizontal shoulder abduction]
+
+| | |
+| ---------------------- | ----- |
+| ADM + Lado + Dir. Esq. | Notas |
+| 1.Execução: | |
+| 2.Dor/Lado: | |
+| 3.Observação: | |
+| 4.Conclusão: | |
+
+## AVALIAÇÃO MOVIMENTO AGACHAMENTO
+
+[Image showing sequence of figures demonstrating squat movement assessment]
+
+| | | | | |
+| ------------------------- | ----------------------------------- | --------------------- | ------- | -------- |
+| Área | Compensação | Descrição/Implicações | Direito | Esquerdo |
+| Tornozelo/Pé | Supinação do pé | | | |
+| | Elevação do calcanhar | | | |
+| Joelho | Valgo dinâmico (joelho para dentro) | | | |
+| Posterior: Complexo ombro | Inclinação para trás | | | |
+| | Ombros elevados | | | |
+| Pés: | Ombros curvados | | | |
+| Complexo ombro | Braços caídos | | | |
+| | Queixo levantado | | | |
+| Notas: | | | | |
+
+## PROTOCOLO DE RESISTÊNCIA CARDIOVASCULAR
+### HOMENS MULHERES
+
+| |
+| ----------- |
+| 1.Execução: |
+| 2.Pulsação: |
+| 3.Pulsação: |
+| 4.Pulsação: |
+
+MYO CLINIC – EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS
+---
+# myo clinic
+
+## 1. Anamnese
+"Alguma vez teve alguma dor ou lesão? Se sim, explique."
+
+"Alguma vez foi diagnosticado/a por algum médico com uma doença crónica (cardiovascular, hipertensão, diabetes, colesterol). Se sim, explique."
+
+"Tem alguma contraindicação médica que lhe impeça de praticar exercício físico? Se sim, explique."
+
+"Toma algum tipo de medicação? Se sim, qual?"
+
+## 2. Dados Fisiológicos
+
+| | |
+| ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Pressão Sistólica (Máx.) | Dados através de medidor de pressão arterial |
+| Pressão Diastólica (Min.) | |
+| FC Repouso | |
+| FC Máxima | Fórmula FCMÁX = 208 – (0,7 X idade) |
+| %SPO₂ | Dados através de medidor de saturação do O₂ |
+| Peso (Kg) | Dados a serem registados através da balança de bioimpedância. Pode servir como gatilho para apresentar o serviço de nutrição. Evitar argumentar nesta área |
+| Massa Gorda (%) | |
+| Massa Muscular (Kg) | |
+| Gordura Visceral | |
+| Água (%) | |
+| Diástase Abdominal | Avaliação a efetuar a determinados clientes: grávidas ou pós-operatório que afete a parede abdominal |
+
+A diástase abdominal é uma condição comum após a gravidez e consiste no afastamento da musculatura abdominal e do tecido conjuntivo. O afastamento pode atingir 10 cm e, além dos incómodos estéticos provocados, como a flacidez na região da barriga, a diástase também pode causar dor na região lombar.
+
+## 3. Avaliação Articular
+
+O objetivo passa por avaliar a amplitude de movimento disponível, bem como a produção de força.
+
+### a. Rotação da Coluna
+- Possível recurso ao *Motion Guidance Laser* (colocado ao nível do esterno do indivíduo, de forma a medir a ADM da rotação da coluna torácica)
+
+* Critérios de êxito:
+- Movimento sem dor;
+- Movimento controlado.
+
+MYO CLINIC – EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS
+---
+# MYO CLINIC Exercise Procedures
+
+* Caso não cumpra os critérios:
+- Fortalecer os rotadores da coluna:
+○ Baixa intensidade e isométricos (mais próximo do limite de rotação);
+○ Baixa intensidade e dinâmicos;
+○ Voltar a testar.
+
+b. **Flexão da anca com joelho dobrado**
+- Utilização de marquesa - cliente em posição de decúbito dorsal
+
+[*Image description: Two photographs showing a person lying on a treatment table/bench demonstrating hip flexion exercise with bent knee. The left image shows the starting position with the person lying on their back with one knee bent. The right image shows the exercise movement with the bent knee being brought toward the chest.*]
+
+* Critérios de êxito:
+- Movimento sem dor;
+- Movimento controlado;
+- Passar os 90º.
+
+* Caso não cumpra os critérios:
+- Fortalecer flexores da anca até aos 80º:
+○ Baixa intensidade e isométrico na *maximal loose packed position*;
+○ Baixa intensidade e isométricos (mais perto do limite de flexão);
+○ Baixa intensidade e dinâmicos;
+○ Intensidade moderada e isométricos (perto dos limites anteriores);
+○ Intensidade moderada e dinâmicos;
+○ Voltar a testar.
+
+c. **Rotação do Ombro**
+- Utilização da parede - cliente com as costas totalmente encostadas
+
+[*Image description: Three photographs showing a person demonstrating shoulder rotation exercises while standing against a wall. The person is wearing a white t-shirt and dark shorts. The images show different arm positions for the shoulder rotation exercise, with the person's back completely against the wall throughout the sequence.*]
+
+* Critérios de êxito:
+- Movimento sem dor;
+- Movimento controlado;
+- Cotovelo a 90º;
+- Deve ficar a cerca de 10º da parede;
+- Amplitude de movimento não deve ser alcançada através do aumento da lordose lombar.
+
+----
+
+MYO CLINIC — EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS
+---
+# MYO CLINIC
+
+- Caso não cumpra os critérios:
+- Fortalecer os rotadores externos do ombro:
+o Baixa intensidade e isométrico a 45° de abdução;
+o Baixa intensidade e isométricos (mais perto do limite de rotação);
+o Baixa intensidade e dinâmicos;
+o Intensidade moderada e isométricos (perto dos limites anteriores);
+o Intensidade moderada e dinâmicos;
+o Voltar a testar.
+
+d. **Flexão do ombro**
+- Utilização da parede - cliente com as costas totalmente encostadas
+
+[*Image description: Two photographs showing shoulder flexion exercises. In the left image, a person stands with their back against a wall with arms raised. In the right image, another person demonstrates the same exercise from a side view, showing proper positioning with the back against the wall.*]
+
+- Critérios de êxito:
+- Movimento sem dor;
+- Movimento controlado;
+- Cotovelo deve estar estendido;
+- Deve ficar a cerca de 10° da parede;
+- Amplitude de movimento não deve ser alcançada através do aumento da lordose lombar.
+
+- Caso não cumpra os critérios:
+- Fortalecer os flexores do ombro:
+o Baixa intensidade e isométrico na *maximal loose packed position*;
+o Baixa intensidade e isométricos (mais perto dos limites de flexão);
+o Baixa intensidade e dinâmicos;
+o Intensidade moderada e isométricos (perto dos limites anteriores);
+o Intensidade moderada e dinâmicos;
+o Voltar a testar.
+
+e. **Abdução horizontal do ombro**
+- Utilização de marquesa - cliente em posição de decúbito ventral
+
+[*Image description: Two photographs showing horizontal shoulder abduction exercises. In the left image, a person lies face down on a treatment table. In the right image, the same exercise is shown from a different angle, demonstrating proper positioning for horizontal shoulder abduction.*]
+
+MYO CLINIC – EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS
+---
+# MYO CLINIC
+
+- **Critérios de êxito:**
+- Movimento sem dor;
+- Movimento controlado;
+- Cotovelo deve estar estendido ou fletido;
+- Deverá atingir cerca de 25°;
+- Amplitude de movimento não deve ser alcançada através da rotação do tronco.
+
+- **Caso não cumpra os critérios:**
+- Fortalecer os abdutores horizontais do ombro:
+o Baixa intensidade e isométrico a 0°;
+o Baixa intensidade e isométricos (mais perto dos limites de abdução);
+o Baixa intensidade e dinâmicos;
+o Intensidade moderada e isométricos (perto dos limites anteriores);
+o Intensidade moderada e dinâmicos;
+o Voltar a testar.
+
+### f. Dorsiflexão tornozelo
+- Utilização da parede - cliente de frente com ligeiro afastamento
+
+[*Image showing a person performing ankle dorsiflexion exercise against a wall, standing with one leg forward and the back leg extended, maintaining heel contact with the floor*]
+
+[*Diagram showing proper ankle dorsiflexion positioning with labeled elements: "Parede" (Wall), "Tuberosidade da tíbia" (Tibial tuberosity), "Calcanhar permanece no solo" (Heel remains on the ground), and "Chão" (Floor). The diagram illustrates the correct angle for the exercise.*]
+
+- **Critérios de êxito:**
+- Movimento sem dor;
+- Movimento controlado;
+- Calcanhar deve ficar no chão;
+- Joelho deve avançar pelo menos mais que a ponta do pé;
+- Amplitude de movimento não deve ser alcançada através de insistência.
+
+- **Caso não cumpra os critérios:**
+- Fortalecer musculatura envolvente do tornozelo:
+o Exercícios em apoio unipodal;
+o Flexão plantar;
+o Dorsiflexão;
+o Flexão da anca com joelho estendido e com dorsiflexão do tornozelo.
+
+----
+
+MYO CLINIC — EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS
+---
+## 4. Avaliação Movimento Agachamento
+
+O objetivo passa por realizar o movimento de agachamento – 2/3 repetições de frente para o avaliador, 2/3 repetições em plano lateral e 2/3 repetições de costas para o avaliador.
+
+| | | | | | |
+| ----- | ----- | ----- | ----- | ----- | ----- |
+| ! | ! | ! | ! | ! | ! |
+
+### a. Vista Frontal
+
+| | | | |
+| ------------------------------------------- | ------------- | ----------------- | ------------------ |
+| Overhead Squat Compensations, Anterior View | | | |
+| ! | ! | ! | ! |
+| Feet Flatten | Feet Turn Out | Knees Move Inward | Knees Move Outward |
+
+* Critérios de êxito:
+- Movimento sem dor;
+- Movimento controlado;
+- Inversão dos pés;
+- Rotação externa do pé em relação ao joelho;
+- Movimento apresenta joelho valgo ou varo dinâmico.
+
+* Caso não cumpra os critérios:
+- Exercícios de reforço da musculatura do tornozelo;
+- Reforço dos adutores ou abdutores com exercícios realizados com a coxa em flexão e extensão.
+
+### b. Vista Lateral
+
+| | | |
+| ------------------------------------------ | --------------- | ---------------------- |
+| Overhead Squat Compensations, Lateral View | | |
+| ! | ! | ! |
+| Low Back Arches | Low Back Rounds | Excessive Forward Lean |
+
+MYO CLINIC – EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS
+---
+* **Critérios de êxito:**
+- Movimento sem dor;
+- Movimento controlado;
+- Manter a curvatura normal da coluna;
+- Manter ângulo da coluna e perna - paralelos.
+
+* **Caso não cumpra os critérios:**
+o Exercícios de reforço da musculatura extensora da coluna.
+
+### c. Vista de Costas
+
+| | | |
+| -------------------------------------------- | -------------------- | ----------------------- |
+| Overhead Squat Compensations, Posterior View | | |
+| ! | ! | ! |
+| Feet Flatten | Heels Rise Off Floor | Asymmetric Weight Shift |
+
+* **Critérios de êxito:**
+- Movimento sem dor;
+- Movimento controlado;
+- Manter o alinhamento do tornozelo em relação ao joelho;
+- Manter os calcanhares no chão;
+- Distribuir o peso de forma simétrica.
+
+* **Caso não cumpra os critérios:**
+o Exercícios de reforço da musculatura do tornozelo (melhorar a amplitude da dorsiflexão);
+o Reforço dos adutores e/ou abdutores.
+
+### 5. Avaliação Resistência Cardiovascular
+
+A avaliação da resistência cardiovascular será feita com referência ao protocolo de Bruce, usado frequentemente em estudos científicos para aferir o VO₂ₘₐₓ de forma indireta.
+
+O protocolo é realizado na passadeira, por patamares, e inicia a uma velocidade de 4,0 Km/h e inclinação 0. De 3 em 3 minutos o grau de dificuldade aumenta, tanto pelo incremento da velocidade como da inclinação, conforme a tabela que se segue. Na transição de patamares deve ser medida a frequência cardíaca (FC) do cliente para monitorização, sendo que o objetivo passa por atingir o intervalo de FC entre os 65% e 85% da FCₘₐₓ (previamente calculada em função da idade), altura em que o protocolo é interrompido.
+
+Após concluído o protocolo, e através do tempo total de realização da avaliação, é aferido o VO₂ₘₐₓ, através das fórmulas que se encontram descritas de seguida.
+---
+| Patamar | Velocidade (Km/h) | Inclinação (Nível) |
+| ------- | ----------------- | ------------------ |
+| 1 | 4,0 | 0 |
+| 2 | 5 | 1 |
+| 3 | 5,5 | 2 |
+| 4 | 6 | 3 |
+| 5 | 6,5 | 4 |
+| 6 | 7 | 5 |
+| 7 | 7,5 | 6 |
+
+* **Fórmulas:**
+
+- (HOMENS) VO₂ᴍᴀ́x= 14,76 – (1,379 * T) + (0,45 * T²) – (0,012 * T³)
+
+- (MULHERES) VO₂ᴍᴀ́x= (4,38 * T) – 3,9
+
+* **Classificações padrão de VO₂ᴍᴀ́x:**
+
+*Tabelas com classificações normalizadas para as estimativas de VO₂ᴍᴀ́x por sexo e intervalo de idade*
+
+| Homens | Percentil | 20-29 | 30-39 | 40-49 | 50-59 | 60-69 | 70-79 |
+| ------------ | --------- | ----- | ----- | ----- | ----- | ----- | ----- |
+| Superior | 95 | 55,4 | 54 | 52,5 | 48,9 | 45,7 | 42,1 |
+| Excelente | 80 | 51,1 | 48,3 | 46,4 | 43,4 | 39,5 | 36,7 |
+| Bom | 60 | 45,4 | 44 | 42,4 | 39,2 | 35,5 | 32,3 |
+| Satisfatório | 40 | 41,7 | 40,5 | 38,5 | 35,6 | 32,3 | 29,4 |
+| Fraco | 0-40 | <41,7 | <40,5 | <38,5 | <35,6 | <32,3 | <29,4 |
+
+| Mulheres | Percentil | 20-29 | 30-39 | 40-49 | 50-59 | 60-69 | 70-79 |
+| ------------ | --------- | ----- | ----- | ----- | ----- | ----- | ----- |
+| Superior | 95 | 49,6 | 47,4 | 45,3 | 41,1 | 37,8 | 36,7 |
+| Excelente | 80 | 43,9 | 42,4 | 39,7 | 36,7 | 33 | 30,9 |
+| Bom | 60 | 39,5 | 37,8 | 36,3 | 33 | 30 | 28,1 |
+| Satisfatório | 40 | 36,1 | 34,4 | 33 | 30,1 | 27,5 | 25,9 |
+| Fraco | 0-40 | <36,1 | <34,4 | <33 | <30,1 | <27,5 | <25,9 |
+
+## 6. Avaliação Força Membros Inferiores (MI) e Membros Superiores (MS)
+
+A avaliação da Força dos MI e dos MS pode ser realizada com recurso a um dinamómetro. Tendo em conta a marca e o modelo do equipamento a utilizar, é possível obter informações mais ou menos detalhadas.
+
+Em geral, este tipo de procedimento é bastante rápido e intuitivo, oferecendo uma perceção de valor extremamente positiva ao cliente, pela facilidade em visualizar gráficos de força máxima e relativa, aferir as diferenças contralaterais e entre cadeias anteriores e posteriores, encontrar diferenças ou défices de força em determinadas amplitudes de movimento, etc.
+
+*MYO CLINIC – EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS*
+---
+# FISIOTERAPIA
+
+O serviço de Fisioterapia tem algumas características próprias que deverão estar alinhadas e comunicadas com o Diretor Clínico responsável de cada dependência. A avaliação e posterior plano de intervenção com cada cliente terá obrigatoriamente que ser específico relativamente à patologia apresentada, sem prejuízo da abordagem integral de saúde que deve balizar a intervenção na Myo Clinic.
+
+Assim sendo, mesmo os clientes que procuram a Myo Clinic com um propósito muito claro e direcionado para o serviço de Fisioterapia, devem ser incentivados e aconselhados a ver o exercício físico como algo importante para a sua saúde e decisivo para a promoção do bem-estar geral. No decorrer do processo de tratamento, é importante que o colaborador vá orientando a sua intervenção para a possibilidade de reter estes clientes noutro tipo de serviços de continuidade disponibilizados na clínica.
+
+A Myo Clinic não tem, atualmente, convenções com Seguradoras e Entidades de Saúde Pública. No entanto, caso seja solicitado, poderá ser emitida uma declaração interna, validada e assinada pela Direção Clínica, onde consta o tipo de tratamentos a realizar, de acordo com a prescrição médica que o cliente deve possuir. Cada entidade ou seguradora poderá ter códigos de tratamento distintos.
+
+A Myo Clinic não emite declarações ou prescrições a solicitar Sessões de Fisioterapia. Esse procedimento é da competência de Médicos habilitados para o efeito. No entanto, o Diretor Clínico necessita dessa declaração ou prescrição para que, mediante o que foi prescrito pelo Médico, possa emitir a declaração interna com o tipo de tratamentos a efetuar.
+
+Todos os utentes que usufruam do serviço de Fisioterapia deverão assinar o Consentimento Informado próprio deste serviço.
+
+*[Note: The page contains the Myo Clinic logo at the top - a blue and gray stylized "myo clinic" text with a blue dot above the letter 'y']*
+
+*[Page number: 26]*
+
+*[Footer: MYO CLINIC - EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS]*
+---
+# SOFTWARE – SPORTSTUDIO
+
+A integração do Software SportStudio visa melhorar a gestão no grupo Myo Clinic, tanto a nível de relação com os clientes, como na gestão financeira global e, ainda, na agenda dos seus colaboradores.
+
+É importante que os diferentes procedimentos sejam perfeitamente conhecidos pelos colaboradores da Myo Clinic, promovendo e incentivando a autonomia e eficácia no desempenho das suas funções e minimizando os erros.
+
+Esta ferramenta permite que a gestão dos utentes e dos serviços contratados à Myo Clinic se desenrole de forma simples e intuitiva para todos os intervenientes.
+
+Relativamente aos itens Pagamentos e Agenda, importa perceber que esses afetam diretamente o Mapa de Comissões e o Cálculo do Volume de Negócios dos colaboradores Myo Clinic, previamente abordados. Uma falha de marcação na agenda (de qualquer natureza) ou na emissão de fatura ao cliente implica que a respetiva marcação não passe do estado 'Marcado' para o estado 'Efetuado', fazendo com que essa sessão não seja contabilizada.
+
+A título de exemplo, os pagamentos de mensalidades, packs ou de sessões avulso desencadeiam um conjunto de comunicações automáticas. Assim, quando um utente faz o 1º pagamento deverá receber, de forma automática, vários e-mails: de boas-vindas, do seu contrato e da sua fatura.
+
+Existem ainda outro tipo de comunicações automáticas, como são: lembretes de agendamento no dia anterior à marcação; mensagem de felicitações no dia de aniversário do cliente; aviso de falta de pagamentos quando não são verificados nas datas devidas, etc.
+
+Estes automatismos emergem da necessidade de haver uma avaliação, controlo e gestão cada vez mais eficazes, permitindo gerar estatísticas mensais/trimestrais/anuais, que suportam a criação de objetivos realistas e atingíveis ao grupo Myo Clinic.
+
+Cada colaborador tem, então, o seu próprio login nas plataformas SportStudio – Software e APP Myo Clinic – que lhe será fornecido quando inicia funções no grupo.
+
+- Para aceder ao Software pela primeira vez, o colaborador deve usar as credenciais que lhe foram fornecidas pelo responsável, podendo alterar a sua password de acesso nesse momento. Assim:
+
+MYO CLINIC – EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS
+---
+# Aceder ao programa através do ícone
+
+*SportStudio*
+
+[Image description: The SportStudio application icon showing a colorful logo with blue, red, and yellow elements on a gray background]
+
+# Inserir as credenciais fornecidas pelo responsável
+
+[Image description: SportStudio login screen with fields for "Operador" (username) and "Password", along with "Ok" and "Cancelar" buttons. The interface shows "SportStudio" in orange text at the top and has "Crescemos juntos" and "arquivandus" text at the bottom]
+
+- Após realizar o login com sucesso, ficará em vista o menu inicial. De seguida, deve:
+
+*a. no menu inicial, ou a partir de outro qualquer menu, premir 'Ficheiro'*
+*b. premir 'Mudar password...'*
+
+[Image description: Screenshot of SportStudio software menu interface showing the dropdown menu under "Ficheiro" with various options including "Mudar de Utilizador", "Mudar password...", "Mensagens de Empregados...", etc. The main interface shows buttons for "Agenda", "Utentes", and "Turmas"]
+
+- Na janela que aparece, deve:
+
+*a. efetivar a alteração da password, escrevendo a atual e a nova, confirmando-a*
+*b. premir 'Ok'*
+
+[Image description: Password change dialog box with fields for "Password actual:", "Nova password:", and "Confirmar password:", along with "Ok" and "Cancelar" buttons]
+
+- Deste modo, fica concluída a escolha da nova password associada ao colaborador, devendo esta ser usada, a partir desse momento, para o acesso tanto ao Software como à APP Myo Clinic.
+
+----
+
+*MYO CLINIC – EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS*
+---
+# REGISTO DE PONTO
+
+Conforme estabelecido no Código do Trabalho, umas das obrigações das empresas com os seus colaboradores com vínculo laboral, a termo ou efetivo, é o registo de ponto, isto é, garantir o controlo preciso das horas trabalhadas, evitando erros e discrepâncias relativamente ao contrato existente. O empregador deve manter um registo preciso das entradas, saídas e pausas dos seus funcionários.
+
+Dessa forma, e sendo uma das ferramentas integradas no Software, é da responsabilidade dos colaboradores da Myo Clinic realizar esse registo sempre que inicia a sua função diária, nas pausas e quando termina o dia de trabalho.
+
+- Para realizar registo de ponto, deve:
+
+c. premir *'Acessos'* na barra principal, em qualquer módulo que se encontre
+
+![Screenshot showing the main navigation bar with the Acessos button highlighted in a blue circle]
+
+- No módulo 'Acessos', após selecionar o tipo de acesso pretendido, pode optar por introduzir de imediato o seu número mecanográfico ou, em alternativa, pesquisar manualmente. Assim:
+
+a. em *'Acesso'*, premir a seta de expansão de opções e selecionar *'Empregado'*
+b. caso opte por introduzir o seu número mecanográfico, deve fazê-lo neste campo, seguido de *'Enter'*
+c. premir a lupa para aceder à listagem de Empregados
+
+![Screenshot showing the Acessos module interface with labeled points a, b, and c highlighting the dropdown menu, input field, and search button]
+
+- Ao introduzir diretamente o número mecanográfico, aparecerá de imediato a opção de realizar o registo de ponto.
+
+- Em alternativa, caso opte pela 'opção c', de realizar a pesquisa manual através da lista de Empregados, na janela que aparecerá, deve:
+
+Premir *'Enter'* para listar todos os Empregados
+
+![Screenshot showing the employee search dialog box with search fields and a results table]
+
+----
+
+MYO CLINIC - EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS
+---
+# MYO CLINIC
+
+- Desse modo, todos os empregados aparecerão listados. Deve agora:
+
+*a. selecionar a opção pretendida*
+*b. premir 'Ok'*
+
+| Pesquisar Empregados | Pesquisar Empregados | Pesquisar Empregados | Pesquisar Empregados | Pesquisar Empregados | Pesquisar Empregados | Pesquisar Empregados | |
+| -------------------- | -------------------- | ------------------------------ | -------------------- | -------------------- | -------------------- | -------------------- | -------- |
+| 1 | | Administrador | adm | | Operador Adm | Administra | |
+| 2 | | Administrador | Fred | FS | Frederico Silva | Administra | |
+| 3 | | Director Técnico Gaia/Patricia | Pt | | Patricia Lima | Professor | |
+| 4 | | Director Técnico | Scott | RP | Ricardo Pinto | Professor | |
+| 5 | | Administrador | Filipe | FP | Filipe Pinto | Professor | |
+| 6 | | Director Técnico Gaia/Mario | MG | | Mario Guimarães | Professor | |
+| 7 | | Professor | Ines | II | Inês Isidro | Professor | |
+| 8 | | Director Técnico Boa/João | JS | | João Simões | Fisioterape | |
+| 9 | | Fisioterapeuta | Andrea | AD | Andrea Dipp | Fisioterape | |
+| 10 | | Professor | Jessica | JR | Jessica Rodrigues | Professor | |
+| 11 | | Administrador | Arquivandus | | Arquivandus | Administra | |
+| 12 | | Nutricionista | Joana | JN | Joana Nunes | Nutricionis | |
+| 13 | | Fisioterapeuta Gaia/Carlos | CP | | Carlos Pereira | Fisioterape | |
+| 50 registos | | | | | | Ok | Cancelar |
+
+- Após selecionar a opção pretendida, voltará à janela anterior, onde já constará a opção de registo. Assim, no caso de estar a registar a entrada, deve:
+
+*a. após confirmar os seus dados e se está a realizar o registo correto (entrada ou saída), premir 'Registar Entrada'*
+
+| | | | | | | |
+| ---------------------- | -----------: | -------- | ---------------- | ----------- | ------ | ---------------- |
+| Acesso | | | Registar Entrada | | | |
+| Empregado | Nº Inscrição | | | | | |
+| | Insc: 202 | | Idade: | INE | OK | Cancelar |
+| | | | | | Limpar | |
+| Acessos | | | | Dispositivo | | |
+| | | | | | | |
+| Aulas | Entradas | | | | | |
+| Descrição | Data | Validade | Saldo | Status | Turma | Modalidade |
+| | | | | | | |
+| Mensagens | | | | | | |
+| Ok | Acessos | | | | Ok | Status |
+| Entradas registadas: 0 | | | | | | Empregado activo |
+
+- Quando se a dá a necessidade de registar a saída, seja em definitivo no dia de trabalho ou nos intervalos, deve:
+
+*a. novamente, após confirmar os seus dados e se está a realizar o registo correto, premir 'Registar Saída'*
+
+| | | | | | | |
+| ---------------------- | -----------: | -------- | -------------- | ----------- | ------ | ---------------- |
+| Acesso | | | Registar Saída | | | |
+| Empregado | Nº Inscrição | | | | | |
+| 22 | Insc: 202 | | Idade: | INE | OK | Cancelar |
+| | | | | | Limpar | |
+| Acessos | | | | Dispositivo | | |
+| | | | | | | |
+| Aulas | Entradas | | | | | |
+| Descrição | Data | Validade | Saldo | Status | Turma | Modalidade |
+| | | | | | | |
+| Mensagens | | | | | | |
+| Ok | Acessos | | | | Ok | Status |
+| Entradas registadas: 0 | | | | | | Empregado activo |
+
+- Sempre que necessitar de realizar outro registo diário, como por exemplo nos intervalos ou pausas, deve repetir os passos anteriores e escolher a nova opção, entre 'Registar Entrada' e 'Registar Saída'.
+
+*MYO CLINIC – EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS*
+---
+# UTENTES
+
+A recolha e preenchimento dos dados dos utentes é outra das responsabilidades dos colaboradores. Note-se que, adicionalmente à criação manual de utentes por parte dos colaboradores, a integração deste Software com outras ferramentas, como o Zapier, permite que através do site da Myo Clinic ou de campanhas de marketing oportunamente criadas haja a criação automática de utentes visitantes (Leads) provenientes dessas fontes.
+
+- Para aceder à lista de utentes, deve:
+
+a. *premir 'Utentes' na barra principal, em qualquer módulo que se encontre*
+
+![Screenshot showing the main navigation bar with the Utentes button highlighted]
+
+- No módulo 'Utentes' pode aplicar vários filtros de pesquisa, como por exemplo:
+
+a. *no lado direito do ecrã, filtre o tipo de utente que pretende pesquisar, entre 'Visitantes', 'Individuais', '<todos>', etc.*
+
+b. *nos campos de pesquisa, filtre pelo 'Nome', utilizando o '+' para encontrar todos os registos que contenham as palavras escolhidas, independentemente da posição ou ordem das mesmas*
+
+c. *no lado esquerdo do ecrã, constarão o número de registos obtidos bem como a informação de contacto mais relevante relativa ao utente que selecionar na lista*
+
+![Screenshot showing the Utentes module interface with search filters and user list]
+
+## Criação de Utentes (Visitante/Individual)
+
+Para a criação de novos utentes na base de dados deve ser tido em conta se esse cliente pediu informações ou demonstrou curiosidade e interesse por algum dos serviços da Myo Clinic – chamado 'Utente Visitante' – ou se, por outro lado, irá adquirir no imediato algum serviço ou associar algum contrato – denominado 'Utente Individual'.
+
+À parte dos utentes que são integrados automaticamente na base de dados como 'Utente Visitante' – sobre os quais devem, no imediato, fazer acionar o processo comercial – há a necessidade de criar utentes de forma manual.
+
+----
+
+*MYO CLINIC – EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS*
+---
+# MYO CLINIC
+
+- No módulo 'Utentes', deve:
+
+a. premir 'Novo' na barra secundária
+b. premir 'Utente' para criação de 'Utente Individual'
+c. premir 'Visitante' para criação de 'Utente Visitante'
+
+![Screenshot of the Utentes module interface showing the menu options with Novo, Utente, and Visitante highlighted]
+
+- No caso de ter selecionado a criação de 'Utente Visitante', na janela que aparecerá:
+
+a. o campo 'Nº Inscrição' será atribuído automaticamente, não sendo necessária qualquer ação
+b. os campos 'Nome', 'Telemóvel', 'E-mail' e 'Sexo' deverão ser preenchidos obrigatoriamente
+
+![Screenshot of the Visitante form with fields for registration information including Nome (Maria Oliveira), Telemóvel (91xxxxxx), E-mail (mariaoliveira@xxxxx.x), and Sexo (Feminino)]
+
+----
+
+**MYO CLINIC – EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS**
+---
+# MYO CLINIC
+
+- Percorrendo a mesma janela para baixo:
+
+*a. premir 'Dependência', selecionando a respetiva*
+*b. premir 'Fonte' e selecionar entre 'CALL IN', 'EVENTS', 'ONLINE', 'PARTNERS', 'REF MI', 'WALK IN', etc.*
+*c. premir 'Gravar' para salvar as alterações efetuadas*
+
+[Screenshot of a software interface window titled "Visitante" with the following elements:
+- Top menu bar with "Registo" and "Editar" options
+- Button row with options: "Novo", "Gravar", "Eliminar", "Imprimir", "Foto", "Sel.Foto"
+- Tab navigation with tabs: "Gerais", "Detalhados", "Profissionais", "Médicos", "Sócio", "Marketing", "Proc. Interno", "Obs.", "Ligações"
+- Active "Marketing" section showing fields:
+- "Último Contacto: 0000-00-00" with date field
+- "Próximo Contacto: 0000-00-00" with date field
+- "Prioridade" dropdown
+- "Gestor" dropdown
+- "Campanha" dropdown
+- "Data Visita (Tour): 0000-00-00" with date field
+- "Receber SMS: Sim" dropdown
+- "Interesses" text area
+- "Acção Actual" dropdown
+- "Próxima Acção" dropdown
+- "Data Expiração: 0000-00-00" date field
+- "Professor" dropdown
+- "Fonte" dropdown (highlighted)
+- "Visita Completa" dropdown
+- "Receber Email: Sim" dropdown
+- "Publicidade: Sim" dropdown
+- "Processamento Interno" section showing:
+- "Validade do Certificado (COVID): 0000-00-00" date field
+- "Seguro" dropdown
+- "Autorização Médica" dropdown
+- "Data Inscrição: 2024-03-04" date field
+- "Status: Activo" field
+- "Perfil" field
+- "Dependência: Gaia" dropdown (open showing options: Gaia, Guimarães, Porto - Antas, Porto - Boavista)
+- "Atleta: Gaia" dropdown
+- "Facturação: Guimarães" dropdown
+- "Responsável" dropdown
+- "Modalidade" dropdown
+- "NIF Facturação" field]
+
+- No caso de ter selecionado a criação de 'Utente Individual', e após ter introduzido o cartão de cidadão do cliente na ranhura do leitor específico, pode proceder à importação dos dados e da fotografia:
+
+*a. premir 'Importar'*
+
+[Screenshot of a software interface window titled "Utente" with the following elements:
+- Top menu bar with "Registo" and "Editar" options
+- Button row with options: "Novo", "Gravar", "Eliminar", "Imprimir", "Foto", "Sel.Foto", "Importar" (highlighted with a red circle)
+- Tab navigation with tabs: "Pessoais", "Profissionais", "Médicos", "Sócio", "Marketing", "Proc. Interno", "Obs.", "Ligações", "Pedidos de"]
+
+----
+
+MYO CLINIC – EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS
+---
+# MYO CLINIC
+
+*a*. o campo 'Nº Inscrição' será atribuído automaticamente, não sendo necessária qualquer ação
+*b*. os campos 'Nome', 'Telemóvel', 'E-mail', 'Sexo', 'Morada', Localidade', Cód. Postal', 'Data Nasc', 'NIF' e 'Nº Doc.:'
+deverão ser preenchidos obrigatoriamente
+
+## Interface do Sistema
+
+### Navegação
+Gerais | Detalhados | Profissionais | Médicos | Sócio | Marketing | Proc. Interno | Obs. | Ligações
+
+### Dados Gerais
+| | | | |
+| --------------- | -------------: | ---------------- | ----------------------- |
+| Dados Gerais | | | Tipo: Utente Individual |
+| Nº Inscrição: | 1136 | Código de Barras | |
+| Título: | | | |
+| Nome no Cartão: | | | |
+| Nome: | Maria Oliveira | | |
+
+### Dados Detalhados
+| | | | |
+| ------------------ | ------------------------------------- | -------------- | ---------- |
+| Morada: | Avenida dos Aliados, nº 100, Hab. 7.2 | | País: |
+| Localidade: | Porto | Cód. Postal: | 4000-000 |
+| Telefone Casa: | | Telemóvel: | 9xxxxxxxx |
+| Telef. Emergência: | | Contacto: | |
+| E-Mail: | mariaoliveira\@xxxxxxx.xx | | |
+| URL: | | | |
+| Sexo: | Feminino | Data Nasc: | 1960-01-02 |
+| NIF: | PT 2xxxxxxxx | Nº Doc: | 12xxxxx |
+| Tipo Doc.: | ID Civil | Doc. Validade: | 0000-00-00 |
+| Nacionalidade: | | Estado Civil: | |
+
+- Percorrendo a mesma janela para baixo:
+
+*a*. premir 'Dependência', selecionando a respetiva
+*b*. premir 'Fonte' e selecionar entre 'CALL IN', 'EVENTS', 'ONLINE', 'PARTNERS', 'REF MI', 'WALK IN', etc.
+*c*. premir 'Gravar' para salvar as alterações efetuadas
+
+### Barra de Ferramentas
+Registo | Editar
+Novo | Gravar | Eliminar | Imprimir | Foto | Sel Foto
+
+### Navegação
+Gerais | Detalhados | Profissionais | Médicos | Sócio | Marketing | Proc. Interno | Obs. | Ligações
+
+### Marketing
+| | | | | | |
+| ------------------- | ---------- | ---------------- | ---------- | ------------ | --- |
+| Último Contacto: | 0000-00-00 | Acção Actual: | | | |
+| Próximo Contacto: | 0000-00-00 | Próxima Acção: | | | |
+| Prioridade: | | Data Expiração: | 0000-00-00 | | |
+| Gestor: | | Professor: | | | |
+| Campanha: | | Fonte: | | | |
+| Data Visita (Tour): | 0000-00-00 | Visita Completa: | | | |
+| Receber SMS: | Sim | Receber Email: | Sim | Publicidade: | Sim |
+| Interesses: | | | | | |
+
+### Processamento Interno
+| | | | | | |
+| --------------- | ------------------------------------------------ | -------------------------------- | ---------- | ------- | - |
+| | | Validade do Certificado (COVID): | 0000-00-00 | | |
+| Seguro: | | Autorização Médica: | | | |
+| Data Inscrição: | 2024-03-04 | Status: | Activo | Perfil: | |
+| Dependência: | Gaia | Responsável: | | | |
+| Atleta: | Gaia | Modalidade: | | | |
+| Facturação: | Guimarães<br/>Porto - Antas<br/>Porto - Boavista | NIF Facturação: | | | |
+
+**34**
+
+***MYO CLINIC — EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS***
+---
+# Conversão Utente Visitante -> Utente Individual
+
+Quando determinado utente, que já se encontra devidamente inscrito na base de dados, efetiva a sua inscrição ou aquisição de algum serviço na Myo Clinic, e de forma a evitar a criação de fichas duplicadas, há a necessidade de efetuar a conversão de 'Utente Visitante' para 'Utente Individual' na base de dados.
+
+- No módulo 'Utentes', deve:
+
+*a. premir o botão direito do rato sobre o nome do utente que pretende selecionar*
+
+*b. premir 'Mudar tipo de utente...'*
+
+| | | | | | | | | | | |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ----------- | --- | ------ | -------------------- | ----------------------------------------- | ----------------------- | - | - | - |
+| Informação do utente | | | | | | | | | | |
+| Voltar<br/><br/>Maria Oliveira<br/>Idade:<br/>Sexo: Masculino<br/>Estado: Activo<br/>É utente há 10 meses<br/>Mais informações:<br/><br/>Contactos<br/>Telemóvel: +351929100629<br/>E-Mail: pinguim\_52\_a\@hotmail.com | 400595 | 116a90bd613 | Não | | | Mariana Oliveira | Vão Imprimir Não | | | |
+| | 402021 | | Não | Não | | Ana Maria Oliveira | Vão Imprimir Não | | | |
+| | 401485 | | Não | Sr(a). | Não | Cristina Maria dos Santos Oliveira Soares | Vão Imprimir Não | | | |
+| | 401767 | f4133101024 | Não | | | Maria Oliveira | Suspender | | | |
+| | 401725 | | Não | Sr(a). | Não | Maria do Céu Correia de Oliveira | | | | |
+| | 401954 | 5ded8221d6f | Não | Sr(a). | | Clara Maria Nogueira Pires Oliveira | Mudar tipo de utente... | | | |
+| | 401761 | | Não | | Não | Maria Oliveira Martins Dias | Cancelar Outras... | | | |
+| | 403102 | | Não | | Não | Maria Fátima Oliveira | Adicionar | | | |
+| | 403533 | | Não | Sr(a). | Não | Ana Maria Oliveira | | | | |
+| 403684 | 0dfadd0fee6 | Não | | | Maria Oliveira | Vão Imprimir Não | | | | |
+| 403667 | 42f20612c1d | Não | | | Maria Oliveira | Vão Imprimir Não | | | | |
+| 403647 | 1f0e947c0ebf | Não | | | Maria Luísa Oliveira | Vão Imprimir Não | | | | |
+
+- Na janela que aparecerá, deve:
+
+*a. premir 'Utente Individual'*
+
+| | | |
+| --------------------------------------- | ----------------- | ----------- |
+| SportStudio | | × |
+| Deseja modificar o tipo de utente para: | | |
+| \[x] | Utente Individual | |
+| \[ ] | Convidado | |
+| \[ ] | Grupo de utentes | |
+| \[ ] | Instituição | |
+| \[ ] | Acompanhante | |
+| \[ ] | Utente Externo | |
+| | | OK Cancelar |
+
+- Agora deve preencher a ficha de 'Utente Individual' como detalhado anteriormente.
+
+*MYO CLINIC – EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS*
+---
+# CONTRATO
+
+Um dos momentos fundamentais no grupo Myo Clinic é conseguir finalizar o processo comercial de forma bem-sucedida, culminando na celebração de um contrato com o potencial cliente. A venda de serviços com carácter de recorrência mensal deve ser uma das prioridades da atuação dos colaboradores Myo Clinic.
+
+Atualmente, há vários tipos de contrato que podem ser celebrados, partindo sempre de uma de duas opções: contrato de Treino Personalizado ou contrato de Fisioterapia. Em ambas, as possibilidades relativas à duração do contrato e à periodicidade semanal são idênticas.
+
+A duração do contrato pode variar entre: renovação mensal (sem fidelização), contrato de 3, 6 ou 12 meses.
+
+Quanto à periodicidade semanal, as sessões podem variar entre 1 vez/semana de 30' ou 60', até 5 vezes/semana.
+
+A conjugação destes três fatores – duração do contrato, periodicidade semanal e duração das sessões – faz variar o preço mensal a pagar pelo cliente.
+
+Deve estar claro para todos os intervenientes desde o processo de venda que a assinatura de um contrato pressupõe uma regra fundamental: o primeiro pagamento é feito ao balcão, sendo as mensalidades seguintes pagas através de débito direto em conta do cliente, que deve assinar uma autorização destinada a esse fim.
+
+É de salientar que o processo de criação de um contrato, que será explicitado de seguida, se reveste de particular importância. Este processo impacta em vários fatores: atribuição de comissão de venda ao colaborador que realizou o processo comercial, criação de linhas de pagamentos e de dívidas que darão origem às faturas a emitir, adição de saldo de sessões disponíveis para marcações na agenda, etc.
+
+## Adicionar Perfil de Contrato
+
+De modo a facilitar a criação de um contrato celebrado com um cliente, é possível associar um perfil de contrato previamente criado para o efeito. Os perfis disponíveis são aqueles que são usados mais frequentemente.
+
+- No módulo 'Utentes', e após criar ou converter um 'Utente Individual', deve:
+
+a. premir a seta ao lado de 'Perfil'
+b. selecionar a opção pretendida, entre 'Treino Personalizado', 'Mensalidade Humans Performance' (Fisioterapia) ou Aulas de Grupo Privadas (AGP) da respetiva dependência
+
+[*Screenshot of the Myo Clinic software interface showing the user menu with options for selecting contract profiles. The interface displays a list of clients with names like "Maria do Céu Ribeiro Freitas Correia Oli", "Marta Maria Teixeira de Oliveira Massar", etc. The dropdown menu shows options including "Mensalidade Humans Performance", "Aulas Grupo Gaia", "Aulas Grupo Guimarães", "Aulas Grupo Boavista", "Treino Personalizado", and "Aulas Grupo Antas".*]
+
+MYO CLINIC - EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS
+---
+# Myo Clinic
+
+- Na janela que aparecerá, deve:
+
+*a. selecionar sempre na 'Data de referência' o dia 1 do mês correspondente ao início do contrato, independentemente do dia em que se encontre*
+
+| | | | | |
+| -----------------------------------------------------------------------------------------------------------: | ----------------------------- | ------------------------------------------------- |---|---|
+| Contrato do utente | | | | |
+| Contrato do utente | | | | |
+| | Acção pretendida para perfil: | | | |
+| | \[N] | Novo | | |
+| | \[A] | Alterar (Manter condições do contrato actual) | | |
+| | \[A] | Alterar (Atribuir as novas condições do perfil) | | |
+| | \[R] | Renovação (Manter condições do contrato actual) | | |
+| | \[R] | Renovação (Atribuir as novas condições do perfil) | | |
+| Data de referência: | | | | |
+| 2024-03-01 \| Data definida pelas configurações do Perfil Visado | | | |
+| Data usada como ponto de partida para aplicar no Início da Validade (Data Desde) das parcelas dos contratos; | | | | |
+| Data usada para 'data início' nas parcelas do contratos. | | | | |
+| Anterior \| Seguinte \| Cancelar | | |
+
+- Na janela seguinte, deve:
+
+*a. selecionar as caixas correspondentes aos itens 'Inscrição' e 'Mensalidades', entre as opções disponíveis*
+*b. premir 'Concluir'*
+
+| | | | | | |
+| ----------------------------------------------: | ------------- | ----------------------------- | - |---|---|
+| Contrato do utente | | | | | |
+| Parcelas para o contrato: | | | | | |
+| Nome Parcela | Tipo Parcela | Inventário | | | |
+| Inscrição | | | | | |
+| \[✓] Inscrição Myo Clinic | Insc. Inicial | Inscrição Anual Myo Clinic | | | |
+| Mensalidades | | | | | |
+| \[✓] Fisioterapia\_1M\_1x/Semana | Mensal, Base | Sessão Fisioterapia 1x Semana | | | |
+| \[✓] Fisioterapia\_1M\_2x/Semana | Mensal, Base | Sessão Fisioterapia 2x Semana | | | |
+| \[✓] Fisioterapia\_3M\_1x/Semana | Mensal, Base | Sessão Fisioterapia 1x Semana | | | |
+| \[✓] Fisioterapia\_3M\_2x/Semana | Mensal, Base | Sessão Fisioterapia 2x Semana | | | |
+| \[✓] Fisioterapia\_6M\_1x/Semana | Mensal, Base | Sessão Fisioterapia 1x Semana | | | |
+| \[✓] Fisioterapia\_6M\_2x/Semana | Mensal, Base | Sessão Fisioterapia 2x Semana | | | |
+| Fazer um clique em 'Seguinte' para continuar... | | | | | |
+| Anterior \| Concluir \| Cancelar | | | |
+
+- De seguida, deve:
+
+*a. escrever o 'IBAN' do cliente*
+*b. selecionar a 'Entidade' da respetiva dependência*
+*c. premir 'Gravar'*
+
+| | | | | | | |
+| --------------------- | ------------------------------------------------ | -------------- | ------------------------------------------------------------- | ---------------------------------------------------------------------- | ---------- |---|
+| Dados Autorização SDD | | | | | | |
+| Utente: | | | | | | |
+| Data: | 2024-03-09 | Montante Máx.: | | Validade: | 0000-00-00 | |
+| Nome Titular: | | | | | | |
+| IBAN: | | | | | | |
+| BIC: | | | PT - Portugal | | | |
+| Nº Autorização: | Banco: \<Banco desconhecido/não consta da lista> | | | | | |
+| Inf. Titular: | O mesmo | Entidade: | | PT74ZZZ116066 | | |
+| Prioridade: | 2501 | Status: | Nova | Entidade EC: PT 07 ZZZ 117359 \| IBAN: PT50 0007 0000 0059 6149 6322 3 | |
+| | | | Protocolo: SEPA SDD | | | |
+| | | | Porto Boavista | | | |
+| Nova | Gravar | Imprimir | EC: PT 61 ZZZ 116076 | | | |
+| | | | Protocolo: SEPA SDD | | | |
+| | | | Porto Antas | | | |
+| | | | EC: PT 61 ZZZ 116086 | | | |
+| | | | Protocolo: SEPA SDD | | | |
+| | | | Lisboa | | | |
+| | | | EC: PT 74 ZZZ 116066 \| IBAN: PT50 0007 0000 0058 2516 3322 3 | | |
+| | | | Protocolo: SEPA SDD | | | |
+
+MYO CLINIC – EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS
+---
+# MYO CLINIC
+
+- Por vezes pode dar-se o caso do cliente que acabou de celebrar o contrato (com o primeiro pagamento a ser realizado ao balcão) não ter em sua posse o comprovativo de IBAN para débito das mensalidades seguintes. Sendo o caso, deve premir 'Cancelar', deixando para mais tarde a introdução manual desse dado, seguindo a instrução que está devidamente explicitada no capítulo seguinte.
+
+## Contrato Manual
+
+Em alternativa à criação de perfis, é possível criar um contrato de forma manual.
+
+- No módulo 'Utentes', e após criar ou converter um 'Utente Individual', deve:
+
+a. premir 'Contrato'
+
+*[Screenshot of software interface showing the menu bar with options including Agenda, Utentes, Turmas, Inventario, Empregados, and Hist Geral. Below this are function buttons including Pesquisa, Imprimir, Cartão, Turmas, Contrato (which is circled), Ligações, Dividas, Entradas, Histórico, Perfil, AFisica, Presc., Acesso, and Pagar. The interface shows a list of users with their information in a table format.]*
+
+- Na janela seguinte, deve:
+
+a. premir 'Novo'
+
+*[Screenshot of software interface showing another menu with options and a button panel. The "Novo" button is circled, indicating it should be clicked.]*
+
+- De seguida, deve:
+
+a. selecionar sempre nas datas de 'Início' e 'Desde' o dia 1 do mês correspondente ao início do contrato, independentemente do dia da 'Assinatura' que deve ser mantido
+b. selecionar 'Modo Pag.:' e escolher, por defeito, 'Transf. Banc. c/ 1ºPag. Inst.'
+c. premir a lupa do item 'Inventário'
+
+*[Screenshot of a contract form dialog with multiple fields including Início, Assinatura, Renovação, Periodicidade, Inventário, Desconto, Desde, Até, Entradas, Modo Pag., Prestações, Multa a aplicar, and Comissionista. The fields marked with 'a' (Início and Desde) and 'b' (Modo Pag.) are highlighted in the instructions.]*
+
+----
+
+MYO CLINIC – EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS
+
+38
+---
+# Myo Clinic
+
+- Na 'Lista do Inventário' que aparecerá, deve:
+
+*a. premir 'Procurar' para listar os itens disponíveis*
+*b. selecionar a opção correspondente ao tipo de contrato celebrado, tendo em conta a sua duração, a periodicidade semanal e a duração das sessões*
+*c. premir 'OK'*
+
+Pesquisa [LISTA DO INVENTÁRIO]
+
+| | | | | |
+| ------------- | ------- | - | - | -------- |
+| ... Descrição | igual a | | | Procurar |
+
+| Cód. Barras | Tipo | Descrição | Periodicidade | Valor PVP | Qtd. |
+| ----------- | ------------ | -------------------------------------------- | ----------------- | --------- | ---- |
+| INSC | Inscrição | Inscrição Anual Myo Clinic | Anual | 40,00€ | |
+| ACERTO\_23 | Mensalidades | Acerto de valores | Sem periodicidade | 0,00€ | |
+| PT60\_EMPOS | Mensalidades | Treino Personalizado 60' Empresarial 2x Sem | Mensal ao dia 1 | 421,00€ | |
+| PT60\_01 | Mensalidades | Treino Personalizado 60 Min 1x Semana\_Livre | Mensal | 235,00€ | |
+| PT60\_02 | Mensalidades | Treino Personalizado 60 Min 1x Semana\_3M | Mensal | 212,00€ | |
+| PT60\_03 | Mensalidades | Treino Personalizado 60 Min 1x Semana\_6M | Mensal | 191,00€ | |
+| PT60\_05 | Mensalidades | Treino Personalizado 60 Min 2x Semana\_Livre | Mensal | 434,00€ | |
+| PT60\_06 | Mensalidades | Treino Personalizado 60 Min 2x Semana\_3M | Mensal | 389,00€ | |
+| PT60\_07 | Mensalidades | Treino Personalizado 60 Min 2x Semana\_6M | Mensal | 354,00€ | |
+| PT60\_08 | Mensalidades | Treino Personalizado 60 Min 2x Semana\_12M | Mensal | 310,00€ | |
+| PT60\_09 | Mensalidades | Treino Personalizado 60 Min 3x Semana\_Livre | Mensal | 598,00€ | |
+| PT60\_10 | Mensalidades | Treino Personalizado 60 Min 3x Semana\_3M | Mensal | 545,00€ | |
+
+131 registos [OK] [Cancelar]
+
+- Voltado ao menu do 'Contrato', deve:
+
+*a. premir 'Autorização', nos 'Pagadores da Parcela'*
+
+| | | | | | |
+| ---------- | --------: | ---------------------- | ------------------- | - | --- |
+| Contrato | | | | | □ × |
+| Registo | Editar | | | | |
+| Novo | Gravar | Eliminar | Imprimir | | |
+| • Contrato | • Parcela | • Pagadores da Parcela | • Turmas Associadas | | |
+
+| | | | | | |
+| -------------- | --------------------------------------- | -------------- | ---------- | ---------- | ---------- |
+| Contrato | | | | | |
+| Preço: | Seguir as datas definidas no inventário | Identificador: | 3752 | | |
+| Início: | 2024-03-01 | Assinatura: | 2024-03-10 | Renovação: | 0000-00-00 |
+| Periodicidade: | Mensal | | | | |
+
+| | | | | | |
+| ---------------- | ------------------------------------------------------ | ---- | ---------- | --------- | ---------------- |
+| Parcela | | | | | |
+| Inventário: | PT60\_02 Treino Personalizado 60 Min 1x Semana\_3Meses | | | | |
+| Desconto: | | | | | |
+| Desde: | 2024-03-01 | Até: | 0000-00-00 | Entradas: | Em todos os pag. |
+| Modo Pag.: | Transf. Banc. c/1ªPag. Inst. | | | | |
+| Prestações: | | | | | |
+| Multa a aplicar: | | | Cobrador: | | |
+| Comissionista: | | | | | |
+| Nº do Contrato: | | | | | |
+| Obs: | | | | | |
+
+| | | | |
+| -------------------- | ------------ | ----------- | ---- |
+| Pagadores da Parcela | | | |
+| Pagador | Valor a Pag. | % a Pag | IBAN |
+| \[ ] | | 100,00% | |
+| Adicionar | Remover | Autorização | |
+
+MYO CLINIC – EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS
+---
+# Myo Clinic - Procedimento de Contrato
+
+- De seguida, tal como explicitado anteriormente na atribuição de perfis de contrato, deve:
+
+*a. escrever o 'IBAN' do cliente*
+*b. selecionar a 'Entidade' da respetiva dependência*
+*c. premir 'Gravar'*
+
+![Interface screenshot showing the "Dados Autorização SDD" (Direct Debit Authorization Data) form with fields for IBAN entry, entity selection, and various other payment details. The interface shows multiple protocol options with IBAN numbers and entity codes.]
+
+- Voltado ao menu do 'Contrato', e após conferir os itens introduzidos, deve:
+
+*a. premir 'Gravar'*
+
+![Interface screenshot showing the "Contrato" (Contract) form with multiple tabs including Contract, Parcela (Installment), Pagadores da Parcela (Installment Payers), and Turmas Associadas (Associated Classes). The form contains various fields for contract details including dates, payment methods, and a payment table at the bottom.]
+
+## Fim de Contrato
+
+O contrato de mensalidade celebrado entre a Myo Clinic e o cliente tem uma duração inicial de acordo com a modalidade escolhida, sendo renovável automaticamente por iguais e sucessivos períodos, exceto se for denunciado por qualquer das partes, com uma antecedência de 30 dias face ao termo do prazo inicial de vigência ou de qualquer uma das suas renovações. Também está previsto que o cliente poderá resolver o contrato, cumprindo um aviso prévio de 15 dias, nas seguintes situações: doença ou invalidez permanente, impeditivas da prática das atividades oferecidas pela Myo Clinic, ou outro motivo de força maior, por exemplo, alteração de residência, devidamente comprovada e sujeita a prévia apreciação e validação.
+
+Em qualquer uma destas situações, é fundamental o colaborador Myo Clinic perceber quais as motivações para a não renovação do cliente, de forma a perceber se os motivos são controláveis ou inevitáveis.
+
+----
+
+*MYO CLINIC - EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS*
+---
+# Myo Clinic
+
+- Para que o fim do contrato produza efeitos sobre as parcelas de 'Pagamentos' e 'Dívidas', deve abrir o 'Contrato', como explicitado anteriormente, e de seguida:
+
+*a. selecionar a data de fim do contrato em 'Até:'*
+*b. premir 'Gravar'*
+
+![Screenshot of contract form interface showing fields for contract details including start date, signature date, renewal date, and payment options. The interface has buttons for New, Save, Delete, and Print, along with tabs for Contract, Parcel, Parcel Payers, and Associated Classes.]
+
+- Na janela que aparecerá, deve:
+
+*a. selecionar sempre 'Correcção.'*
+*b. premir 'Ok'*
+
+![Screenshot of SportStudio dialog box titled "Confirmar a operação efectuada sobre a parcela" (Confirm the operation performed on the parcel) with three radio button options: "A[A] Alteração. (Alteração das condições de contrato)", "C[C] Correcção. (Correcção das condições de contrato)" which is selected, and "R[R] Renovação. (Renovação do contrato)". The dialog has OK and Cancel buttons.]
+
+## Assinatura Contrato Digital
+
+De forma a efetivar a celebração de um contrato com o cliente, e após cumpridas as etapas anteriores de criação do respetivo contrato, deve o colaborador Myo Clinic convidar o cliente a assinar digitalmente o documento. Este momento aumenta significativamente a confiança e perceção de valor na organização e no serviço contratado.
+
+- No módulo 'Utentes', após pesquisar e selecionar o cliente pretendido, deve:
+
+*a. premir 'Imprimir'*
+
+![Screenshot of the user management interface showing a list of clients with their details including name, ID, status, gender, birth date, and contact information. The interface has various buttons including New, Edit, Delete, Search, Print, Card, Classes, Contract, Connections, Debts, Entries, History, Profile, Physical Assessment, Presence, Access, and Pay.]
+
+***MYO CLINIC - EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS***
+---
+# MYO CLINIC
+
+- Na janela seguinte, deve:
+
+*a. selecionar a opção 'Contrato Adesão (baseado em Modelo)'*
+*b. premir 'Associar'*
+
+| | | |
+| ------------------------------------------------------------ | - | -------------- |
+| Listagens | | |
+| Listagens disponíveis | | Pré-visualizar |
+| Autorização SEPA | | Imprimir |
+| Contrato Adesão (baseado em Modelo) | a | Gravar |
+| Contrato Cancelamento (Myo Clinics) | | E-Mail |
+| Contrato co(s) Utente(s) | | Associar |
+| Contrato Utente (Myo Clinics) | | b |
+| Declaração anual IRS | | Sair |
+| Etiqueta Endereço Imp. Jacto Tinta 38mm x 90mm(2 col x 7 ln) | | |
+| Etiqueta Endereço Imp. Laser 37mm x 70mm(3 col x 7 ln) | | |
+| Etiqueta Endereço Imp. Laser 37mm x 70mm(3 col x 8 ln) | | |
+
+- Na janela seguinte, deve apenas:
+
+*a. em 'Empresa', selecionar a respetiva dependência*
+*b. premir 'Ok'*
+
+| | | | |
+| ----------------------- | --------------------------------------------- | ----------------- | -------- |
+| Assistente de impressão | | | |
+| Intervalo | | | |
+| Período | | igual a | hoje |
+| Empresa | 1Myo Clinic - Exercício com Saúde - 514701153 | | a |
+| | 1Myo Clinic Exercício com Saúde 514701153 | | |
+| | 2Myo Clinic Exercício com Saúde 516350790 | | |
+| Modelo de contrato | 3Myo Clinic Exercício com Saúde 516933746 | | |
+| | 4Myo Clinic Exercício com Saúde 516953550 | | |
+| Formato | | Relatório em HTML | |
+| Idioma | | Português | |
+| | | Ok | Cancelar |
+| | | b | |
+
+- Na janela que aparecerá, e tendo já preparado o tablet da clínica onde se assinará digitalmente, deve:
+
+*a. premir 'Gravar'*
+*b. após o passo anterior, aparecerá em baixo 'Gerar URL partilha', que deve premir*
+*c. depois de gerado o 'QRCode', deve apontar a câmara do tablet da clínica, de forma a abrir o respetivo link*
+
+| | | | |
+| ------------------ | ------------------------------------------------------------------------- | ------------------ | ------------- |
+| Ficheiro associado | | | |
+| Registo | Editar | | |
+| Novo | Gravar | Eliminar | Imprimir |
+| Ficheiro associado | | | |
+| Utente: | | | |
+| Nome ficheiro: | | | |
+| | @ficheiro: | Alterar ficheiro | |
+| Estado actual: | \[x] Rascunho \[ ] Visualizado \[ ] Finalizado \[ ] Enviado \[ ] Recusado | | |
+| Descrição: | SportStudio - Contrato | | |
+| Observações: | | | |
+| Partilha | | | |
+| QRCode: | \[QR Code image] ← c | | |
+| Partilhado até: | 2024-03-26 10:54 | Gerar URL partilha | Enviar E-Mail |
+| | | b | |
+
+*MYO CLINIC - EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS*
+---
+- De seguida, já com o link aberto no tablet, aparecerá o documento do contrato de mensalidade do cliente, onde constam os respetivos dados, bem como os dados da empresa e ainda a modalidade escolhida. Deve o colaborador Myo Clinic pedir ao cliente para validar as informações inseridas, convidando-o a ler as informações presentes no contrato e percorrendo o documento até ao final.
+
+![Screenshot of contract viewer showing the "Contrato Utente" interface with company and client data fields]
+
+| | |
+| :-----------------------------------------------------------------------------------------: | -------------------------------- |
+| **Visualizador** | |
+| https\://myoclinic.sportstudio.pt/#mfsviewer?url=%2fmfs%2fcache92f2602962f577\_962523392... | |
+| **Contrato Utente** | |
+| **Dados da Empresa** | |
+| Marca | Myo Clinic - Exercício com Saúde |
+| Morada | |
+| Localidade | |
+| Telefone | Chamada para rede móvel nacional |
+| E-Mail | myo\@myo.pt |
+| **Dados do Utente** | |
+| Nome | |
+| Morada | |
+| Localidade | |
+| Data Nasc. | 2023-01-10 |
+
+- Por fim, será o momento de assinar digitalmente o contrato celebrado.
+
+a. percorrer o documento até à página 8
+b. premir o campo 'Assinatura'
+c. na janela que surgirá, deve o cliente assinar na área destinada ao efeito
+d. premir 'Ok'
+
+| | |
+| :-------------------------------------------------------------------------------------------------------------------------------------------------------: | - |
+| **Visualizador** | |
+| https\://myoclinic.sportstudio.pt/#mfsviewer?url=%2fmfs%2fcache92f2602962f577\_962523392... | |
+| **12. Resolução alternativa de litígios**<br/>Em caso de litígio, o Cliente pode recorrer a uma Entidade de Resolução Alternativa de Litígios de Consumo. | |
+| Limpar Ok | |
+
+Assinatura
+
+MYO CLINIC - EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS
+---
+# Myo Clinic
+
+- Faltará apenas a assinatura da autorização de débito bancário, que é feita na página seguinte do documento; após isso, o contrato seguirá de forma automática para o e-mail do cliente. Desta forma:
+
+*a. abrir o campo 'Assinar aqui por favor'*
+*b. na janela que surgirá, deve novamente o cliente assinar na área destinada ao efeito*
+*c. premir 'OK'*
+*d. premir a imagem da disquete, de forma a gravar*
+
+> [Screenshot of a browser window showing a document viewer interface with a signature dialog box. The interface shows "Visualizador" at the top. The dialog box has "Limpar" (Clear) and "OK" buttons. The screenshot has letters a, b, c, and d pointing to different elements of the interface, corresponding to the steps described above.]
+
+## Imprimir Contrato Manual
+
+Para os casos em que haja necessidade de impressão do contrato em formato papel, deve o colaborador Myo Clinic fazê-lo de forma manual.
+
+- No módulo 'Utentes', após pesquisar e selecionar o cliente pretendido, deve:
+
+*a. premir 'Imprimir'*
+
+> [Screenshot of the system interface showing the user management screen with various buttons including "Imprimir" (Print) which is highlighted with a circle. The interface shows a list of users and various navigation options.]
+
+- Na janela seguinte, deve:
+
+*a. selecionar a opção 'Contrato Adesão (baseado em Modelo)'*
+*b. premir 'Pré-visualizar'*
+
+> [Screenshot of a dialog box titled "Listagens" showing a list of document options. The option "Contrato Adesão (baseado em Modelo)" is selected, and the "Pré-visualizar" button is highlighted. Other buttons visible include "Imprimir", "Gravar", "E-Mail", and "Associar".]
+
+----
+
+*MYO CLINIC - EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS*
+---
+# MYO CLINIC
+
+- Na janela seguinte, deve apenas:
+
+a. em 'Empresa', selecionar a respetiva dependência
+b. premir 'Ok'
+
+| | | | |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -: | - | - |
+| Assistente de impressão | | | ✕ |
+| Intervalo&#xA;Período igual a hoje ▼ ?&#xA;Empresa 1:Myo Clinic - Exercício com Saúde - 514701153 ▼&#xA; 1:Myo Clinic - Exercício com Saúde - 514701153&#xA;2:Myo Clinic - Exercício com Saúde - 516350790&#xA;3:Myo Clinic - Exercício com Saúde - 516938746&#xA;4:Myo Clinic - Exercício com Saúde - 516953550&#xA;Modelo de contrato &#xA;Formato Relatório em HTML ▼&#xA;Idioma Português ▼&#xA; Ok Cancelar | | | |
+
+- De seguida, abrirá um link externo no browser selecionado, onde deve ser dada a ordem de impressão manual do documento do contrato.
+
+myo - definition: muscle, muscle and myograph, myoneural Origin of myo from Classical Greek mys (gen. myos) a muscle
+
+45
+
+MYO CLINIC - EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS
+---
+# PAGAMENTOS
+
+De modo a concluir com sucesso o processo de venda de qualquer dos serviços disponibilizados pela Myo Clinic, é fundamental que esse serviço seja faturado de forma correta, quer seja no caso de pagamentos de sessões avulso, de mensalidades ou de packs. As faturas seguem sempre por e-mail para o cliente de forma automática, no dia seguinte à sua emissão.
+
+Esta ação – a realização da fatura – vai gerar a atribuição de um determinado número de entradas ao cliente, que são depois debitadas à medida que se vão realizando, de acordo com as marcações na Agenda.
+
+## Conta Corrente Cliente (Dívidas)
+
+O colaborador Myo Clinic pode, a qualquer altura, aceder ao histórico de pagamentos já realizados ou que estão por realizar. Desse modo, deve:
+
+- No módulo 'Utentes', após pesquisar e selecionar o cliente pretendido:
+
+a. premir 'Dívidas'
+
+![Interface screenshot showing the Myo Clinic software with the Utentes module and Dívidas button highlighted. The interface shows a search results list with client information including names like "Maria do Céu Ribeiro Freitas Correia Oliveira", "Marta Maria Teixeira de Oliveira Massada", and "Manuela Maria Oliveira Bessa".]
+
+- A janela seguinte pode ter um de vários aspetos possíveis, tendo em conta o tipo de relação estabelecido com o cliente, ou seja, que tipo de pagamentos já foram efetuados. Como exemplos:
+
+*Cliente com registo de pagamentos de sessões avulso*
+
+| P | T | I | D | R | Data | Descrição | Item | Periodicidade | Código | Valor PVP |
+| - | - | - | - | - | ---------- | ----------------------- | ----------------------------------- | ------------- | ------ | --------- |
+| S | N | | | | 2024-03-08 | Tratamento Fisioterapia | FISIO\_02 - Tratamento Fisioterapia | DV68708 | | 46,00€ |
+| S | N | | | | 2024-03-13 | Tratamento Fisioterapia | FISIO\_02 - Tratamento Fisioterapia | DV69115 | | 46,00€ |
+| S | N | | | | 2024-03-20 | Tratamento Fisioterapia | FISIO\_02 - Tratamento Fisioterapia | DV69267 | | 46,00€ |
+| S | N | | | | 2024-03-27 | Tratamento Fisioterapia | FISIO\_02 - Tratamento Fisioterapia | DV69578 | | 46,00€ |
+| S | N | | | | 2024-04-10 | Tratamento Fisioterapia | FISIO\_02 - Tratamento Fisioterapia | DV70584 | | 46,00€ |
+
+*Cliente com registo de pagamentos de mensalidades*
+
+| P | T | I | D | R | Data | Descrição | Item | Periodicidade | Código | Valor PVP |
+| - | - | - | - | - | ---------- | -------------- | --------------------------------- | ------------- | ------- | --------- |
+| S | T | O | | | 2024-03-01 | Mar (14º Pag.) | FISIO60\_03 - Sessão Fisioterapia | Mensal | DV54517 | 185,00€ |
+| S | T | O | | | 2024-04-01 | Abr (15º Pag.) | FISIO60\_03 - Sessão Fisioterapia | Mensal | DV54518 | 185,00€ |
+| S | T | O | | | 2024-05-01 | Mai (16º Pag.) | FISIO60\_03 - Sessão Fisioterapia | Mensal | DV54519 | 185,00€ |
+| - | T | | | | 2024-06-01 | Jun (17º Pag.) | FISIO60\_03 - Sessão Fisioterapia | Mensal | DV54520 | 185,00€ |
+| - | T | | | | 2024-07-01 | Jul (18º Pag.) | FISIO60\_03 - Sessão Fisioterapia | Mensal | DV54521 | 185,00€ |
+| - | T | | | | 2024-08-01 | Ago (19º Pag.) | FISIO60\_03 - Sessão Fisioterapia | Mensal | DV54522 | 185,00€ |
+
+*Cliente com registo de pagamentos de packs*
+
+| P | T | I | D | R | Data | Descrição | Item | Periodicidade | Código | Valor PVP |
+| - | - | - | - | - | ---------- | ------------------------------ | ----------------------------------------- | ------------- | ------- | --------- |
+| S | N | | | | 2023-09-05 | Exercício Clínico/Fisioterapia | PACK\_01 - Exercício Clínico/Fisioterapia | | DV46482 | 330,00€ |
+| S | N | | | | 2023-12-13 | Exercício Clínico/Fisioterapia | PACK\_01 - Exercício Clínico/Fisioterapia | | DV50623 | 330,00€ |
+
+MYO CLINIC – EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS
+---
+# Cliente com vários tipos de pagamentos registados
+
+| P | T | I | D | R | Data | Descrição | Item | Periodicidade | Código | Valor PVP | Valor Líquido |
+| -- | -- | -- | - | - | ---------- | -------------------------- | ------------------------------------- | ------------- | ------- | --------- | ------------- |
+| 🟩 | N | | | | 2023-04-01 | Pagamento Anual | INSC - Inscrição Anual Myo Clin Anual | Anual | DV40377 | 0,00€ | 0,00€ |
+| 🟩 | N | | | | 2023-04-01 | Abr (1ª Pag.)(Início de | FISIO60\_03 - Sessão Fisioterapia | Mensal | DV40356 | 185,00€ | 185,00€ |
+| 🟩 | 🟦 | 🟣 | | | 2023-05-01 | Mai (2ª Pag.) | FISIO60\_03 - Sessão Fisioterapia | Mensal | DV40357 | 185,00€ | 185,00€ |
+| 🟩 | N | | | | 2023-05-01 | Mai (1ª Pag.) | AGPBOAV\_02 - Aula de Grupo P | Mensal | DV40378 | 40,00€ | 40,00€ |
+| 🟩 | N | | | | 2023-05-11 | Consulta Nutrição (1ª) | NUTRI\_01 - Consulta Nutrição ( | | DV42467 | 55,00€ | 55,00€ |
+| 🟩 | N | | | | 2023-05-20 | Exercício Clínico Fisioter | PACK\_01 - Exercício Clínico Fisio | | DV42331 | 264,00€ | 264,00€ |
+| 🟩 | N | | | | 2023-05-23 | Consulta Nutrição (Seg) | NUTRI\_02 - Consulta Nutrição | | DV42906 | 50,00€ | 50,00€ |
+| 🟩 | 🟦 | 🟣 | | | 2023-06-01 | Jun (2ª Pag.) | AGPBOAV\_02 - Aula de Grupo P | Mensal | DV40379 | 40,00€ | 40,00€ |
+| 🟩 | 🟦 | 🟣 | | | 2023-06-01 | Jun (3ª Pag.) | FISIO60\_03 - Sessão Fisioterapia | Mensal | DV40358 | 185,00€ | 185,00€ |
+| 🟩 | N | | | | 2023-06-20 | Consulta Nutrição (Seg) | NUTRI\_02 - Consulta Nutrição ( | | DV43957 | 50,00€ | 50,00€ |
+| 🟩 | 🟦 | 🟣 | | | 2023-07-01 | Jul (4ª Pag.) | FISIO60\_03 - Sessão Fisioterapia | Mensal | DV40359 | 185,00€ | 185,00€ |
+| 🟩 | N | | | | 2023-07-22 | 10 x Sessão Pressote | SERV\_01 - Sessão Pressoterapia | | DV45020 | 200,00€ | 200,00€ |
+| 🟩 | 🟦 | 🟣 | | | 2023-08-01 | Ago (5ª Pag.) | FISIO60\_03 - Sessão Fisioterapia | Mensal | DV40360 | 185,00€ | 185,00€ |
+
+- Os exemplos apresentados anteriormente permitem perceber a diversidade de pagamentos de serviços que podem estar associados a cada cliente.
+
+- O colaborador Myo Clinic pode aconselhar ao cliente a compra de outro serviço disponibilizado pela clínica – fenómeno designado de *cross selling* – recebendo a devida comissão por essa venda. Tal como se vê no último exemplo, o mesmo cliente pode usufruir de vários serviços em simultâneo, sendo esta uma ferramenta comercial essencial que deve ser incentivada.
+
+- Por defeito, nas Dívidas estão visíveis as linhas de pagamento dos últimos 2 meses e de todos os meses seguintes, ainda a pagamento. Para se ter acesso à totalidade dos pagamentos já efetuados e a efetuar pelo cliente, deve:
+
+a. premir 'Últ. 2 Meses'
+
+[Interface buttons showing: Novo, Alterar, Eliminar, Pesquisa, Imprimir, Revalidar, Últ. 2 Meses (highlighted), Contrato, Pagar]
+
+| P | T | I | D | R | Data | Descrição | Item | Periodicidade | Código | Valor PVP |
+| -- | -- | -- | - | - | ---------- | -------------- | --------------------------------- | ------------- | ------- | --------- |
+| 🟩 | 🟦 | 🟣 | | | 2024-03-01 | Mar (14ª Pag.) | FISIO60\_03 - Sessão Fisioterapia | Mensal | DV54517 | 185,00€ |
+| 🟩 | 🟦 | 🟣 | | | 2024-04-01 | Abr (15ª Pag.) | FISIO60\_03 - Sessão Fisioterapia | Mensal | DV54518 | 185,00€ |
+| 🟩 | 🟦 | 🟣 | | | 2024-05-01 | Mai (16ª Pag.) | FISIO60\_03 - Sessão Fisioterapia | Mensal | DV54519 | 185,00€ |
+| 🟩 | 🟦 | 🟣 | | | 2024-06-01 | Jun (17ª Pag.) | FISIO60\_03 - Sessão Fisioterapia | Mensal | DV54520 | 185,00€ |
+| - | T | | | | 2024-07-01 | Jul (18ª Pag.) | FISIO60\_03 - Sessão Fisioterapia | Mensal | DV54521 | 185,00€ |
+
+- A janela que aparece contém, então, todos os pagamentos associados ao cliente. Para voltar à vista anterior, pode:
+
+a. premir 'Total'
+
+[Interface buttons showing: Novo, Alterar, Eliminar, Pesquisa, Imprimir, Revalidar, Total (highlighted), Contrato, Pagar]
+
+| P | T | I | D | R | Data | Descrição | Item | Periodicidade | Código | Valor PVP |
+| -- | -- | -- | - | - | ---------- | ----------------------- | --------------------------------- | ------------- | ------- | --------- |
+| 🟩 | N | | | | 2023-02-01 | Fev (1ª Pag.)(Início de | FISIO60\_03 - Sessão Fisioterapia | Mensal | DV33350 | 185,00€ |
+| 🟩 | N | | | | 2023-02-01 | Pagamento Anual(Início | INSC - Inscrição Anual Myo Clíni | Anual | DV33361 | 0,00€ |
+| 🟩 | 🟦 | 🟣 | | | 2023-03-01 | Mar (2ª Pag.) | FISIO60\_03 - Sessão Fisioterapia | Mensal | DV33351 | 185,00€ |
+| 🟩 | 🟦 | 🟣 | | | 2023-04-01 | Abr (3ª Pag.) | FISIO60\_03 - Sessão Fisioterapia | Mensal | DV38729 | 185,00€ |
+| 🟩 | 🟦 | 🟣 | | | 2023-05-01 | Mai (4ª Pag.) | FISIO60\_03 - Sessão Fisioterapia | Mensal | DV38730 | 185,00€ |
+| 🟩 | 🟦 | 🟣 | | | 2023-06-01 | Jun (5ª Pag.) | FISIO60\_03 - Sessão Fisioterapia | Mensal | DV33731 | 185,00€ |
+| 🟩 | 🟦 | 🟣 | | | 2023-07-01 | Jul (6ª Pag.) | FISIO60\_03 - Sessão Fisioterapia | Mensal | DV33732 | 185,00€ |
+| 🟩 | 🟦 | 🟣 | | | 2023-08-01 | Ago (7ª Pag.) | FISIO60\_03 - Sessão Fisioterapia | Mensal | DV33733 | 185,00€ |
+| 🟩 | 🟦 | 🟣 | | | 2023-09-01 | Set (8ª Pag.) | FISIO60\_03 - Sessão Fisioterapia | Mensal | DV33734 | 185,00€ |
+| 🟩 | 🟦 | 🟣 | | | 2023-10-01 | Out (9ª Pag.) | FISIO60\_03 - Sessão Fisioterapia | Mensal | DV38735 | 185,00€ |
+| 🟩 | 🟦 | 🟣 | | | 2023-11-01 | Nov (10ª Pag.) | FISIO60\_03 - Sessão Fisioterapia | Mensal | DV33736 | 185,00€ |
+| 🟩 | 🟦 | 🟣 | | | 2023-12-01 | Dez (11ª Pag.) | FISIO60\_03 - Sessão Fisioterapia | Mensal | DV33737 | 185,00€ |
+| 🟩 | 🟦 | 🟣 | | | 2024-01-01 | Jan (12ª Pag.) | FISIO60\_03 - Sessão Fisioterapia | Mensal | DV54515 | 185,00€ |
+| 🟩 | 🟦 | 🟣 | | | 2024-02-01 | Fev (13ª Pag.) | FISIO60\_03 - Sessão Fisioterapia | Mensal | DV54516 | 185,00€ |
+| 🟩 | N | | | | 2024-02-01 | Pagamento Anual | INSC - Inscrição Anual Myo Clíni | Anual | DV54539 | 0,00€ |
+| 🟩 | 🟦 | 🟣 | | | 2024-03-01 | Mar (14ª Pag.) | FISIO60\_03 - Sessão Fisioterapia | Mensal | DV54517 | 185,00€ |
+| 🟩 | 🟦 | 🟣 | | | 2024-04-01 | Abr (15ª Pag.) | FISIO60\_03 - Sessão Fisioterapia | Mensal | DV54518 | 185,00€ |
+| 🟩 | 🟦 | 🟣 | | | 2024-05-01 | Mai (16ª Pag.) | FISIO60\_03 - Sessão Fisioterapia | Mensal | DV54519 | 185,00€ |
+| 🟩 | 🟦 | 🟣 | | | 2024-06-01 | Jun (17ª Pag.) | FISIO60\_03 - Sessão Fisioterapia | Mensal | DV54520 | 185,00€ |
+| - | T | | | | 2024-07-01 | Jul (18ª Pag.) | FISIO60\_03 - Sessão Fisioterapia | Mensal | DV54521 | 185,00€ |
+
+MYO CLINIC – EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS
+---
+# Entradas
+
+Em estreita associação com o separador 'Dívidas' está o separador 'Entradas' – aqui é possível verificar o saldo de sessões que o cliente dispõe em cada serviço adquirido à Myo Clinic. Cada pagamento efetuado permite adicionar o respetivo saldo ao serviço a que corresponde. É preciso existir um controlo regular deste parâmetro por parte do colaborador que habitualmente acompanha o cliente em cada serviço.
+
+- No módulo 'Utentes', após pesquisar e selecionar o cliente pretendido:
+
+a. premir 'Entradas'
+
+| | | | | | | | | |
+| ------- | ----- | ----- | ------ | ------- | ------ | ---------- | ---------- | ---------- |
+| Acessos | Pagar | Caixa | Agenda | Utentes | Turmas | Inventario | Empregados | Hist Geral |
+
+| | | | | | | | | | | | | | | | |
+| ---- | ------- | -------- | -------- | -------- | ------ | ------ | -------- | -------- | ------- | -------- | --------- | ------ | -------- | ------ | ------ |
+| Novo | Alterar | Eliminar | Pesquisa | Imprimir | Cartao | Turmas | Contrato | Ligacoes | Dividas | Entradas | Historico | Perfil | A.Fisica | Presc. | Acesso |
+
+| | |
+| ----------- | ----------------------- |
+| Nome | igual & maria +oliveira |
+| Dependencia | igual & |
+
+| | | | | | | | | | | | | |
+| -------------------------------------------------------------------------------------------------------------- | ------ | ------- | -------- | ------------- | ---------- | ----- | ------ | ------ | --------------------------------------------- | ---- | -------- | ---- |
+| Pesquisa | Status | No Lig. | No Insc. | Identificador | Tipo Socio | Socio | Titulo | Atleta | Nome | Doc. | Foto | Sexo |
+| visualizar: \[Status] Activo, Pendente, Desistente, Suspenso \[Tipo] Individuais \[Nome] igual maria +oliveira | A | 704 | | | | Não | | Não | Maria do Céu Ribeiro Freitas Correia Oliveira | Não | Imprimir | F |
+| 10 registos | A | 4135 | | 00015200 | | Não | Sr(a). | Não | Marta Maria Teixeira de Oliveira Massada | | Imprimir | F |
+| | P | 907 | | deeecaebbct | | Não | | | Manuela Maria Oliveira Bessa | Não | Imprimir | F |
+| | A | 92 | | | | Não | Sr(a). | Não | Maria José dos Santos Oliveira | | Imprimir | Sim |
+
+- Na janela seguinte aparecem, em cima, os saldos e respetivas validades de cada serviço e, em baixo, as datas de cada movimento associado à linha selecionada – créditos e débitos das sessões:
+
+*Cliente com saldo de sessões (entradas) em vários tipos de serviço*
+
+| | | | | | | |
+| -------------------------- | ---------- | ---------- | ---------------------------------------------------- | ----- | ------------------------------------ | ------------- |
+| Creditos de entradas/aulas | | | | | | |
+| Activo | Data | Validade | Descrição | Saldo | Inventario | Saldo (grupo) |
+| | 2023-05-20 | 2024-03-31 | Exercício Clínico/Fisioterapia 60' - 6 Sessões | 0,00 | U Exercício Clínico/Fisioterapia 60' | 0,00F |
+| | 2023-09-28 | 2023-11-12 | Consulta Nutrição EXT (Seguimento) | 0,00 | U Consulta Nutrição EXT (Seguime) | 0,00S |
+| | 2024-01-29 | 2024-07-27 | Drenagem Linfática Manual - 6 Sessões | 1,00 | U Drenagem Linfática Manual 6 S | 1,00F |
+| | 2024-05-03 | 2024-06-09 | Mai (140 Pag.) Sessão Fisioterapia 1x Semana 60'\_6M | 8,00 | U Sessão Fisioterapia 1x Semana 6 | 8,00F |
+
+| | | | | | | | | |
+| ---------- | ---------- | --------------- | ------------------------------------------------------------ | ---------- | ------ | ------- | ----- | --------- |
+| Movimentos | | | | | | | | |
+| Nº | Data | Hora/Ent. Saída | Descrição | Válido até | Débito | Crédito | Saldo | Empregado |
+| 43217 | 2023-09-28 | 15:18:56 | Consulta Nutrição EXT (Seguimento) | 2023-11-12 | 0,00 | 1,00 | 1,00 | João |
+| 43218 | 2023-09-28 | 13:00:00 | 2023-10-02 21:42:23 Efectuada 2023-10-02 21:40:57 Marcada De | | 0,00 | | 1,00 | João |
+| 43496 | 2023-09-28 | 13:00:00 | Débito de Débito Consulta Nutrição 2023-09-28 13:00-14:00 | | 1,00 | | 0,00 | Filipe |
+| | | | | | | | 0,00 | |
+
+- Note-se que nos contratos individuais de mensalidades o saldo de sessões atribuído na sequência de cada pagamento será em função da periodicidade semanal escolhida. Assim, nos contratos de 1x/semana são atribuídas 4,33 entradas, nos de 2x/semana são 8,66, e assim sucessivamente – um ano civil (12 meses) tem sempre 52 semanas, pelo que, como exemplo, a contratualização da periodicidade 1x/semana permite ao cliente usufruir de 52 sessões em 12 meses (52/12=4,33).
+
+- Estas sessões, dos contratos individuais de mensalidades, são sempre passíveis de ser compensadas durante todo o período de vigência do contrato, pelo que sempre que se verifica um novo pagamento de mensalidade, o saldo de sessões anterior transita para a nova linha de entradas. O mesmo não se verifica nos contratos das AGP, onde as entradas não transitam de mês para mês - uma sessão não efetuada terá que ser compensada no mesmo mês.
+
+## Pagamentos de Mensalidades
+
+Como detalhado anteriormente, a celebração de um contrato com um cliente permite associar o serviço de mensalidades. Na listagem das 'Dívidas' é possível perceber se a mensalidade do cliente já foi paga e/ou faturada, ou se por outro lado, ainda se encontra a pagamento.
+
+MYO CLINIC — EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS
+---
+# Procedimento de Pagamento de Mensalidades
+
+![Myo Clinic Logo]
+
+Por regra, uma das condições no serviço de mensalidades é a associação do débito direto ao contrato. Não obstante, o primeiro pagamento desse serviço deve ser feito ao balcão, havendo a necessidade de se emitir a fatura manualmente, como acontece em todos os outros serviços. Esse detalhe é visível nas 'Dívidas', à esquerda da imagem, com a distinção entre 'N' – pagamento normal – ou 'T' – pagamento por transferência. Ainda à esquerda, um círculo verde com a inscrição 'SEPA' aparece quando o pagamento foi feito por débito direto em conta do cliente.
+
+- Assim, após a conclusão da atribuição do contrato ao novo cliente, para se emitir a fatura do primeiro pagamento de mensalidade realizado ao balcão, no separador 'Dívidas', deve:
+
+a. *premir 'Pagar'*
+
+| | | | | | | | | |
+| ---- | ------- | -------- | -------- | -------- | --------- | ------------ | -------- | ----- |
+| Novo | Alterar | Eliminar | Pesquisa | Imprimir | Revalidar | Últ. 2 Meses | Contrato | Pagar |
+
+| | | | | | | | | | | | |
+| - | - | - | - | - | ---------- | --------------------------------- | --------------------------------- | ------------- | ------- | --------- | ---------------- |
+| P | T | I | D | R | Data | Descrição | Item | Periodicidade | Código | Valor PVP | Valor Líquido De |
+| ☐ | N | | | | 2024-05-01 | Mai (1º Pag.) (Início de Transf.) | FISIO60\_04 - Sessão Fisioterapia | Mensal | DV70898 | 168,00€ | 168,00€ |
+| ☐ | N | | | | 2024-05-01 | Pagamento Anual(Início Transf.) | INSC - Inscrição Anual Myo Clinic | Anual | DV70895 | 0,00€ | 0,00€ |
+| - | T | | | | 2024-06-01 | Jun (2º Pag.) | FISIO60\_04 - Sessão Fisioterapia | Mensal | DV70899 | 168,00€ | 168,00€ |
+| - | T | | | | 2024-07-01 | Jul (3º Pag.) | FISIO60\_04 - Sessão Fisioterapia | Mensal | DV70900 | 168,00€ | 168,00€ |
+| - | T | | | | 2024-08-01 | Ago (4º Pag.) | FISIO60\_04 - Sessão Fisioterapia | Mensal | DV70901 | 168,00€ | 168,00€ |
+
+- Na janela seguinte, as linhas a pagamento aparecerão de forma automática. Após confirmar as linhas e valores a pagamento:
+
+a. *premir 'Concluir'*
+
+| | | | | | | | | | |
+| ---- | -------- | ------- | ------ | --------- | ------- | -------- | ----- | -------- | ---- |
+| Novo | Concluir | Excluir | Editar | Contratos | Dívidas | Entradas | Notas | HAcessos | APag |
+
+| | | |
+| ------------------------------------ | -------------------------- | ---- |
+| Pagamento | | |
+| Utente | Nº Inscrição | 1218 |
+| 1218 - Rui Manuel Correia de Almeida | | |
+| Mensalidade Humana | Insc: 2024-04-19 Idade: 52 | |
+| Performance | | |
+
+| |
+| ----------------------------------- |
+| Dados de Facturação: |
+| Nome: Rui Manuel Correia de Almeida |
+| NIF: PT 193598035 |
+
+| | | | |
+| ----------------------- | ------- | ----- | --------- |
+| Pagamentos (2 parcelas) | Dívidas | Plano | Documento |
+
+| | | | | | | |
+| ------------------- | ------------------------------------------------------------------------- | -------------- | ----- | -------------- | -------- | -------------- |
+| Selecção automática | | | | | | |
+| Código | Descrição | Valor Unitário | Qt. | Iva | Desconto | Preço |
+| DV70898 | Mai (1º Pag.) (Início de Transf.) Sessão Fisioterapia 1x Semana 60'\_ 1ZM | 168,00€ | 1 | 0,0% | 0,0% | 168,00€ |
+| Data Início: | 2024-05-01 | | | | | |
+| DV70895 | Pag (Início de Transf.) Inscrição Anual Myo Clinic | 32,52€ | 1 | 23,0% | 100,0% | 0,00€ |
+| Data Início: | 2024-05-01 | | | | | |
+| 0,00€ | | | | | | |
+| Desconto: | 32,52€ | Total Iva: | 0,00€ | Total Líquido: | 168,52€ | TOTAL: 168,00€ |
+
+- De seguida, na pequena janela que aparece, deve:
+
+a. *selecionar o 'Modo de Pagamento'*
+b. *premir 'Ok'*
+
+| | | | |
+| ----------------------------------- | ------- | ------ | -------- |
+| Nome: Rui Manuel Correia de Almeida | | | |
+| Modo de Pagamento | | | |
+| Modo | Nº | Origem | Valor |
+| Multibanco | | | 168,00€ |
+| Total pretendido: 168,00€ | | | 168,00€ |
+| Adicionar | Remover | Ok | Cancelar |
+
+----
+
+MYO CLINIC – EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS
+---
+- Por vezes, no processo comercial, e a título de exemplo, há a necessidade de se realizar determinada oferta ou promoção, seja no valor da inscrição ou do próprio serviço. Para que essa oferta/promoção produza efeito na lista de dívidas e, consequentemente, no pagamento a realizar, deve, antes de 'Pagar':
+
+a. *selecionar a linha pretendida e premir o botão direito do rato*
+b. *premir 'Descontos/Promoções'*
+
+| | | | | | |
+| - | -------------------------- | ---------------------------------------- | ------------------- | ------- | ------- |
+| | 2025-02-01 Fev (250 Pag.) | FISIO60\_03 - Sessão Fisioterapia Mensal | DV54527 | 185,00€ | 185,00€ |
+| | 2025-02-01 Pagamento Anual | INSC - Inscrição Anual MyO Clinic | DV54528 | 40,00€ | 32,52€ |
+| | 2025-03-01 Mar (260 Pag.) | FISIO60\_03 - Sessão Fisioterapia | Pagamento | 185,00€ | 185,00€ |
+| | 2025-04-01 Abr (270 Pag.) | FISIO60\_03 - Sessão Fisioterapia | Renovação | 185,00€ | 185,00€ |
+| | 2025-05-01 Mai (280 Pag.) | FISIO60\_03 - Sessão Fisioterapia | Descontos/Promoções | 185,00€ | 185,00€ |
+| | 2025-06-01 Jun (290 Pag.) | FISIO60\_03 - Sessão Fisioterapia | Estado... | 185,00€ | 185,00€ |
+| | 2025-07-01 Jul (300 Pag.) | FISIO60\_03 - Sessão Fisioterapia | | 185,00€ | 185,00€ |
+| | 2025-08-01 Ago (310 Pag.) | FISIO60\_03 - Sessão Fisioterapia | | 185,00€ | 185,00€ |
+
+- Na janela seguinte, deve:
+
+a. *selecionar a linha pretendida, seja ela de 'Oferta' ou de algum tipo de 'Desconto'*
+b. *premir 'Ok'*
+
+| Código | Operação | Descrição | Desconto | Valor | Tipo | Aplicável Desde |
+| ---------- | -------- | ------------------------------------ | -------- | ----- | -------------- | --------------- |
+| MM | Desconto | Meia mensalidade | 50,00% | | Não Cumulativo | |
+| MGM2 | Desconto | MGM (2 Pax) | 20,00% | | Não Cumulativo | |
+| MGM3 | Desconto | MGM (3 Pax) | 30,00% | | Não Cumulativo | |
+| MGM4 | Desconto | MGM (4 Pax) | 40,00% | | Não Cumulativo | |
+| 1 | Desconto | Sem desconto | 0,00% | | Não Cumulativo | |
+| MGM1 | Desconto | MGM (1 Pax) | 10,00% | | Não Cumulativo | |
+| O | Desconto | Oferta | 100,00% | | Não Cumulativo | |
+| MGM5 | Desconto | MGM (5 Pax) | 50,00% | | Não Cumulativo | |
+| OLD130SD | Desconto | Desconto Old 1x Semana 130 | 42,9824% | | Cumulativo | |
+| OLD240SD | Desconto | Desconto Old 2x Semana 240 | 42,9923% | | Cumulativo | |
+| OLD150SD | Desconto | Desconto Old 1x Semana 150 | 34,2105% | | Cumulativo | |
+| 1D2023\_01 | Desconto | Desconto 1x Semana < 18 130/43,5526% | 43,5526% | | Cumulativo | 2023-01-01 |
+
+*25 registos* *Ok* *Cancelar*
+
+- Apenas os serviços que se encontram pagos atribuem as respetivas entradas ao cliente e, consequentemente, permitem gerar as comissões para o colaborador. Daí ser fundamental que se emita a fatura no momento da venda, ou que se procure junto do cliente a regularização da dívida se for esse o caso.
+
+- No separador 'Dívidas', a distinção entre os serviços que já se encontram pagos ou que ainda estão por regularizar é possível através da cor da linha correspondente. Assim:
+
+*Na imagem, à esquerda, a cor verde indica que a linha correspondente já se encontra paga. Pelo contrário, a cor laranja indica que o pagamento ainda está por realizar*
+
+| P | T | I | O | R | Data | Descrição | Item | Periodicidade | Código | Valor PVP |
+| - | - | - | - | - | ------------------------- | ---------------------------------- | ------------- | ------------- | ------- | --------- |
+| S | N | | | | 2024-03-01 Mar (41º Pag.) | A\_PT60\_01 - Treino Personalizado | Mensal ao dia | DV64544 | 150,00€ | |
+| S | N | | | | 2024-04-01 Abr (42º Pag.) | A\_PT60\_01 - Treino Personalizado | Mensal ao dia | DV64545 | 150,00€ | |
+| - | N | | | | 2024-05-01 Mai (43º Pag.) | A\_PT60\_01 - Treino Personalizado | Mensal ao dia | DV64546 | 150,00€ | |
+| - | N | | | | 2024-06-01 Jun (44º Pag.) | A\_PT60\_01 - Treino Personalizado | Mensal ao dia | DV64547 | 150,00€ | |
+
+*MYO CLINIC – EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS*
+---
+# Myo Clinic
+
+- Como referido anteriormente, uma das condições do serviço de mensalidades é, em regra geral, o pagamento ser realizado por débito direto. De todo o modo, há casos excecionais que devem ser acautelados. A título de exemplo, no serviço de mensalidades sem fidelização, os pagamentos são sempre feitos de forma manual.
+
+- Assim, quando há um pagamento de uma mensalidade (ao balcão ou por transferência) que inicialmente estaria previsto ser recebido por débito direto, é necessária a alteração na linha de dívida correspondente. Desta forma:
+
+a. selecionar a linha pretendida e premir o botão direito do rato
+b. em 'Pagamento', premir 'Passar a Normal'
+
+| P | T | I | D | R | Data | Descrição | Item | Periodicidade | Código | Valor PVP |
+| - | - | - | - | - | ------------------------- | --------- | ---------------------------------------- | ---------------------- | ------- | --------- |
+| • | • | • | | | 2024-03-01 Mar (14ª Pag.) | | FISIO60\_03 - Sessão Fisioterapia Mensal | | DV54517 | 185,00€ |
+| • | • | • | | | 2024-04-01 Abr (15ª Pag.) | | FISIO60\_03 - Sessão Fisioterapia Mensal | | DV54518 | 185,00€ |
+| • | • | • | | | 2024-05-01 Mai (16ª Pag.) | | FISIO60\_03 - Sessão Fisioterapia Mensal | | DV54519 | 185,00€ |
+| • | • | • | | | 2024-06-01 Jun (17ª Pag.) | | Pagamento | Desactivar | | 185,00€ |
+| • | • | • | | | 2024-07-01 Jul (18ª Pag.) | | Renovação | Activar | | 185,00€ |
+| • | • | • | | | 2024-08-01 Ago (19ª Pag.) | | Descontos/Promoções | Passar a Normal | | 185,00€ |
+| • | • | • | | | 2024-10-01 Out (21ª Pag.) | | Estado... | Passar a Transferência | | 185,00€ |
+| • | • | • | | | 2024-11-01 Nov (22ª Pag.) | | | | | 185,00€ |
+| • | • | • | | | 2024-12-01 Dez (23ª Pag.) | | FISIO60\_03 - Sessão Fisioterapia Mensal | | DV54526 | 185,00€ |
+
+- Após seguir estes passos, já será possível faturar manualmente a linha de pagamento pretendida, como explicitado anteriormente.
+
+## Outros Pagamentos
+
+Qualquer pagamento que seja realizado na Myo Clinic deve ser imediatamente faturado. Se nos pagamentos associados aos contratos de mensalidades, é necessário, como se viu anteriormente, desencadear uma série de procedimentos antes de se poder emitir a fatura, o mesmo não acontece nos pagamentos de sessões avulso ou de packs de sessões. Desse modo, deve:
+
+- No módulo 'Utentes', após pesquisar e selecionar o cliente pretendido:
+
+a. premir 'Pagar'
+
+| | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------- | ----- | ------ | ------ | --------------------------------------------- | ------------ | ---- | ---- | ---------- | --------- |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Acessos \| Pagar \| Caixa \| Agenda \| Utentes \| Turmas \| Inventário \| Empregados \| Hist.Geral | | | | | | | | | | | | | | | | | | |
+| Novo \| Alterar \| Eliminar \| Pesquisa \| Imprimir Cartão \| Turmas \| Contrato \| Ligações \| Dívidas \| Entradas \| Histórico \| Perfil \| A.Física \| Prese. \| Acesso \| Pagar | | | | | | | | | | | |
+| Nome | | Igual & maria +oliveira | | | | | | | | | | | | | | | | | | | | | | | | |
+| Dependência | | Igual & | | | | | | | | | | | | | | | | | | | | | | | | |
+| Pesquisa | | Visualizar: \[Status:] Activo, Pendente, Desistente, Suspenso - \[Tipo] Individuais - \[Nome] igual "maria" "oliveira" | | | | | | | | | | | | | | | | | | | | | | | | |
+| 10 registos | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| Status | Nº Sócio | Tipo Sócio | Sócio | Título | Aberta | Nome | Doc. | Foto | Sexo | Data Nasc | Data Insc | | | | | | | | | | | | | | | |
+| Activo | 788 | Individuais | Não | | Não | Maria do Céu Ribeiro Freitas Correia Oliveira | Não Imprimir | Não | | 1946-11-18 | 2023-05- | | | | | | | | | | | | | | | |
+| Activo | 135 | Individuais | Não | Sr(a). | Não | Maria Maria Teixeira De Oliveira Massada | Imprimir | Não | | 1978-1-41 | 2020-10- | | | | | | | | | | | | | | | |
+| Activo | 907 | | Não | | Não | Manuela Maria Oliveira Bessa | Não Imprimir | Não | | 1958-12-11 | 2023-08- | | | | | | | | | | | | | | | |
+| Activo | | | Não | Sr(a). | Não | Maria José dos Santos Oliveira | Imprimir | Sim | | 1950-04-18 | 2020-09 | | | | | | | | | | | | | | | |
+
+- Na janela seguinte, a linha a pagamento estará em branco. Desse modo, deve:
+
+Premir 'Enter' com a linha de pagamento selecionada, de modo a abrir a 'Lista do Inventário'
+
+| | | | | | | | | | | | | | | |
+| ----------------------------------------------------------------------------------------------- | --------- | --------------------------------------------- | --- | ------------------------------------------------------------------------ | -------- | ----- |---|---|---|---|---|---|---|---|
+| Novo \| Concluir \| Excluir \| Editar \| Contratos \| Dívidas \| Entradas \| Notas \| H.Acessos | | | | | | |
+| Pagamento | | | | | | | | | | | | | | |
+| Utente | 788 | Maria do Céu Ribeiro Freitas Correia Oliveira | | Dados de Facturação: | | | | | | | | | | |
+| | Nº | Insc: 2023-05-25 Idade: 77 | | Nome: Maria do Céu Ribeiro Freitas Correia Oliveira<br/>NIF:PT 145434575 | | | | | | | | | | |
+| Pagamentos > Dívidas > Plano > Documento | | | | | | | | | | | | | | |
+| Selecção automática | | | | | | | | | | | | | | |
+| Código | Descrição | Valor Unitário | Qt. | Iva | Desconto | Preço | | | | | | | | |
+| | | € | 1 | | | 0,00€ | | | | | | | | |
+| Data inicial: 2000-01-01 | | | | | | | | | | | | | | |
+
+MYO CLINIC - EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS
+---
+# MYO CLINIC
+
+- Na janela que aparecerá, deve:
+
+*Premir 'Enter' para listar todos os itens do Inventário*
+
+| Lista do Inventário | Lista do Inventário | Lista do Inventário | Lista do Inventário | Lista do Inventário | |
+| ------------------- | ------------------- | ------------------- | ------------------- | ------------------- | -------- |
+| | | | | | |
+| Pronto a pesquisar | | | | Ok | Cancelar |
+
+- Desse modo, todos os itens aparecerão listados. Deve agora:
+
+a. selecionar a opção pretendida
+b. premir 'Ok'
+
+| Lista do Inventário | Lista do Inventário | Lista do Inventário | Lista do Inventário | Lista do Inventário | |
+| ------------------- | ------------------- | --------------------------------------------- | ------------------- | ------------------- | -------- |
+| PACK\_04 | Pacote Entrada | Exercício Clínico Fisioterapia 60' 20 Sessões | Mensal | 927,00€ | |
+| PACK\_05 | Pacote Entrada | Exercício Clínico Fisioterapia 60' 24 Sessões | Mensal | 1030,00€ | |
+| MED\_02 | Pacote Entrada | Consulta Avaliação Médica | Sem periodicidade | 20,00€ | |
+| SERV\_02 | Serviços | Consultoria & Apoio Técnico | Sem periodicidade | 1,00€ | |
+| ACERTO\_23 | Mensalidades | Acerto de valores | Sem periodicidade | 0,00€ | |
+| ALUGUER | Serviços | Aluguer Espaço | Sem periodicidade | 1,00€ | |
+| EXAME\_01 | Pacote Entrada | Exame Médico Desportivo | Sem periodicidade | 25,00€ | |
+| ACERTO\_0 | Mensalidades | Acerto de valores | Sem periodicidade | 0,00€ | |
+| NUTRI\_01 | Pacote Entrada | Consulta Nutrição (1ª Consulta) | Sem periodicidade | 60,00€ | |
+| AGPBOAV\_07 | Pacote Entrada | Aula de Grupo Privada - Sessão Unitária | Mensal | 15,00€ | |
+| PT60\_21 | Pacote Entrada | Exercício Clínico 60' (Sessão Ind.) | Sem periodicidade | 62,00€ | |
+| FISIO60\_05 | Mensalidades | Sessão Fisioterapia 2x Semana 60'\_Sem Fid | Mensal | 434,00€ | |
+| NUTRI\_04 | Pacote Entrada | Consulta Nutrição EXT (Seguimento) | Sem periodicidade | 55,00€ | |
+| 37 registos | | | | Ok | Cancelar |
+
+- Após selecionar o tipo de pagamento a ser realizado na 'Lista do Inventário', voltará à janela anterior, onde já constará o item escolhido nas linhas a pagamento. Assim, deve:
+
+a. após confirmar os itens a pagamento, premir 'Concluir'
+
+| | | | | | | | | | | | |
+| ------------------------------------------------------- | ----------------------------------------------- | --------------------------------------------- | -------------- | -------------------------------------------------------------------------------------------------- | ---- | -------- | ------- | - |---|---|---|
+| Pagamento | | | | | | | | | | | |
+| Utente | Nº Inscrição | | 788 | | | | | | | | |
+| | 788 | Maria do Céu Ribeiro Freitas Correia Oliveira | | | | | | | | | |
+| | Insc: 2023-05-25 Idade: 77 | | | Dados de Facturação:<br/>Nome: Maria do Céu Ribeiro Freitas Correia Oliveira<br/>NIF: PT 145434575 | | | | | | | |
+| Pagamentos (1 parcela) \| Dívidas \| Plano \| Documento | | | | | | | | |
+| Selecção automática | | | | | | | | | | | |
+| Código | Descrição | | Valor Unitário | Qt. | Iva | Desconto | Preço | | | | |
+| PACK\_04 | Exercício Clínico/Fisioterapia 60' - 20 Sessões | | 927,00€ | 1 | 0,0% | 0,0% | 927,00€ | | | | |
+| Data início: | 2024-05-13 | | € | | | | 0,00€ | | | | |
+| Data início: | 0000-00-00 | | | | | | | | | | |
+
+MYO CLINIC – EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS
+---
+# myo CLINIC
+
+- De seguida, na pequena janela que aparece, deve:
+
+*a. selecionar o 'Modo de Pagamento'*
+*b. premir 'Ok'*
+
+| | | | | |
+| -------------------------- | ------: | ------ | ------- | -------- |
+| Modo de Pagamento | | | | × |
+| Modo | Nº | Origem | Valor | |
+| Multibanco ▼ | | | 927,00€ | |
+| Total pretendido : 927,00€ | | | 927,00€ | |
+| Adicionar | Remover | | Ok | Cancelar |
+
+- Desta forma, e ao contrário do que acontece com os contratos de mensalidades que atribuem um número de entradas mensal específico de acordo com a periodicidade contratada, como detalhado anteriormente, os pagamentos de sessões avulso ou de packs atribuem o número de entradas respetivo do pagamento em causa.
+
+53
+
+MYO CLINIC - EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS
+---
+# AGENDA
+
+A organização da agenda de marcações do cliente é uma das responsabilidades inerentes à função do colaborador da Myo Clinic. Assim sendo, torna-se fundamental o conhecimento integral do separador 'Agenda'.
+
+- Para aceder ao calendário de marcações, deve:
+
+a. premir 'Agenda' na barra principal, em qualquer módulo que se encontre
+
+![Screenshot of the main navigation bar showing various options including Acessos, Pagar, Caixa, Agenda, Utentes, Turmas, Inventário, Empregados, and Hist Geral, with the Agenda button highlighted]
+
+- No módulo 'Agenda', por defeito, a informação visual que aparece é relativa à dependência onde o colaborador está afeto. É possível otimizar a vista pretendida, bem como pesquisar por períodos ou dias específicos. Assim:
+
+a. por norma, alterar a divisão da agenda para intervalos de '30 Minutos' permite uma visualização mais objetiva
+b. no calendário à esquerda é possível definir o dia, semana, mês ou ano que se pretende
+
+![Screenshot of the agenda interface showing a calendar view with time slots from 7:00 to 14:00, displaying appointments for different days of the week. The interface includes options for viewing by different time intervals (15 Minutes, 30 Minutes, 1 Hour, 2 Hours) and navigation controls]
+
+## Divisões da Agenda
+
+A Agenda está organizada por dependências, tantas quantas existirem no grupo Myo Clinic. Cada clínica, atendendo à sua estrutura e aos serviços e lotações disponíveis, terá disponível para agendamento um determinado número de salas/gabinetes e lotações máximas específicas. É importante respeitar a lotação disponível em cada divisão e horário, de modo a permitir o bom funcionamento de todos os serviços e melhorar a experiência do cliente.
+
+- De modo a pesquisar as marcações em cada divisão/espaço da clínica, ou mesmo de cada colaborador, deve:
+
+a. expandir as diferentes vistas da dependência, premindo '+'
+
+![Screenshot showing an expanded tree view of clinic locations and staff members, with Porto - Boavista as the main location and various studios and rooms (Estudio Musculação, Estudio Pilates, Gab. 1, Gab. 2) with staff members listed under each. The calendar view shows appointments scheduled from 8:00 to 21:00]
+
+MYO CLINIC — EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS
+
+54
+---
+# Marcações na Agenda
+
+Para criar uma nova marcação do cliente através do Software é necessário que as informações relativas a esse cliente estejam previamente criadas, como explicitado anteriormente.
+
+Note-se que os passos que se seguem são de extrema importância para a operação da Myo Clinic, tanto na relação e gestão do cliente como no Mapa de Comissões e cálculo de Volume de Negócios (VN) do colaborador. Assim, a marcação de um serviço de um cliente está diretamente relacionada com o respetivo número de entradas, e consequentemente com o cálculo da comissão associada. Deve haver rigor na escolha do tipo de serviço, atendendo a que o mesmo cliente pode ter associado a si vários serviços disponíveis.
+
+## Marcações de Sessões Individuais
+
+- No módulo 'Agenda', deve:
+
+a. premir 'Novo' na barra secundária
+
+| | | | | | | |
+| ------------------------------------------------------------------------------------------- | ------------------- | ------------------- | ------------------- | ------------------- | ------------------- | ------------------- |
+| NovaAlterarEliminarPesquisaVistas7 DiasHoraEfectuadaNova Marcação (Ctrl+N) - Porto Boavista | | | | | | |
+| Seg.<br/>2024-03-11 | Ter.<br/>2024-03-12 | Qua.<br/>2024-03-13 | Qui.<br/>2024-03-14 | Sex.<br/>2024-03-15 | Sáb.<br/>2024-03-16 | Dom.<br/>2024-03-17 |
+| 07:00 Tiago Ribeiro dos Santos | | Cláudia Alexandra | Tiago | | | |
+| 08:00 Santos (FISIO60) | André Filipe Silva | | Martins Leite | Helder Fernando | | |
+| 09:00 Flávia G. | Manuel | Sara | Chanel Cot | Eugénia António | Ana More | |
+| 10:00 Odete | Alonso | Rita | João Maria | Noémia | Sandra H. | Maria Maria |
+| 11:00 Maria António | Miguel | Gonçalo Maria | António | Manuel | Maria António | |
+| 12:00 Rui L. | Maria Rui | Carlos Beatriz | Rui António | Maria | Maria Beatriz | |
+| 13:00 Teresa | Sónia João | Maria Carlos | | | | |
+
+- Na janela que aparece, deve preencher de forma obrigatória e cuidada os seguintes campos:
+
+a. 'Recurso' – selecionar a opção pretendida, com a divisão/espaço em associação com o respetivo colaborador; a escolha deste campo deverá fazer aparecer de forma automática o nome do colaborador no campo 'Responsável'
+
+b. 'Data Início' e 'Hora Início', de acordo com a opção pretendida ('Hora Fim' ficará preenchida automaticamente)
+
+c. 'Nome' - ao iniciar a escrita de um qualquer nome de cliente vão aparecendo as opções disponíveis, sendo necessário selecionar o cliente pretendido
+
+d. 'Serviço' - escolher a opção pretendida entre as que aparecem listadas; a escolha deste campo deverá fazer aparecer de forma automática um item de 'Inventário', onde não se deve fazer qualquer alteração
+
+e. premir 'Gravar' para confirmar a marcação
+
+| | | | | | | |
+| ----------------------------------------------------------------------------------- | ------------------ | --------------- | ----------------------- | ------------------------ | ---- | - |
+| Marcação | | | | | | |
+| Registo Editar UtenteNovo Gravar Eliminar Imprimir Marcação Periodicidade Histórico | | | | | | |
+| Recurso: Porto Boavista | | | Data Início: 2024-03-12 | | | |
+| Hora Início: 07:00:00 | Hora Fim: 07:30:00 | Estado: Marcada | Ocupação: 1 | | | |
+| nº Insc: | Nome: | | | | | |
+| Serviço: | | | | Responsável: | | |
+| Inventário: | | | | Turma: | | |
+| Obs: | | | | | | |
+| Regularizado: | | | | Avisar com antecedência: | dias | |
+
+MYO CLINIC – EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS
+---
+# MYO CLINIC
+
+- Cada colaborador está alocado à clínica onde trabalha e às divisões/espaços correspondentes à sua competência profissional. Adicionalmente, terá também um determinado horário preferencial (previamente definido por organização interna e configurada pelo responsável da clínica no Software) onde poderá agendar os clientes que acompanha, sendo que qualquer marcação feita fora do horário pré-estabelecido será da sua responsabilidade e terá que ser confirmado perante a aceitação numa janela. Desta forma:
+
+*Caso selecione 'Sim' a marcação fica confirmada; se selecionar 'Não' regressa ao menu anterior*
+
+![Dialog box showing a warning message about scheduling outside regular hours with Yes/No options]
+
+SportStudio
+
+O recurso João Fidalgo não permite marcações fora do horário definido!
+Deseja mesmo assim efectuar a marcação?
+
+○ Sim
+○ Não
+
+[Ok] [Cancelar]
+
+- Também é possível modificar qualquer marcação que se encontre na 'Agenda:
+
+*a. premir 2 vezes o botão esquerdo do rato na marcação pretendida ou, em alternativa, selecionar e premir 'Alterar'*
+
+| | | | | | | | | | | | | | |
+| ---------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |---|---|---|---|---|---|---|
+| Nova \| Alterar \| Eliminar \| Pesquisa \| Vistas \| 7 Dias \| 1 Hora \| Efectuada | | | | | | |
+| março de 2024 \| Porto - Boavista | | | | | | | | | | | | |
+| seg | ter | qua | qui | sex | sab | dom | | | | | | | |
+| 26 | 27 | 28 | 29 | 1 | 2 | 3 | | | | | | | |
+| 4 | 5 | 6 | 7 | 8 | 9 | 10 | | | | | | | |
+| 11 | 12 | 13 | 14 | 15 | 16 | 17 | | | | | | | |
+| 18 | 19 | 20 | 21 | 22 | 23 | 24 | | | | | | | |
+| 25 | 26 | 27 | 28 | 29 | 30 | 31 | | | | | | | |
+
+| | | | | | | | |
+| ----- | --------------------------------- | ------------------ | ----------------- | ----------------------------------- | ------------- | ---------- | --------------------------------- |
+| | Seg. | Ter. | Qua. | Qui. | Sex. | Sab. | Dom. |
+| | 2024-03-11 | 2024-03-12 | 2024-03-13 | 2024-03-14 | 2024-03-15 | 2024-03-16 | 2024-03-17 |
+| 07:00 | Tiago Ribeiro dos Santos(FISIO60) | | | Claudia Alexandra | Tiago Ribeiro | | |
+| 08:00 | | André Filipe Silva | | Martins Leite | | | |
+| 09:00 | Flavia Gil | Manuel Ka | Sara Chalamel Cot | Eugenia | Antonio | | Ana Mora |
+| 10:00 | Odetes | Alonso | Hawanaqut | Sara Chalamel Cottim Oliveira (647) | | Mila | |
+| 11:00 | Mariante Migy | Fran AaMa | | Gore Mar | | | |
+| 12:00 | Rui Mari | Rui I | Carl | Ric Be | Rui L | Anti | Telef.: 912026887 |
+| 13:00 | Tere Soni | Joar | Marii | Cojo | Andifat | | Serviço: FISIO60 |
+| 14:00 | Quart | Justa | lana | Feca | | Fran | Inv.: Débito Sessão FISIO 60min |
+| 15:00 | Maria José | Caroli | Ma | Maril | Mar | | Regularização: Entradas Debitadas |
+| 16:00 | Maria Jo | | | Ana Gab | | | Efectuada 09:00 - 10:00 |
+
+Hoje: 14/05/2024
+Todos
+Porto - Boavista
+
+- Na janela que aparece, pode alterar a informação contida:
+
+*Após alterar alguma informação deve selecionar e retificar o respetivo campo, premindo depois 'Gravar' para confirmar as alterações efetuadas*
+
+![Appointment editing form with fields for resource, date, time, client information, and service details]
+
+Marcação
+
+Registo | Editar Utente
+
+Novo | Gravar | Eliminar | Imprimir | Marcação | Periodicidade | Histórico
+
+Recurso: Porto - Boavista > Gab. 2 - Avaliação (Boavista) > João Simões | Data Início: 2024-03-13
+Hora Início: 09:00:00 | Hora Fim: 10:00:00 | Estado: Efectuada | Ocupação: 1
+nº Insc: 647 | Nome: Sara Chalamel Cottim Oliveira
+Serviço: FISIO60 | Responsável: João Simões
+Inventário: DEB_FISIO6 | Turma:
+
+Obs:
+
+Regularizado: Entradas Debitadas | Avisar com antecedência: dias
+
+***
+
+**MYO CLINIC - EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS**
+---
+# Marcações de Aulas de Grupo Privadas (AGP)
+
+- As marcações manuais das Aulas de Grupo Privadas (AGP) são diferentes relativamente às marcações de sessões individuais. Embora se deva incentivar os clientes que adquirem este serviço a fazer a gestão das suas marcações de forma autónoma através da APP Myo Clinic, por vezes existe a necessidade de ser o colaborador a fazê-lo manualmente. São exemplo os casos das aulas experimentais, em que o cliente ainda não tem acesso à APP. Assim:
+
+a. *à esquerda, expandir a vista de divisões da clínica e premir com o botão esquerdo do rato na sala onde será realizada a AGP; a agenda passará a mostrar as marcações desse espaço*
+b. *premir com o botão esquerdo do rato no dia em que se pretende reservar a AGP*
+c. *à direita constarão as marcações desse dia na sala escolhida; premir 2 vezes o botão esquerdo do rato em cima da AGP (deverá estar com cor amarela)*
+
+![Screenshot of the Myo Clinic software interface showing the calendar view with appointment slots and booking options]
+
+- Na janela que aparece já constará o 'Recurso', bem como a 'Data Início' e 'Hora Início', pelo que deve:
+
+a. *pesquisar pelo 'Nome'*
+b. *escolher o 'Serviço', entre 'Aula Experimental' ou 'AGP'*
+c. *premir 'Gravar' para confirmar a marcação*
+
+![Screenshot of the Myo Clinic appointment booking form with fields for resource, date, time, client name, and service type]
+
+## Considerações Importantes
+
+Por defeito, o Software irá alterar o estado de uma marcação de forma automática de 'Marcada' para 'Efetuada' todos os dias às 00h00, debitando a sessão do saldo de entradas do cliente. Assim, caso exista alguma marcação que não se venha a concretizar, o colaborador deve obrigatoriamente mudar o seu estado para 'Cancelada (+3 Horas)' ou 'Cancelada (-3 Horas)' consoante as diferentes situações, colocando a devida justificação nas observações da marcação. Só desta forma será possível reagendar a sessão (no caso de cancelamentos com mais de 3 horas) ou debitar a sessão (no caso de cancelamentos com menos de 3 horas).
+
+O Mapa de Comissões, conceito explicado em capítulo anterior, depende diretamente das marcações presentes na Agenda. Apenas são contabilizadas as sessões que passam ao estado 'Efetuada' ou 'Cancelada (-3 Horas)'. No caso de haver sessões que continuam no estado 'Marcada', o mesmo deve ser reportado ao responsável da clínica, que irá averiguar se tal se deve a um dos seguintes pontos: o não pagamento da mensalidade (dívida); o serviço marcado na agenda não corresponder ao serviço que o cliente tem associado; o cliente não ter entradas associadas ou disponíveis para serem descontadas (pode dever-se a várias situações, como erro na inserção do contrato, validade das entradas, etc.).
+
+*MYO CLINIC – EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS*
+---
+# GESTÃO OPERACIONAL (RESPONSÁVEIS)
+
+Neste capítulo são abordadas algumas das tarefas de gestão operacional, executadas através do Software, que cabem aos responsáveis de cada dependência, no que concerne à relação com os seus colaboradores e clientes. Estas tarefas específicas são, em geral, executadas a cada transição de mês e obrigam a aceder a menus que apenas estão disponíveis para utilizadores com determinado nível de acesso.
+
+## Histórico de Ponto
+
+Por imperativo legal, no final de cada mês, há a necessidade de obter o registo de ponto realizado diariamente pelos colaboradores. Este documento deve conter, obrigatoriamente, a hora de início, de fim e dos intervalos de cada dia de trabalho.
+
+Os responsáveis devem imprimir, através do Software, o documento do histórico de ponto de cada mês, assinando-o e carimbando, e ainda pedir ao colaborador em questão para confirmar as informações detalhadas nesse registo, confirmando-o através da sua assinatura. Este documento deve ser conservado em arquivo próprio na clínica, junto à restante documentação relativa aos colaboradores, devendo estar acessível para consulta caso necessário.
+
+- Assim, para aceder ao histórico de ponto, o responsável deve:
+
+a. premir 'Histórico Geral' na barra principal, a partir de qualquer módulo que se encontre
+b. selecionar a opção 'Ponto'
+
+![SportStudio software interface showing menu navigation to access attendance history]
+
+- No módulo 'Ponto', após selecionar o tipo de acesso pretendido, pode optar por introduzir de imediato o seu número mecanográfico ou, em alternativa, pesquisar manualmente. Assim:
+
+a. em 'Dt. Entrada', premir a seta de expansão de opções e selecionar o período pretendido
+b. em 'Nome', pesquisar pelo nome do colaborador
+c. premir 'Pesquisa'
+
+![Ponto module interface showing search form and data grid]
+
+MYO CLINIC — EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS
+---
+# MYO CLINIC
+
+- De seguida, e após confirmar a listagem do período selecionado, deve:
+
+*a. Premir 'Imprimir'*
+
+| | | | | |
+| ------------------------ | ---------------------------- | ------------------------------- | ------------------------------- | ------------------------------------------------------------------ |
+| ! Icon: New<br/>Novo | ! Icon: Edit<br/>Alterar | ! Icon: Delete<br/>Eliminar | ! Icon: Search<br/>Pesquisa | ! Icon: Print (highlighted)<br/>Imprimir<br/>Imprimir (Ctrl+P) |
+
+| | | | |
+| -------------- | ------- | ------------ | - |
+| Dt. Entrada | igual a | Mês anterior | ? |
+| Zona de Acesso | igual a | | |
+| Nome | igual a | | |
+
+| NºReg | Nº | Preferido | Nome | Dt. Entrada | Hr. Entrada | Dt. Saída | Hr. Saída | Tempo |
+| ----: | -- | --------- | ---- | ----------- | ----------- | ---------- | --------- | -------- |
+| 544 | | | | 2024-04-30 | 13:58:48 | 2024-04-30 | 19:38:54 | 05:40:06 |
+| 542 | | | | 2024-04-30 | 08:42:42 | 2024-04-30 | 12:01:27 | 03:18:45 |
+| 541 | | | | 2024-04-29 | 14:21:47 | 2024-04-29 | 18:01:27 | 03:39:40 |
+| 539 | | | | 2024-04-29 | 07:50:28 | 2024-04-29 | 13:06:40 | 05:16:12 |
+| 538 | | | | 2024-04-27 | 08:58:03 | 2024-04-27 | 12:06:05 | 03:08:02 |
+| 537 | | | | 2024-04-26 | 14:59:18 | 2024-04-26 | 18:04:54 | 03:05:36 |
+| 535 | | | | 2024-04-26 | 07:57:51 | 2024-04-26 | 14:04:32 | 06:06:41 |
+| 534 | | | | 2024-04-24 | 18:14:11 | 2024-04-24 | 18:14:18 | 00:00:07 |
+| 532 | | | | 2024-04-24 | 07:50:07 | 2024-04-24 | 14:56:38 | 07:06:31 |
+| 531 | | | | 2024-04-23 | 14:27:23 | 2024-04-23 | 20:30:38 | 06:03:15 |
+| 529 | | | | 2024-04-23 | 08:50:30 | 2024-04-23 | 13:34:37 | 04:44:07 |
+| 528 | | | | 2024-04-22 | 13:54:39 | 2024-04-22 | 17:34:04 | 03:39:25 |
+| 526 | | | | 2024-04-22 | 07:43:32 | 2024-04-22 | 13:04:29 | 05:20:57 |
+| 525 | | | | 2024-04-20 | 07:42:58 | 2024-04-20 | 12:06:13 | 04:23:15 |
+| 524 | | | | 2024-04-19 | 14:59:17 | 2024-04-19 | 18:03:25 | 03:04:08 |
+| 523 | | | | 2024-04-19 | 09:19:50 | 2024-04-19 | 14:02:55 | 04:43:05 |
+| 521 | | | | 2024-04-18 | 14:38:17 | 2024-04-18 | 19:35:52 | 04:57:35 |
+| 518 | | | | 2024-04-17 | 13:43:11 | 2024-04-17 | 17:02:32 | 03:19:21 |
+| | | | | | | | | 1h 46m |
+
+- Na janela que aparecerá, deve:
+
+*a. selecionar 'Listagem de Ponto'*
+*b. premir 'Pré-visualizar'*
+
+| | |
+| ------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| ! Window titled "Listagens" with options | |
+| Listagens disponíveis<br/>\[ ] Imprimir os registos visíveis(Pesquisa)<br/>\[x] Listagem de Ponto<br/>a | Pré-visualizar<br/>b<br/>Imprimir<br/>Gravar<br/>E-Mail<br/>Associar<br/>Sair |
+
+----
+
+MYO CLINIC – EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS
+---
+# Myo Clinic
+
+- De seguida, no 'Assistente de Impressão, deve:
+
+*a. alterar o 'Título' para uma denominação própria, como por exemplo, 'Acessos [nome colaborador] Abril 2024'*
+*b. premir 'Ok'*
+
+![Dialog box showing "Assistente de Impressão" (Print Assistant) with title field containing "[Dt: Entrada] igual a Mês anterior e [Nome] igual a ''" and Microsoft Print to PDF selected as printer. The dialog has OK and Cancel buttons, with letter 'b' pointing to the OK button.]
+
+- Aparece agora a pré-visualização do documento a imprimir, com o layout da Myo Clinic e o título anteriormente escolhido. Agora deve:
+
+*a. premir 'Imprimir'*
+
+![Print preview screen showing a time record report titled "Listagem de Ponto" with Myo Clinic logo. The preview shows a table with employee attendance data for January 2024, including dates, days of week, and time entries. The preview interface has navigation buttons (Print, Start, Previous, Next, End, Zoom) with letter 'a' pointing to the Print button.]
+
+- Deste modo finaliza-se o processo de impressão do registo de ponto relativamente ao colaborador escolhido, devendo o responsável repetir o processo para cada colaborador que tenha esta obrigatoriedade prevista.
+
+----
+
+*MYO CLINIC – EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS*
+---
+# Mapa de Comissões
+
+Como referido num capítulo próprio relativo a este documento, "O Mapa de Comissões é um documento onde constam os valores das sessões, comissões de vendas e valores das aulas que cada colaborador recebe, no caso da prestação de serviços, por ter efetuado as sessões de treino/fisioterapia, ou nutrição ou outros serviços. Estes valores são calculados de forma automática, de acordo com o patamar de Volume de Negócios (VN) correspondente (Nível I, Nível II ou Nível III)".
+
+Assim sendo, os responsáveis devem imprimir e entregar ou enviar estes documentos a cada colaborador, de modo que estes o possam confirmar e emitir a respetiva fatura-recibo, no caso das prestações de serviço. No caso dos colaboradores com contrato de trabalho, este documento é importante para aferir o cálculo do VN desse período específico, bem como para confirmar os valores variáveis a pagamento, como são as comissões de venda de determinados serviços.
+
+- Para aceder aos mapas de comissões de cada colaborador, o responsável deve:
+
+*a. premir 'Empregados' na barra principal, em qualquer módulo que se encontre*
+
+[Screenshot of SpartStudio software interface showing the main menu bar with various options including Ficheiro, Recepção, Manutenção, etc., and buttons below for Acessos, Pagar, Caixa, Agenda, Utentes, Turmas, Inventário, Empregados (highlighted with a circle), and Hist Geral]
+
+- No módulo 'Empregados' deve:
+
+*a. em 'Nome', pesquisar pelo nome do colaborador*
+*b. premir 'Pesquisa'*
+*c. selecionar o colaborador pretendido*
+*d. premir 'Imprimir'*
+
+[Screenshot of the Empregados module interface showing buttons for Novo, Alterar, Eliminar, Pesquisa, Imprimir, etc., and a table with employee information including columns for Código, Perfil, Preferido, Iniciais, Nome, Função, etc.]
+
+- Na janela que aparecerá, deve:
+
+*a. selecionar 'Mapa Comissões por Utente V2'*
+*b. premir 'Pré-visualizar'*
+
+[Screenshot of a dialog box titled "Listagens" showing available report options including "Ficha do Empregado", "Imprimir os registos visíveis (Pesquisa)", "Lista dos Empregados", "Mapa Comissões", etc., with "Mapa Comissões por Utente V2" highlighted, and buttons for Pré-visualizar, Imprimir, Gravar, E-Mail, Associar, and Sair]
+
+- Aparece agora uma pequena janela onde deve escolher o período pretendido. Assim:
+
+*a. em 'Intervalo datas' selecionar o período a pesquisar*
+*b. premir 'Ok'*
+
+[Screenshot of a small dialog box titled "Intervalo de datas" with fields for date range selection showing "de: 2024-04-01" to "até: 2024-04-30", and buttons for Ok and Cancelar]
+
+MYO CLINIC – EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS
+---
+- De seguida, no 'Assistente de Impressão, deve:
+
+*a. alterar o 'Título' para uma denominação própria, como por exemplo, '[nome colaborador] Abril 2024'*
+*b. premir 'Ok'*
+
+![Assistente de Impressão dialog box showing a title field with "[nome colaborador] [2024-04-01] até [2024-04-30]" and Microsoft Print to PDF selected as the printer. The dialog has "a" pointing to the title field and "b" pointing to the OK button.]
+
+- Aparece agora a pré-visualização do documento a imprimir, com o layout da Myo Clinic e o título anteriormente escolhido. O documento detalha o nível de comissionamento em que o colaborador se encontra no período a pagamento e detalha os pagamentos correspondentes às comissões de venda e às sessões ministradas.
+
+*a. premir 'Imprimir'*
+
+![Print preview screen showing a commission report with Myo Clinic branding. The interface shows navigation buttons (Print, Start, Previous, Next, End, Zoom, Adjust) and displays a "Listagem de Comissões" report with commission data for a collaborator.]
+
+- Deste modo finaliza-se o processo de impressão do mapa de comissões relativamente ao colaborador escolhido, devendo o responsável repetir o processo para cada colaborador.
+
+MYO CLINIC – EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS
+---
+# Exportação de Comissões das Aulas de Grupo Privadas (AGP)
+
+![MyoClinic Logo]
+
+- Relativamente às comissões das Aulas de Grupo Privadas (AGP), existe a necessidade de exportar um documento próprio deste serviço. Assim, após pesquisar pelo colaborador pretendido como detalhado anteriormente, na janela das 'Listagens disponíveis, o responsável irá:
+
+*a. selecionar 'Mapa Comissões (MyoClinic)'*
+*b. premir 'Pré-visualizar'*
+
+| | | |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------: | - |
+| Listagens | | × |
+| Listagens disponíveis | | |
+| □ Ficha do Empregado<br/>□ Imprimir Os registos visíveis(Pesquisa)<br/>□ Lista dos Empregados<br/>□ Mapa Comissões<br/>■ Mapa Comissões (MyoClinic)<br/>□ Mapa Comissões por Utente V1<br/>□ Mapa Comissões por Utente V2 | Pré-visualizar<br/>Imprimir<br/>Gravar<br/>EMail<br/>Exportar<br/><br/>Sair | |
+
+- De seguida, deve:
+
+*a. em 'Intervalo' selecionar o período a pesquisar*
+*b. premir 'Ok'*
+
+| | | |
+| ----------------------: | ------------------------------------------------------: | - |
+| Assistente de impressão | | × |
+| \[Ícone de impressora] | Intervalo<br/>Período:     igual a    Mês anterior    ? | |
+| | 1 Utente(s) seleccionada(s) | |
+| | Ok   Cancelar | |
+
+- Na janela seguinte, no 'Assistente de Impressão, deve:
+
+*a. alterar o 'Título' para uma denominação própria, como por exemplo, '[nome colaborador] AGP Abril 2024'*
+*b. premir 'Ok'*
+
+| | | |
+| ----------------------: | ----------------------------------------------------: | - |
+| Assistente de impressão | | × |
+| \[Ícone de impressora] | Título:<br/>\[Nome colaborador] \[período] | |
+| | Impressora:   Microsoft Print to PDF   ▼   Configurar | |
+| | Ok   Cancelar | |
+
+***
+
+*MYO CLINIC – EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS*
+---
+- Aparece agora a pré-visualização do documento a imprimir, com o layout da Myo Clinic e o título anteriormente escolhido. O documento detalha os pagamentos correspondentes a cada AGP ministrada, de acordo com o número de pessoas presentes em cada, conforme as regras que estão explícitas no capítulo referente ao cálculo do VN.
+- premir 'Imprimir'
+
+[*Image description: Screenshot of a Myo Clinic report preview showing a commission calculation table. The report has the Myo Clinic logo at the top and displays a data grid with multiple rows and columns containing payment information for AGP services. The interface includes navigation buttons and viewing options.*]
+
+- Deste modo finaliza-se o processo de impressão do mapa de comissões das AGP relativamente ao colaborador escolhido, devendo o responsável repetir o processo para cada colaborador.
+
+## Débitos Diretos
+
+Após terem sido abordadas as tarefas dos responsáveis relativamente aos colaboradores, existe também a necessidade, nas transições entre cada mês, de fazer cumprir uma tarefa essencial à forma como o processo Myo Clinic está montado na relação com os seus clientes de mensalidades, e que se prende com o lançamento das ordens dos débitos diretos bancários. A eficácia deste processo permite incentivar a recorrência destes clientes, fator fundamental para a previsibilidade do negócio e para a sustentabilidade e planeamento das empresas do grupo.
+
+Independentemente da entidade bancária com o qual a empresa trabalha, o processo será idêntico na sua génese. Existe a necessidade de criar uma pasta e um conjunto de sub-pastas no computador onde se realizará este processo, de modo a ficarem gravados os ficheiros de débito e os de retorno.
+
+Os ficheiros de débito são exportados do Software e inseridos no login bancário da conta da empresa. Em sentido contrário, os ficheiros de retorno serão exportados do home banking para posterior inserção no Software.
+---
+## Pasta SEPA
+
+- O responsável deve criar de raíz, no computador habitualmente utilizado para realizar esta tarefa, uma pasta denominada 'SEPA' no diretório C: do seu disco rígido. Assim:
+
+```
+Este PC > Windows-SSD (C:)
+```
+
+Nome
+- DRIVER
+- Drivers
+- Intel
+- PerfLogs
+- Programas
+- Programas (x86)
+- SEPA
+- System
+- Utilizadores
+- Windows
+
+- Dentro dessa pasta deverão estar as seguintes sub-pastas:
+
+```
+Este PC > Windows-SSD (C:) > SEPA
+```
+
+| Nome | Data de modif |
+| ------------- | ------------- |
+| Erros | 29/11/2023 22 |
+| Por Enviar | 04/05/2024 12 |
+| Por Processar | 08/05/2024 20 |
+| Processados | 08/05/2024 20 |
+
+## Ficheiro de Débito
+
+O ficheiro de débito é um código de linhas de débito agrupadas, emitido pelo Software, que visa facilitar os pagamentos de mensalidades e a respetiva emissão de faturas-recibo, na medida em que todo este processo decorre de forma automática.
+
+----
+
+MYO CLINIC – EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS
+---
+# Procedimento para Emitir Ficheiro de Débito
+
+- Assim, para poder emitir o ficheiro de débito, o responsável deve:
+
+a. premir 'Manutenção' na barra principal, a partir de qualquer módulo que se encontre
+b. selecionar a opção 'Transferências'
+
+> **Nota:** A imagem mostra a interface do SportStudio 3.08.8828 com o menu principal aberto. O cursor está posicionado sobre a opção "Manutenção" na barra de menu, que exibe um submenu com várias opções, incluindo "Utentes", "Turmas", "Sócios", "Senhas", "Cacifos", "Livres Trânsito", "Inventário", "Empregados", "Ranking", "Avaliação de desempenho", "Dieta", "Alimentos", "Transferências" (destacada) e "Autorização SDD". Alguns atalhos de teclado são mostrados ao lado das opções (como Ctrl+F10 para Transferências).
+
+- De seguida, no módulo que surge, pode optar por selecionar alguma pesquisa previamente guardada, de modo a facilitar o procedimento. Assim:
+
+a. à esquerda, procurar nas 'Pesquisas guardadas' se consta a correspondente à empresa e premir
+
+> **Nota:** A imagem mostra a tela de "Transferências" com uma seção de "Pesquisas guardadas" à esquerda, contendo várias opções de pesquisa salvas. A interface inclui botões na parte superior como "Novo", "Alterar", "Eliminar", "Pesquisa", "Imprimir", "Operações", "Pago", "Processar", "Anular" e "H. Operações". Há campos de filtro para pesquisa de transferências.
+
+- Sendo a pesquisa a correta, os campos de pesquisa já estarão devidamente preenchidos. Deve então:
+
+a. selecionar o período a pagamento, dependendo do dia em que está a realizar o procedimento
+b. premir 'Pesquisa', o que fará com que a lista de pagamentos em baixo ('Parcelas conta corrente') se atualize
+c. confirmar se todas as linhas a pagamento estão corretas, e premir 'Ctrl + a', de modo a selecionar tudo
+d. premir 'Processar'
+
+> **Nota:** A imagem mostra a tela de "Transferências" com resultados de pesquisa exibidos em uma tabela. A tabela contém informações de pagamentos com colunas como Código, Descrição, IBAN, BIC, Data Pagamento, PVP e Valor Líquido. Vários registros são mostrados com valores monetários (principalmente de 168,00€, 212,00€, 60,00€, etc.). No final da tabela, é mostrado um total de 10.192,30€ para 60 registros. O botão "Processar" está destacado na interface.
+
+----
+
+**MYO CLINIC - EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS**
+---
+# MYO CLINIC
+
+- De seguida, em sequência aparecerão várias janelas em que seguirá o processo. Assim:
+
+*a. no caso de aparecer uma janela de aviso, selecionar 'Ignorar, continuar com o processamento.'*
+*b. premir 'Ok'*
+
+![SportStudio dialog box showing a warning message about IAD files not being processed for more than 2 weeks. The "Ignorar, continuar com o processamento" option is selected (marked with "a"), and the OK button is highlighted (marked with "b"). The dialog shows radio button options for different actions.]
+
+*a. premir 'Seguinte'*
+
+![SportStudio processing screen showing the "Acção" section with text explaining that it allows generating debit files or processing return files sent by the Bank, and also allows issuing invoices with Multibanco payment. The "Seguinte" (Next) button is highlighted at the bottom.]
+
+*a. selecionar 'Gerar cobranças'*
+*b. premir 'Seguinte'*
+
+![SportStudio processing screen showing options for "Processamento" with "Gerar cobranças" option selected (marked with "a"). This option allows generating SEPA format collections or with Multibanco references, and also generating invoice documents. The "Seguinte" button is highlighted (marked with "b"). Other options include "Processar retornos" and several statistics display options.]
+
+**67**
+
+----
+
+*MYO CLINIC - EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS*
+---
+# Sistema de Débitos Diretos - myo CLINIC
+
+a. selecionar 'Ficheiro de Débito'
+d. premir 'Seguinte'
+
+## Processamento
+
+### Sistema de Débitos Diretos
+
+| | |
+| --------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| **SportStudio** | \[x] **Ficheiro de Débito**<br/>Produção de ficheiro com os débitos para envio para o banco. |
+| | \[ ] **Ficheiro de Reversões**<br/>Produção de ficheiro com créditos para envio para o banco. |
+| | **Pagamento de Serviços/Compras**<br/>Gerar referências Multibanco<br/>Produzir referências Multibanco para fazer cobranças. |
+| | \[ ] **Facturas**<br/>Produzir documentos do tipo Factura para emissão posterior de Recibo. |
+| | ! Produzir um ficheiro com as parcelas seleccionadas para DÉBITO no banco. |
+
+< Anterior **Seguinte >** Cancelar
+
+a. selecionar a entidade credora correspondente à empresa da qual pretende lançar os débitos diretos bancários
+b. premir 'Seguinte'
+
+## Processamento
+
+### Protocolos:
+
+| | |
+| --------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| **SportStudio** | **EC:PT77ZZZ116066**          **Protocolo: SEPA SDD**<br/>**IBAN:** PT50 0007 0000 0039 3623 2352 3     **BIC:** BESCPTPL<br/>*Gaia* |
+| | **EC:PT21ZZZ117076**          **Protocolo: SEPA SDD**<br/>**IBAN:** PT50 0007 0000 0056 6321 7942 3     **BIC:** BESCPTPL<br/>*Porto Antas* |
+| | *Porto Boa Vista* |
+| | ! Protocolo de ficheiros a ser usado para produzir ficheiro. |
+
+< Anterior **Seguinte >** Cancelar
+
+a. selecionar 'Usar a seleção ativa na janela das Transferências'
+b. premir 'Seguinte'
+
+## Processamento
+
+### Pesquisa:
+
+| | |
+| --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **SportStudio** | \[x] **Usar a selecção activa na janela das Transferências**<br/>Serão incluídas para processamento as parcelas seleccionadas<br/>pelo utilizador.<br/>60 parcelas seleccionadas |
+| | \[ ] **Selecção automática de parcelas (recomendado)**<br/>O sistema faz a selecção automática de todas as parcelas em dívida<br/>com base nos critérios a seguir. |
+| | Número de dias a usar: Totalidade |
+| | ! Fazer um clique em seguinte para continuar... |
+
+< Anterior **Seguinte >** Cancelar
+
+----
+
+**MYO CLINIC – EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS**
+---
+# MYO CLINIC
+
+a. em 'Gravar na pasta' confirmar se, por defeito, se encontra a pasta+sub-pasta previamente criadas 'C:\SEPA\Por Enviar'
+b. em 'Nome do ficheiro' pode atribuir um nome específico à escolha
+c. premir 'Seguinte'
+
+| | | | | |
+| ----------- | --------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | - | - |
+| SportStudio | Ficheiros de envio: | | | |
+| | Gravar na pasta: | C:\SEPA\Por EnviarPasta para gravar o(s) ficheiro(s) produzido(s). | | a |
+| | Nome do ficheiro: | \<Nome Automático>Nome do ficheiro. Pode ter a extensão do tipo de ficheiro pretendido para a entrega (ex: .xml ou .txt). | | b |
+| | ℹ️ Pasta para gravar o(s) ficheiro(s) produzido(s). | | | |
+| | ← Anterior Seguinte → Cancelar | | | c |
+
+a. selecionar 'Linhas agrupadas'
+b. selecionar a 'Data de processamento', isto é, a data em que ocorrerá o débito bancário, com o mínimo de 2 dias úteis de antecedência
+c. premir 'Seguinte'
+
+| | | | | |
+| ----------- | --------------------------------------------------------------------------- | ---------------------------------- | - | - |
+| SportStudio | Parcelas no ficheiro: | | | |
+| | \[ ] Linhas Individuais<br/>Cada parcela corresponde uma linha no ficheiro. | | | |
+| | \[x] Linhas agrupadas<br/>Referências: Myo Clin - Porto Boavista | a | | |
+| | Data de processamento: | 2024-05-22 Qua, 22 de Maio de 2024 | b | |
+| | ← Anterior Seguinte → Cancelar | | | c |
+
+a. confirmar se o 'Resumo' apresenta a informação pretendida, nomeadamente a 'E.Credora', o 'IBAN' da empresa, a 'Pasta', o nome do 'Ficheiro', a 'Data' e a 'Referência' na conta do cliente
+b. premir 'Seguinte'
+
+| | | |
+| ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | - |
+| SportStudio | Resumo | |
+| | Processamento de ficheiro para entrega no Banco.<br/>Protocolo: SEPA SDD<br/>E.Credora: PT07ZZ17369<br/>Código Op.: -<br/>IBAN: PT50 0007 0000 0059 6149 6822<br/>BIC: BESCPTPL<br/>Pesquisa feita pelo utilizador. (60 selecionadas)<br/>Pasta: C:\SEPA\Por Enviar<br/>Ficheiro: \<Nome automático><br/>Ref.: Myo Clin - Porto Boavista | a |
+| | ℹ️ Faça um clique em 'Seguinte' para continuar... | |
+| | ← Anterior Seguinte → Cancelar | b |
+
+- De seguida, o Software entrará em processamento durante alguns minutos. Findo esse tempo, o ficheiro de débito emitido estará disponível na sub-pasta escolhida. Em sequência, o responsável deve, através do login bancário da empresa, inserir esse ficheiro na área dedicada aos débitos bancários.
+
+----
+
+**MYO CLINIC – EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS**
+---
+# Ficheiro de Retorno
+
+- Ficheiro de Retorno
+
+O ficheiro de retorno é disponibilizado pela entidade bancária quase sempre no dia previsto, altura em que o responsável deve aceder ao *home banking* e fazer o seu *download* na área dedicada ao efeito.
+
+Após ter realizado o *download* do ficheiro, este deve ser colocado na sub-pasta 'Por Processar'.
+
+- De seguida, já é possível fazer correr esse ficheiro no Software. Desta forma:
+
+a. premir 'Manutenção' na barra principal, a partir de qualquer módulo que se encontre
+b. selecionar a opção 'Transferências'
+
+*[Image description: Screenshot showing the software menu interface with "Manutenção" (Maintenance) option expanded, displaying various menu items including "Transferências" (Transfers) which is highlighted. The menu shows other options like "Stocks", "Contas", "Livro Tributo", "Inventário", "Encomendas", "Ranking", "Avaliação de desempenho", "Caixa", "Assistente", and "Autorização EDI"]*
+
+- No módulo 'Transferências', sendo apenas para processar o ficheiro de retorno, deve:
+
+a. premir 'Processar'
+
+*[Image description: Screenshot of the Transfers module interface showing a toolbar with buttons including "Novo", "Eliminar", "Pesquisa", "Imprimir", "Operações", "Pago", "Processar" (highlighted with a circle), "Anular", and "H. Operações". Below the toolbar are filtering options and a data table for transfers.]*
+
+- De seguida, tal como para o ficheiro de débito, em sequência aparecerão várias janelas em que seguirá o processo de retorno. Assim:
+
+a. no caso de aparecer uma janela de aviso, selecionar 'Ignorar, continuar com o processamento.'
+b. premir 'OK'
+
+*[Image description: Screenshot of a dialog box titled "SportStudio" with a warning message stating "Foi detectado que não são processados ficheiros 'IAD' há mais de 2 semanas! O que pretende fazer?" (It was detected that 'IAD' files have not been processed for more than 2 weeks! What do you want to do?). The dialog shows radio button options with "Ignorar, continuar com o processamento" (Ignore, continue with processing) selected. At the bottom are "OK" and "Cancelar" buttons.]*
+
+----
+
+MYO CLINIC – EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS
+---
+# MyoClinic Software Guide
+
+## a. premir 'Seguinte'
+
+![Screenshot of the software interface showing a dialog box with "Processamento" header. The interface has a vertical sidebar labeled "SportsStudio" on the left. The main panel shows an information icon with text about processing return files from the bank. At the bottom there's a progress bar and navigation buttons including "Anterior", "Seguinte", and "Cancelar".]
+
+- Aqui chegado, sendo o 'Processamento' relativo ao ficheiro de retorno, deve:
+
+a. selecionar 'Processar Retornos'
+b. premir 'Seguinte'
+
+## Processamento
+
+![Screenshot of a dialog box titled "Processamento" showing options for processing returns. The dialog contains radio button options including "Gerar cobranças" and "Processar retornos" (which is selected). There are also checkboxes for showing various statistics. At the bottom are "Anterior", "Seguinte", and "Cancelar" buttons.]
+
+## a. em 'Procurar ficheiros na pasta' confirmar se, por defeito, se encontra a pasta+sub-pasta onde previamente inseriu o ficheiro disponibilizado pelo banco: 'C:\SEPA\Por Processar'
+## b. premir 'Seguinte'
+
+![Screenshot of another "Processamento" dialog box focused on return files. It shows options for processing folders with a text field containing "C:\SEPA\Por Processar". The dialog also shows information about the location of processed files. At the bottom are "Anterior", "Seguinte", and "Cancelar" buttons.]
+---
+# MYO CLINIC
+
+- A seguir, após aguardar alguns instantes, aparecerá uma janela com os detalhes do ficheiro. Deve apenas:
+
+a. premir 'Seguinte'
+
+![Software interface showing a file processing window with "SportStudio" on the left sidebar. The main panel shows a table with columns for "Acção", "Nome do Ficheiro", and "Data". Below the table are sections showing "Resumo de Ficheiros: Total de Ficheiros: 0, Ignorados: 0, Para Processar: 0" and "Mover para PI, Mover". The interface has "Anterior", "Seguinte", and "Cancelar" buttons at the bottom.]
+
+- De seguida, o Software entrará em processamento durante alguns minutos. Findo esse tempo, o processo está concluído, uma vez que as faturas-recibo relativas a estes pagamentos já terão sido emitidas.
+
+- Por vezes, podem ocorrer erros com alguma das linhas a pagamento, isto é, o débito relativo a algum cliente não ser efetuado, seja por insuficiência de fundos ou por recusa de pagamento, por exemplo. Caso aconteça, deve o responsável encetar contacto com esse cliente no sentido de perceber se pode voltar a repetir o processo ou se oferece alguma alternativa para regularizar a mensalidade tão breve quanto possível.
+
+myo - definition: muscle, muscle and myograph, myogenic. Origin of myo from Classical Greek: my (gen. myos) = muscle
+
+72
+
+MYO CLINIC – EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS
+---
+# APP MYO CLINIC
+
+Em estreita associação com o Software SportStudio existe outra ferramenta valiosa para os colaboradores e para os clientes do grupo Myo Clinic: uma APP que está disponível para os sistemas iOS e Android nas respetivas lojas de aplicações. O funcionamento desta aplicação é bastante intuitivo, permitindo otimizar todo o processo.
+
+Em alternativa, para outros dispositivos ou a partir do computador, é possível aceder aos mesmos conteúdos através do link: myoclinic.sportstudio.pt.
+
+A APP Myo Clinic permite aos colaboradores visualizar e alterar a sua agenda, bem como pesquisar a lista de utentes, por exemplo. Na ótica dos clientes, na APP é possível consultar as marcações, mas também as faturas e pagamentos a decorrer.
+
+*Após pesquisar e transferir a APP Myo Clinic pode aceder através do ícone*
+
+[Image description: The Myo Clinic app icon showing "myo clinic" text with a blue dot above the "y" letter, and "MyoClinic" text below the icon]
+
+## COLABORADORES
+
+- Os colaboradores da Myo Clinic podem aceder à APP, efetuando o login da seguinte forma:
+
+[nome de utilizador]@myoclinic.sportstudio.pt
+
+Password – usar a password fornecida ou a nova, no caso de já ter efetivado a alteração no Software.
+
+[Image description: SportStudio login screen with fields for "Utilizador*" (showing @myoclinic.sportstudio.pt) and "Password*" (showing dots for hidden password). There's a button labeled "Aceder ao SportStudio" and logos for "Crescemos Juntos" and "arquivandus" at the bottom]
+
+- Após realizar o login com sucesso, poderá aceder às suas marcações.
+
+[Image description: SportStudio interface showing "Tarefas / Marcações" navigation option]
+
+MYO CLINIC – EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS
+---
+# MYO CLINIC
+
+- As marcações de sessões individuais da Agenda podem aparecer no formato de lista ou de calendário, conforme preferência. Deve ajustar essa visualização na linha de seleções, em baixo.
+
+SportStudio - Tarefas / Marcações
+
+sexta-feira, 05 Abril 2024
+
+Porto - Boavista>Estúdio Musculação (Boavista)>
+
+• Responsável: [redacted]
+
+Efectuada
+
+FISIO60 (Débito Sessão FISIO 60min)
+
+• Responsável: [redacted]
+
+Efectuada
+
+FISIO60 (Débito Sessão FISIO 60min)
+
+• Responsável: [redacted]
+
+Efectuada
+
+PT60 (Débito sessão PT ONE 60min)
+
+• Responsável: [redacted]
+
+Efectuada
+
+FISIO60 (Débito Sessão FISIO 60min)
+
+• Responsável: [redacted]
+
+Efectuada
+
+FISIO30 (Débito sessão FISIO 30min)
+
+• Responsável: [redacted]
+
+Efectuada
+
+PT60 (Débito sessão PT ONE 60min)
+
+2024-04-05
+---
+# MYO CLINIC
+
+- Na linha de seleções, em baixo, pode também filtrar o dia ou o período que pretende visualizar.
+
+| |
+| ----------------- |
+| ○ Hoje |
+| ○ Ontem |
+| ○ Amanhã |
+| ○ Semana actual |
+| ○ Últimos 7 dias |
+| ○ Semana passada |
+| ○ Mês actual |
+| ○ Mês passado |
+| ○ Próxima semana |
+| ○ Próximos 7 dias |
+| ○ Próximo mês |
+
+## Marcações na Agenda
+
+- De forma a realizar novas marcações de sessões individuais na Agenda deve premir o botão '+' no canto inferior direito da linha de seleções. Na janela que aparece, deve preencher de forma cuidada os diversos campos, tal como explicitado no capítulo das Marcações na Agenda no Software.
+
+| | |
+| -------------------------------------- | -------------------------- |
+| ✓ Gravar ▼ udio - Adicionar marcação ✕ | |
+| SportStudio - Adicionar marcação | |
+| Instalação / Recurso: ▼ | |
+| Data da marcação: | 05/04/2024 ⟳ Periodicidade |
+| Hora de início: | Serviço: |
+| 07:00 ▼ | Sem serviço ▼ |
+| Duração (Minutos): | Lotação: |
+| 30 | 1 |
+| + Disponibilidade | |
+| Responsável: | Estado: |
+| João Fidalgo ▼ | Marcada ▼ |
+| Detalhes: | |
+| ! 🔍 E-mail/Nome/Nº Inscr./Tel | |
+| 🔍 (Sem preço associado) ✕ | |
+| + - | |
+| + Adicionar comentários | |
+| Gravar (0,00 €) ✓ | |
+
+----
+
+*MYO CLINIC - EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS*
+---
+# Marcações de Presenças AGP
+
+- Uma das responsabilidades dos colaboradores que ministram as AGP é a marcação de presenças dos clientes com inscrição para essa aula. Esta ação é importante, na medida em que afeta o mapa de comissões, bem como o saldo de entradas de cada cliente. Assim, no início ou no final da aula, o colaborador deve ter o cuidado de realizar essa tarefa, premindo uma vez em cima do nome do cliente que esteve presente (sessão passa a 'Presente'), ou premindo duas vezes em cima do nome do cliente que não compareceu (neste caso é registada a falta).
+
+| | |
+| -------------------------------------------------------- | - |
+| 10:30-11:20 Pilates Clínico Boavista \[lotação: 6] 5/5 - | |
+
+| | | | |
+| ------- | ----------------------------------------------------------------------------------------- | -------- | - |
+| \[Foto] | Responsável: \[Nome]<br/>• Efectuada<br/>AGP (Débito Aula Grupo) Não tem acesso registado | Presente | > |
+| \[Foto] | Responsável: \[Nome]<br/>• Efectuada<br/>AGP (Débito Aula Grupo) Não tem acesso registado | Presente | > |
+| \[Foto] | Responsável: \[Nome]<br/>• Efectuada<br/>AGP (Débito Aula Grupo) Não tem acesso registado | Presente | > |
+| \[Foto] | Responsável: \[Nome]<br/>• Efectuada<br/>AGP (Débito Aula Grupo) Não tem acesso registado | Presente | > |
+| \[Foto] | Responsável: \[Nome]<br/>• Efectuada<br/>AGP (Débito Aula Grupo) Não tem acesso registado | Presente | > |
+
+| | |
+| ---------------- | -- |
+| Detalhes turma | ⚠️ |
+| Adicionar utente | + |
+
+| | |
+| --------------------------- | - |
+| Gaia>Sala de Pilates (Gaia) | |
+
+| | | | |
+| ---------------------------------------------- | - | --- | - |
+| 11:00-11:50 Pilates Clínico Gaia \[lotação: 7] | | 0/7 | + |
+
+| | | | |
+| ---------------------------------------------- | - | --- | - |
+| 12:00-12:50 Pilates Clínico Gaia \[lotação: 7] | | 1/7 | - |
+
+| | | | |
+| ------- | ----------------------------------------------------------------------------------------- | -------- | - |
+| \[Foto] | Responsável: \[Nome]<br/>• Marcada<br/>AGP (Débito Aula Grupo) Não tem acesso registado | Marcado | > |
+| \[Foto] | Responsável: \[Nome]<br/>• Marcada<br/>AGP (Débito Aula Grupo) Não tem acesso registado | Marcado | > |
+| \[Foto] | Responsável: \[Nome]<br/>• Efectuada<br/>AGP (Débito Aula Grupo) Não tem acesso registado | Presente | > |
+
+| | |
+| ---------------- | -- |
+| Detalhes turma | ⚠️ |
+| Adicionar utente | + |
+
+MYO CLINIC — EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS
+---
+# CLIENTES
+
+A utilização da APP Myo Clinic por parte dos clientes deve ser incentivada pelos colaboradores. À parte do aumento da perceção de valor e da melhoria da experiência do cliente, a facilidade de manuseamento desta ferramenta permite minimizar a necessidade de comunicação por outras vias.
+
+No momento da inscrição de um novo cliente, ou no decorrer da relação contratual, o colaborador deve referir a existência da APP Myo Clinic e, se necessário, ajudar com os primeiros passos.
+
+- Os clientes da Myo Clinic podem aceder à APP, realizando o registo na primeira utilização. Assim, devem premir 'Registar' no canto inferior direito do menu de acesso inicial.
+
+[*Imagem da tela de login do aplicativo Myo Clinic mostrando campos para e-mail e senha, com o logotipo da Myo Clinic no topo. A interface apresenta campos de texto para inserir e-mail e senha, uma caixa de seleção "Lembrar-me", um botão "Aceder à área de cliente" e links para "Esqueci-me da password" e "Registar" no canto inferior.*]
+
+- Na janela seguinte, deve ser introduzido o e-mail fornecido à Myo Clinic e escolhida uma Password para acesso. Após premir 'Registar na área de cliente' é enviado automaticamente um mail de confirmação do registo, com um link de ativação que deve ser acedido pelo cliente. Em sequência, já é possível aceder à área de cliente através do menu inicial.
+
+[*Imagem da tela de ativação de conta mostrando um formulário com título "Área de cliente - Activar conta" contendo campos para E-Mail, Password (obrigatório) e Confirmação (obrigatório). Inclui uma nota amarela explicando que o usuário deve digitar o e-mail indicado na inscrição e, caso não se lembre, deverá contactar a recepção. No final do formulário há um botão "Registar na área de cliente".*]
+
+----
+
+MYO CLINIC – EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS
+---
+# Myo Clinic
+
+- Após efetuar o login, tanto no caso de clientes individuais como de clientes das AGP, podem ser percorridos os vários menus, de forma intuitiva, verificando marcações, pagamentos, avaliações, mensagens, mapa de aulas, etc.
+
+| | |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **myoclinic**<br/><br/>Mensalidades contratadas:<br/>Idade: \_\_\_ anos<br/>Últ. avaliação: terça-feira, 21 Dezembro 2021<br/><br/>➕ Reserva de Aulas de Grupo Privadas<br/><br/>➕ A minha agenda (próximos 30 dias)<br/><br/>➕ Os meus acessos (Últimos 25)<br/><br/>➕ Os meus treinos<br/><br/>➕ Os meus questionários<br/><br/>➖ As minhas avaliações<br/><br/>➖ 2021<br/>Efectuada em terça-feira, \_\_\_ por \_\_\_<br/>% gordura: Media (\_\_%)<br/> | **Menu**<br/><br/>Mensalidades<br/>Idade: \_\_\_<br/>Últ. avaliação<br/><br/>➕ Reserva<br/><br/>➕ A minha<br/><br/>➕ Os meus<br/><br/>➕ Os meus<br/><br/>➕ Os meus<br/><br/>➕ As minhas<br/><br/><br/>📩 Mensagens<br/><br/>🗺️ Mapa de Aulas<br/><br/>🚪 Terminar sessão<br/> |
+
+## Clientes Individuais
+
+- No caso específico dos clientes individuais, em que as sessões são agendadas diretamente com a clínica ou com o colaborador, a APP tem um propósito mais consultivo. De todo o modo, não deixa de ser uma mais valia por permitir ter acesso à informação relevante da relação do cliente com a Myo Clinic.
+
+| |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **myoclinic**<br/><br/>Mensalidades contratadas:<br/>Idade: \_\_\_ anos<br/>Últ. avaliação: terça-feira, 21 Dezembro 2021<br/><br/>➕ Reserva de Aulas de Grupo Privadas<br/><br/>➖ A minha agenda (próximos 30 dias)<br/><br/>➖ Próximas marcações<br/><br/>FISIO60<br/>quinta-feira, 23 Maio 2024 18:00 - 19:00<br/><br/>Drenagem Linfática Manual<br/>quarta-feira, 22 Maio 2024 08:00 - 09:00<br/><br/>➕ Os meus acessos (Últimos 25)<br/><br/>➕ Os meus treinos<br/><br/>➕ Os meus questionários<br/><br/>➕ As minhas avaliações<br/> |
+
+MYO CLINIC – EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS
+---
+# Clientes AGP
+
+- Para os clientes das Aulas de Grupo Privadas (AGP), a APP Myo Clinic reveste-se de particular importância, na medida em que é esta ferramenta que permite gerir de forma totalmente autónoma as marcações ou alterações nas diversas aulas disponíveis, de acordo com o saldo de entradas neste serviço.
+
+- Como regras fundamentais, destacam-se o facto das aulas estarem disponíveis para inscrição com alguns dias de antecedência até à própria hora da aula e a possibilidade de cancelar uma marcação até 3 horas antes do seu início.
+
+*[Screenshot of the Myo Clinic app interface showing the user profile screen with the following elements:]*
+
+```
+myoclinic
+
+[User profile icon]
+
+Mensalidades contratadas:
+Idade: ___ anos
+Ult. avaliação: terça-feira, 21 Dezembro 2021
+
+Reserva de Aulas de Grupo Privadas
+
+[Navigation buttons: Dia anterior | Dia seguinte]
+
+Nova reserva terça-feira, 21 Maio 2024
+Aulas
+Saldo: PILATES | Pilates Clínico Boavista
+10:00-10:50
+
+Saldo: ___ | Pilates Clínico Boavista
+18:00-18:50
+
+A minha agenda (próximos 30 dias)
+```
+
+- Para reservar a presença numa determinada aula, deve o cliente escolher entre as opções disponíveis. No caso da aula pretendida já ter a lotação esgotada, o cliente pode optar entre ficar ou não em lista de espera, aguardando uma notificação automática de alguma possível desistência.
+
+*[Screenshot of the class booking interface showing:]*
+
+```
+Efectuar reserva
+
+PILATES | Pilates Clínico Boavista
+
+quinta-feira, 23 Maio 2024
+
+19:00 - 19:50
+
+[Professor icon]
+Professor(a)
+
+Aulas com três grandes propósitos: reeducação
+postural, entender as sensações do corpo
+(consciência corporal) e melhoria da respiração.
+
+[Voltar] [Reservar]
+```
+
+MYO CLINIC – EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS
+
+79
+---
+# myoclinic
+
+- É ainda possível obter uma vista detalhada das aulas disponíveis nos diversos dias da semana, bem como dos colaboradores responsáveis por cada aula. Para aceder a essa informação deve premir o botão que se encontra no canto superior direito do ecrã, de forma a expandir um submenu onde está acessível o mapa de aulas.
+
+| | | |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **myoclinic**<br/><br/><br/>Mensalidades contratadas:<br/>Idade: anos<br/>Ult. avaliação: terça-feira, 21 Dezembro 2021<br/><br/>Reserva de Aulas de Grupo Privadas | **Menu**<br/><br/>!\[Profile icon image]<br/><br/>Mensalidades contratadas:<br/>Idade:<br/>Ult. avaliação:<br/><br/>Mensagens<br/>Mapa de Aulas<br/>Terminar sessão | **Mapa de Aulas**<br/><br/>Todas as aulas Aulas contratadas<br/><br/>Porto - Boavista Professor(a)<br/><br/>**Segunda-Feira**<br/>19:00 - Pilates Clínico Boavista 50 min<br/>@Estúdio Pilates (Boavista)<br/>**Terça-Feira**<br/>10:00 - Pilates Clínico Boavista 50 min<br/>@Estúdio Pilates (Boavista)<br/>18:00 - Pilates Clínico Boavista 50 min<br/>@Estúdio Pilates (Boavista)<br/>**Quarta-Feira**<br/>19:00 - Pilates Clínico Boavista 50 min<br/>@Estúdio Pilates (Boavista)<br/>**Quinta-Feira**<br/>19:00 - Pilates Clínico Boavista 50 min<br/>@Estúdio Pilates (Boavista)<br/>**Sexta-Feira**<br/>19:00 - Pilates Clínico Boavista 50 min<br/>@Estúdio Pilates (Boavista)<br/>**Sábado** |
+
+*MYO CLINIC - EXERCÍCIO COM SAÚDE | MANUAL DE CULTURA E PROCEDIMENTOS INTERNOS*

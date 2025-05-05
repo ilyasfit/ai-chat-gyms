@@ -1,0 +1,38 @@
+# Procedimento Operacional Padrão (POP)
+
+## 1. Objetivo
+
+Fornecer instruções passo a passo para adicionar um item de inventário ao ecrã de pagamento de um utente e selecionar o método de pagamento dentro do software SportStudio (v. 3.08.8811).
+
+## 2. Âmbito
+
+Este POP aplica-se a todos os utilizadores responsáveis pelo processamento de pagamentos utilizando a função "Pagar" no módulo "Utentes" do SportStudio.
+
+## 3. Pré-requisitos
+
+- Utilizador com sessão iniciada na aplicação SportStudio.
+- O ecrã/separador "Utentes" está aberto.
+- O utente para o qual o pagamento será processado está selecionado na lista (ex: "Formação SportStudio", ID 864).
+
+## 4. Procedimento
+
+| Passo | Ação                     | Descrição e Elemento da Interface                                                                                                |
+| :---- | :----------------------- | :------------------------------------------------------------------------------------------------------------------------------- |
+| 1     | Abrir Ecrã de Pagamentos | Com o utente selecionado, clicar no botão "Pagar" na barra de ferramentas superior.                                              |
+| 2     | Abrir Lista de Inventário | No ecrã "Pagamentos", na secção de itens, clicar no botão "..." (reticências) ao lado do campo "Código".                          |
+| 3     | Pesquisar Item           | Na janela "Lista do Inventário", opcionalmente introduzir um termo de pesquisa (ex: "pac") no campo "igual a" e clicar em "Procurar". |
+| 4     | Selecionar Item          | Localizar e clicar no item de inventário desejado na lista (ex: "PACK_05 ... 24 Sessões").                                         |
+| 5     | Confirmar Seleção Item   | Clicar no botão "Ok" na janela "Lista do Inventário".                                                                            |
+| 6     | Selecionar Caixa         | De volta ao ecrã "Pagamentos", selecionar a "Caixa activa" apropriada no menu suspenso no canto superior direito (ex: "Gaia").     |
+| 7     | Iniciar Conclusão        | Clicar no botão "Concluir" na barra de ferramentas superior do ecrã "Pagamentos".                                                |
+| 8     | Abrir Modos de Pagamento | A janela "Modo de Pagamento" aparece, mostrando o total a pagar. Clicar no menu suspenso do método de pagamento.                   |
+| 9     | Selecionar Modo Pagamento | Escolher o método de pagamento desejado na lista (ex: "Multibanco").                                                             |
+| 10    | Confirmar Modo Pagamento | Clicar no botão "Ok" na janela "Modo de Pagamento". (Nota: O vídeo cancela a operação neste ponto).                                |
+
+## 5. Resultado Esperado
+
+O item de inventário selecionado é adicionado ao ecrã de pagamento do utente, a caixa correta é selecionada e a janela de modo de pagamento é apresentada com o método escolhido, pronta para a confirmação final do pagamento.
+
+## 6. Referências
+
+Vídeo: "ativar cliente.mp4"

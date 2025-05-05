@@ -1,0 +1,34 @@
+# Procedimento Operacional Padrão (POP)
+
+## 1. Objetivo
+
+Fornecer instruções passo a passo para alterar o estado de um utente de 'Suspenso' (S) para 'Ativo' (A) dentro do software SportStudio (v. 3.08.8811).
+
+## 2. Âmbito
+
+Este POP aplica-se a todos os utilizadores responsáveis pela gestão de contas de utentes no módulo "Utentes" do SportStudio.
+
+## 3. Pré-requisitos
+
+- Utilizador com sessão iniciada na aplicação SportStudio.
+- O ecrã/separador "Utentes" está aberto.
+- O utente a ser ativado está identificado e tem atualmente o estado 'S' (Suspenso).
+
+## 4. Procedimento
+
+1.  [00:32] – Clicar no botão "Perfil".
+2.  [00:49] – Clicar na opção de perfil "Mensalidade Humans Performance" no menu suspenso.
+3.  [00:56] – Clicar no ícone de calendário ao lado de "Data de referência".
+4.  [00:57] – Clicar no dia '1' no calendário (para definir a data de início como 2023-09-01).
+5.  [00:58] – Clicar no botão "Seguinte >".
+6.  [01:01] – Clicar na caixa de verificação da parcela "Inscrição Anual Myo Clinic".
+7.  [01:13] – Clicar na caixa de verificação da parcela "Fisioterapia\_BM\_2x/Semana/Mensal - Base".
+8.  [01:14] – Clicar no botão "Concluir".
+
+## 5. Resultado Esperado
+
+O estado da conta do utente selecionado é alterado com sucesso para 'Ativo' no sistema SportStudio, a partir da data de início escolhida. A lista de utentes reflete esta alteração com o estado 'A'.
+
+## 6. Referências
+
+Vídeo: "ativar cliente.mp4"

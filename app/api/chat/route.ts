@@ -1,27 +1,46 @@
 import { GoogleGenAI, Content } from "@google/genai";
 import { NextRequest, NextResponse } from "next/server";
-import fs from "fs"; // Import Node.js file system module
-import path from "path"; // Import Node.js path module
+import fs from "fs";
+import path from "path";
 
-// --- Read Markdown Files ---
-// Construct absolute paths relative to the current file's directory
-const filesDir = path.resolve(process.cwd(), "public/files"); // Use process.cwd() for project root
-const gymsPath = path.join(filesDir, "gyms.md");
-const instructionsPath = path.join(filesDir, "instructions.md");
-
-let gymsContent: string;
-let instructionContent: string;
-
-try {
-  gymsContent = fs.readFileSync(gymsPath, "utf-8");
-  instructionContent = fs.readFileSync(instructionsPath, "utf-8");
-} catch (error) {
-  console.error("Error reading markdown files:", error);
-  // Set default content or re-throw error depending on desired behavior
-  gymsContent = "Gyms information could not be loaded.";
-  instructionContent = "Instructions could not be loaded.";
-  // Optionally: throw new Error("Failed to load essential markdown content.");
+// --- Function to Recursively Read Markdown Files ---
+function readMarkdownFilesRecursive(dirPath: string): string {
+  let combinedContent = "";
+  try {
+    const entries = fs.readdirSync(dirPath, { withFileTypes: true });
+    for (const entry of entries) {
+      const fullPath = path.join(dirPath, entry.name);
+      if (entry.isDirectory()) {
+        // Recurse into subdirectory, adding its content
+        combinedContent += readMarkdownFilesRecursive(fullPath);
+      } else if (
+        entry.isFile() &&
+        (entry.name.endsWith(".md") || entry.name.endsWith(".txt"))
+      ) {
+        // Include .txt files
+        try {
+          const fileContent = fs.readFileSync(fullPath, "utf-8");
+          // Add filename as a header for clarity in the combined context
+          combinedContent += `\n\n--- Context from ${entry.name} ---\n\n${fileContent}`;
+        } catch (readError) {
+          console.error(`Error reading file ${fullPath}:`, readError);
+          combinedContent += `\n\n--- Error loading context from ${entry.name} ---`;
+        }
+      }
+    }
+  } catch (dirError) {
+    console.error(`Error reading directory ${dirPath}:`, dirError);
+    // Add error message to the combined content if directory reading fails
+    combinedContent += `\n\n--- Error accessing context directory ${path.basename(
+      dirPath
+    )} ---`;
+  }
+  return combinedContent;
 }
+
+// --- Load All Context ---
+const contextDir = path.resolve(process.cwd(), "context");
+const allContextContent = readMarkdownFilesRecursive(contextDir).trim(); // Start recursion and trim whitespace
 
 // Ensure the API key is available
 const apiKey = process.env.GEMINI_API_KEY;
@@ -72,13 +91,13 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    const formattedHistory = formatHistory(history); // Original chat history from frontend (Use const)
+    const formattedHistory = formatHistory(history); // Original chat history from frontend
 
-    // --- Construct the system instruction text using file content read via fs ---
-    const systemInstructionText = `You are Safya, the AI assistant, helping franchise partners open their Gym: ${instructionContent}\n\n---\n\nGym Information:\n${gymsContent}`;
+    // --- Construct the system instruction text using combined context ---
+    // Use a base instruction and append all loaded markdown content.
+    const systemInstructionText = `You are Safya. Du bist die Myo Clinic Staff Assistant AI: \n${allContextContent}`;
 
     // --- Prepend System Instruction to History (Common Pattern) ---
-    // Instead of config, add system instructions as the first turns in the history.
     const systemHistory: Content[] = [
       { role: "user", parts: [{ text: systemInstructionText }] },
       {

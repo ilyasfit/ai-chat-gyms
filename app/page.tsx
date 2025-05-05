@@ -7,6 +7,15 @@ import {
   type Message as V0ChatMessage,
 } from "@/components/ui/v0-ai-chat"; // Renamed import type
 import { ThemeToggle } from "@/components/theme-toggle"; // Import ThemeToggle
+import { Input } from "@/components/ui/input"; // Import Input
+import { Button } from "@/components/ui/button"; // Import Button
+import {
+  Card,
+  CardContent,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card"; // Import Card components
 
 // Define a new Message type that allows AsyncIterable
 type Message = Omit<V0ChatMessage, "content"> & {
@@ -32,6 +41,21 @@ export default function Home() {
   const [messages, setMessages] = useState<Message[]>([]); // Use the new Message type
   const [isLoading, setIsLoading] = useState(false);
   const [currentShimmerText, setCurrentShimmerText] = useState("");
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [passwordInput, setPasswordInput] = useState("");
+  // WICHTIG: Definiere hier das korrekte Passwort.
+  // ACHTUNG: Dies ist nur für Demo-Zwecke sicher. In Produktion NIEMALS Passwörter hardcoden!
+  const CORRECT_PASSWORD = "myo-gym-2025"; // Password set as requested
+
+  const handlePasswordSubmit = (event: React.FormEvent) => {
+    event.preventDefault(); // Verhindert Neuladen der Seite bei Formular-Submit
+    if (passwordInput === CORRECT_PASSWORD) {
+      setIsAuthenticated(true);
+    } else {
+      alert("Incorrect password. Please try again."); // Einfache Fehlermeldung
+      setPasswordInput(""); // Optional: Passwortfeld leeren
+    }
+  };
 
   const handleSendMessage = async (userMessageContent: string) => {
     // Removed setting chatActive
@@ -197,23 +221,74 @@ export default function Home() {
     }
     // No finally block needed here for isLoading, handled in iterable or catch
   };
-  // Render the main V0AIChat component, passing all necessary state and handlers
-  // Cast messages back to V0ChatMessage[] for the prop type
+
+  // Single return statement with conditional rendering
   return (
-    // Add relative positioning to the main container to position the toggle
-    <main className="relative bg-neutral-950">
-      {/* Add ThemeToggle button */}
-      <div className="absolute top-4 right-4 z-10">
-        {" "}
-        {/* Position top-right */}
-        <ThemeToggle />
-      </div>
-      <V0AIChat
-        messages={messages as V0ChatMessage[]} // Cast messages for V0AIChat props
-        isLoading={isLoading}
-        currentShimmerText={currentShimmerText}
-        onSendMessage={handleSendMessage}
-      />
-    </main>
+    <>
+      {!isAuthenticated ? (
+        // Login Form Section using shadcn/ui components
+        <div className="flex items-center justify-center min-h-screen bg-background px-4">
+          {" "}
+          {/* Use bg-background */}
+          <Card className="w-full max-w-sm">
+            {" "}
+            {/* Use Card component */}
+            <CardHeader>
+              <CardTitle className="text-2xl text-center">
+                {" "}
+                {/* Use CardTitle */}
+                Enter Password
+              </CardTitle>
+              {/* Optional: <CardDescription>Enter password to continue</CardDescription> */}
+            </CardHeader>
+            <form onSubmit={handlePasswordSubmit}>
+              {" "}
+              {/* Formular umschließt Content und Footer */}
+              <CardContent className="space-y-4">
+                {" "}
+                {/* Use CardContent */}
+                <div className="space-y-2">
+                  {/* Optional: Add a label if needed using "@/components/ui/label" */}
+                  {/* <Label htmlFor="password">Password</Label> */}
+                  <Input
+                    id="password" // Add id for accessibility
+                    type="password"
+                    value={passwordInput}
+                    onChange={(e) => setPasswordInput(e.target.value)}
+                    placeholder="Password"
+                    required
+                    // Input Komponente verwendet bereits Theme-Variablen (bg-input, border, ring etc.)
+                  />
+                </div>
+              </CardContent>
+              <CardFooter>
+                {" "}
+                {/* Use CardFooter */}
+                <Button type="submit" className="w-full mt-4 cursor-pointer">
+                  {" "}
+                  {/* Use Button component (primary variant by default) */}
+                  Access
+                </Button>
+              </CardFooter>
+            </form>
+          </Card>
+        </div>
+      ) : (
+        // Authenticated Chat Section
+        // Use bg-background for Theme-Konsistenz as suggested
+        <main className="relative bg-background">
+          {/* Add ThemeToggle button */}
+          <div className="absolute top-4 right-4 z-10">
+            <ThemeToggle />
+          </div>
+          <V0AIChat
+            messages={messages as V0ChatMessage[]} // Cast messages for V0AIChat props
+            isLoading={isLoading}
+            currentShimmerText={currentShimmerText}
+            onSendMessage={handleSendMessage}
+          />
+        </main>
+      )}
+    </>
   );
 }
