@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image"; // Import Next Image
 import { useEffect, useRef, useCallback, useState } from "react";
 import { Textarea } from "@/components/ui/textarea";
 import { cn } from "@/lib/utils";
