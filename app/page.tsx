@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useCallback } from "react"; // Added useCallback
+import { useState, useCallback, useEffect } from "react"; // Added useCallback, useEffect
 // Import the main component and the type
 import {
   V0AIChat,
@@ -16,11 +16,19 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card"; // Import Card components
+import { ADMIN_UI_PASSWORD, passwordRoleMap } from "../src/config/passwords"; // Import ADMIN_UI_PASSWORD and passwordRoleMap
 
 // Define a new Message type that allows AsyncIterable
 type Message = Omit<V0ChatMessage, "content"> & {
   content: string | AsyncIterable<string>;
 };
+
+interface ChatRequestBody {
+  message: string;
+  history: Array<{ role: V0ChatMessage["role"]; content: string }>;
+  selectedAdminRole?: string;
+  password?: string;
+}
 
 // Define shimmer messages here as they are used for state in this component
 const shimmerMessages = [
@@ -43,19 +51,77 @@ export default function Home() {
   const [currentShimmerText, setCurrentShimmerText] = useState("");
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [passwordInput, setPasswordInput] = useState("");
-  // WICHTIG: Definiere hier das korrekte Passwort.
-  // ACHTUNG: Dies ist nur für Demo-Zwecke sicher. In Produktion NIEMALS Passwörter hardcoden!
-  const CORRECT_PASSWORD = "myo-gym-2025"; // Password set as requested
+  const [isAdminAuthenticated, setIsAdminAuthenticated] = useState(false);
+  const [selectedAdminRole, setSelectedAdminRole] =
+    useState<string>("colaboradores"); // Default role
+  const [currentDisplayRole, setCurrentDisplayRole] =
+    useState<string>("Public"); // New state for displaying role
+  const [loginError, setLoginError] = useState<string>(""); // State for login error messages
+
+  // const CORRECT_PASSWORD = "myo-gym-2025"; // Removed, password check is now backend-driven for roles
+  // const ADMIN_PASSWORD = "safya-admin-2024!"; // Replaced by imported ADMIN_UI_PASSWORD
+
+  const adminRoles = [
+    "colaboradores",
+    "managers",
+    "franchising",
+    "public",
+    "admin_full_context",
+  ];
 
   const handlePasswordSubmit = (event: React.FormEvent) => {
-    event.preventDefault(); // Verhindert Neuladen der Seite bei Formular-Submit
-    if (passwordInput === CORRECT_PASSWORD) {
+    event.preventDefault();
+    setLoginError(""); // Clear previous errors
+
+    if (passwordInput === ADMIN_UI_PASSWORD) {
+      setIsAdminAuthenticated(true);
       setIsAuthenticated(true);
+      setCurrentDisplayRole(selectedAdminRole);
+      setPasswordInput(""); // Clear password input on successful login
+    } else if (passwordInput.trim() !== "") {
+      const roleFromPassword = passwordRoleMap[passwordInput];
+      if (roleFromPassword) {
+        setIsAuthenticated(true);
+        setIsAdminAuthenticated(false);
+        setCurrentDisplayRole(roleFromPassword);
+        setPasswordInput(""); // Clear password input on successful login
+      } else {
+        // Invalid password (not admin, not in map)
+        setIsAuthenticated(false);
+        setIsAdminAuthenticated(false);
+        setLoginError("Invalid password.");
+        // currentDisplayRole remains as it was (likely "Public" from initial state or logout)
+      }
     } else {
-      alert("Incorrect password. Please try again."); // Einfache Fehlermeldung
-      setPasswordInput(""); // Optional: Passwortfeld leeren
+      // Empty password
+      setIsAuthenticated(false);
+      setIsAdminAuthenticated(false);
+      setLoginError("Password cannot be empty.");
+      // currentDisplayRole remains as it was
     }
   };
+
+  const handleLogout = () => {
+    setIsAuthenticated(false);
+    setIsAdminAuthenticated(false);
+    setPasswordInput("");
+    setMessages([]); // Clear messages on logout
+    setCurrentDisplayRole("Public"); // Reset display role
+    // Optionally, redirect to login or a public page if desired
+    // router.push('/'); // Example redirect
+  };
+
+  useEffect(() => {
+    if (isAdminAuthenticated) {
+      setCurrentDisplayRole(selectedAdminRole);
+    } else if (isAuthenticated) {
+      // If just authenticated but not admin, keep "User (Password Entered)"
+      // or update if more specific info becomes available.
+      // For now, this is handled by handlePasswordSubmit.
+    } else {
+      setCurrentDisplayRole("Public");
+    }
+  }, [selectedAdminRole, isAdminAuthenticated, isAuthenticated]);
 
   const handleSendMessage = async (userMessageContent: string) => {
     // Removed setting chatActive
@@ -159,24 +225,29 @@ export default function Home() {
     setCurrentShimmerText(randomShimmer);
     setIsLoading(true); // Ensure loading is true before fetch
     try {
+      const requestBody: ChatRequestBody = {
+        message: userMessageContent,
+        history: historyForAPI.map((msg) => ({
+          role: msg.role,
+          content:
+            typeof msg.content === "string"
+              ? msg.content
+              : "Error: Content was not string", // Should ideally not happen with current logic
+        })),
+      };
+
+      if (isAdminAuthenticated) {
+        requestBody.selectedAdminRole = selectedAdminRole;
+      } else {
+        requestBody.password = passwordInput; // Send the user's attempted password
+      }
+
       const response = await fetch("/api/chat", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({
-          message: userMessageContent,
-          // Ensure history sent to API uses the correct structure and final string content
-          history: historyForAPI.map((msg) => ({
-            // Map to the structure expected by the backend's formatHistory
-            role: msg.role,
-            // Content should be string here due to the fix in createStreamIterable's finally block
-            content:
-              typeof msg.content === "string"
-                ? msg.content
-                : "Error: Content was not string",
-          })),
-        }),
+        body: JSON.stringify(requestBody),
       });
 
       if (!response.ok) {
@@ -247,6 +318,11 @@ export default function Home() {
               <CardContent className="space-y-4">
                 {" "}
                 {/* Use CardContent */}
+                {loginError && (
+                  <p className="text-sm text-red-500 text-center">
+                    {loginError}
+                  </p>
+                )}
                 <div className="space-y-2">
                   {/* Optional: Add a label if needed using "@/components/ui/label" */}
                   {/* <Label htmlFor="password">Password</Label> */}
@@ -277,10 +353,59 @@ export default function Home() {
         // Authenticated Chat Section
         // Use bg-background for Theme-Konsistenz as suggested
         <main className="relative bg-background">
-          {/* Add ThemeToggle button */}
-          <div className="absolute top-4 right-4 z-10">
+          {/* Add ThemeToggle button and Role Display */}
+          <div className="absolute top-4 right-4 z-10 flex items-center space-x-2">
+            {isAuthenticated && (
+              <div className="text-sm text-muted-foreground mr-2">
+                Role: {currentDisplayRole.replace(/_/g, " ").toUpperCase()}
+              </div>
+            )}
+            {isAuthenticated && ( // Show logout button only when authenticated
+              <Button onClick={handleLogout} variant="outline" size="sm">
+                Logout
+              </Button>
+            )}
             <ThemeToggle />
           </div>
+          {isAdminAuthenticated && (
+            <div
+              style={{
+                position: "fixed",
+                bottom: "20px",
+                left: "20px",
+                zIndex: 1001,
+                backgroundColor: "var(--background)",
+                padding: "10px",
+                borderRadius: "8px",
+                border: "1px solid var(--border)",
+              }}
+            >
+              <label
+                htmlFor="adminRoleSelect"
+                className="block text-sm font-medium text-foreground mb-1"
+              >
+                Select Admin Role:
+              </label>
+              <select
+                id="adminRoleSelect"
+                value={selectedAdminRole}
+                onChange={(e) => setSelectedAdminRole(e.target.value)}
+                style={{
+                  padding: "8px",
+                  borderRadius: "4px",
+                  color: "var(--foreground)",
+                  backgroundColor: "var(--input)",
+                  border: "1px solid var(--border)",
+                }}
+              >
+                {adminRoles.map((role) => (
+                  <option key={role} value={role}>
+                    {role.replace(/_/g, " ").toUpperCase()}
+                  </option>
+                ))}
+              </select>
+            </div>
+          )}
           <V0AIChat
             messages={messages as V0ChatMessage[]} // Cast messages for V0AIChat props
             isLoading={isLoading}

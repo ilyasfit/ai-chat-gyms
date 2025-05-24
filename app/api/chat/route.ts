@@ -1,7 +1,10 @@
 import { GoogleGenAI, Content } from "@google/genai";
 import { NextRequest, NextResponse } from "next/server";
-import fs from "fs";
+import fs from "fs"; // For sync operations in readMarkdownFilesRecursive
+import fsp from "fs/promises"; // For async operations in getContextForRole
 import path from "path";
+import { roleContextMapping } from "../../../src/config/roleContextMapping"; // Corrected import path
+import { passwordRoleMap } from "../../../src/config/passwords"; // Added import
 
 // --- Function to Recursively Read Markdown Files ---
 function readMarkdownFilesRecursive(dirPath: string): string {
@@ -40,7 +43,111 @@ function readMarkdownFilesRecursive(dirPath: string): string {
 
 // --- Load All Context ---
 const contextDir = path.resolve(process.cwd(), "context");
-const allContextContent = readMarkdownFilesRecursive(contextDir).trim(); // Start recursion and trim whitespace
+// const allContextContent = readMarkdownFilesRecursive(contextDir).trim(); // This will be replaced by role-based context loading
+
+// --- Function to Get Context Based on Role ---
+async function getContextForRole(role: string): Promise<string> {
+  console.log(`[getContextForRole] Called for role: "${role}"`); // Log: Role passed
+  let combinedContext = "";
+  const baseInstructionsPath = path.join(contextDir, "instructions.md");
+
+  try {
+    const instructionsContent = await fsp.readFile(
+      baseInstructionsPath,
+      "utf-8"
+    );
+    combinedContext += instructionsContent;
+    console.log(
+      `[getContextForRole] Added base instructions from instructions.md. Length: ${instructionsContent.length}. Total context length: ${combinedContext.length}`
+    );
+  } catch (error) {
+    console.error("[getContextForRole] Error reading instructions.md:", error);
+    combinedContext += "\n\n--- Error loading base instructions ---";
+    // Decide if we should proceed without base instructions or throw
+  }
+
+  const roleConfig = roleContextMapping[role];
+  console.log(
+    `[getContextForRole] Loaded roleConfig for "${role}":`,
+    JSON.stringify(roleConfig, null, 2)
+  ); // Log: roleConfig
+
+  if (!roleConfig) {
+    console.warn(
+      `[getContextForRole] Role "${role}" not found in roleContextMapping. Serving minimal context.`
+    );
+    // Optionally, load a default "public" context or just return base instructions
+    // For now, just instructions + warning in logs. The API response might need a user-facing error later.
+    combinedContext += `\n\n--- No specific context configured for role: ${role} ---`;
+    console.log(
+      `[getContextForRole] Final context for role "${role}" (not found). Total length: ${combinedContext.length}`
+    );
+    return combinedContext.trim();
+  }
+
+  // Process individual files
+  console.log(
+    `[getContextForRole] Processing individual files for role "${role}":`,
+    roleConfig.files
+  ); // Log: Files to be processed
+  for (const filePath of roleConfig.files) {
+    const fullPath = path.join(contextDir, filePath);
+    console.log(`[getContextForRole] Attempting to read file: ${fullPath}`); // Log: Specific file being read
+    try {
+      const fileContent = await fsp.readFile(fullPath, "utf-8");
+      const contextAddition = `\n\n--- Context from ${path.basename(
+        filePath
+      )} ---\n\n${fileContent}`;
+      combinedContext += contextAddition;
+      console.log(
+        `[getContextForRole] Added content from file: ${filePath}. Length: ${fileContent.length}. Total context length: ${combinedContext.length}.`
+      );
+    } catch (error) {
+      console.error(
+        `[getContextForRole] Error reading mapped file ${fullPath} for role ${role}:`,
+        error
+      );
+      combinedContext += `\n\n--- Error loading context from ${path.basename(
+        filePath
+      )} for role ${role} ---`;
+    }
+  }
+
+  // Process directories
+  console.log(
+    `[getContextForRole] Processing directories for role "${role}":`,
+    roleConfig.directories
+  ); // Log: Directories to be processed
+  for (const dir of roleConfig.directories) {
+    const fullDirPath = path.join(contextDir, dir);
+    console.log(
+      `[getContextForRole] Attempting to read directory: ${fullDirPath}`
+    ); // Log: Specific directory being read
+    // readMarkdownFilesRecursive is synchronous, but it's called within an async function.
+    // It internally handles its errors by appending messages to its return string.
+    const directoryContent = readMarkdownFilesRecursive(fullDirPath);
+    combinedContext += directoryContent;
+    console.log(
+      `[getContextForRole] Added content from directory: ${dir} (path: ${fullDirPath}). Length: ${directoryContent.length}. Total context length: ${combinedContext.length}.`
+    );
+  }
+
+  // Construct a list of sources for the final log
+  const contextSources = ["instructions.md"];
+  if (roleConfig) {
+    roleConfig.files.forEach((file) => contextSources.push(file));
+    roleConfig.directories.forEach((directory) =>
+      contextSources.push(directory + " (directory)")
+    );
+  }
+  console.log(
+    `[getContextForRole] Final combinedContext for role "${role}". Total length: ${
+      combinedContext.length
+    }. Sources: [${contextSources.join(", ")}]`
+  );
+  // Removed verbose logging of full context content
+  return combinedContext.trim();
+}
 
 // Ensure the API key is available
 const apiKey = process.env.GEMINI_API_KEY;
@@ -66,7 +173,8 @@ function formatHistory(
 // --- API Route Handler ---
 export async function POST(req: NextRequest) {
   try {
-    const { message, history } = await req.json();
+    // Extract password and selectedAdminRole along with message and history
+    const { message, history, password, selectedAdminRole } = await req.json();
 
     // --- Input Validation (Basic) ---
     if (!message || typeof message !== "string") {
@@ -93,21 +201,72 @@ export async function POST(req: NextRequest) {
 
     const formattedHistory = formatHistory(history); // Original chat history from frontend
 
-    // --- Construct the system instruction text using combined context ---
-    // Use a base instruction and append all loaded markdown content.
-    const systemInstructionText = `You are Safya. Du bist die Myo Clinic Staff Assistant AI: \n${allContextContent}`;
+    // --- Determine Role and Load Specific Context ---
+    let determinedRole = "public"; // Default role
+    let userProvidedIdentifier = ""; // For logging/error messages
 
-    // --- Prepend System Instruction to History (Common Pattern) ---
-    const systemHistory: Content[] = [
-      { role: "user", parts: [{ text: systemInstructionText }] },
-      {
-        role: "model",
-        parts: [{ text: "Understood. I am Safya, ready to assist." }],
-      }, // Simple acknowledgement
+    if (selectedAdminRole && typeof selectedAdminRole === "string") {
+      // Admin is logged in and has selected a role to impersonate
+      // We need a way to verify this request is genuinely from an admin.
+      // For now, we'll trust 'selectedAdminRole' if present.
+      // In a real app, an admin token/session would validate this.
+      if (roleContextMapping[selectedAdminRole]) {
+        determinedRole = selectedAdminRole;
+        userProvidedIdentifier = `admin-selected-role: ${selectedAdminRole}`;
+      } else {
+        console.warn(
+          `Admin selected an invalid role: ${selectedAdminRole}. Defaulting to public.`
+        );
+        userProvidedIdentifier = `admin-selected-invalid-role: ${selectedAdminRole}`;
+        // Potentially return an error to the admin user here
+      }
+    } else if (password && typeof password === "string") {
+      const roleFromPassword = passwordRoleMap[password];
+      if (roleFromPassword) {
+        determinedRole = roleFromPassword;
+        userProvidedIdentifier = "password"; // Don't log the actual password
+      } else {
+        console.warn("Invalid password provided. Defaulting to public role.");
+        userProvidedIdentifier = "invalid-password";
+        // Potentially return an error: "Invalid password"
+        // For now, we fall back to 'public' context for failed password attempts.
+        // This behavior might need adjustment based on security requirements (e.g., explicit error).
+      }
+    } else {
+      // No password and no admin role selected, assume public access
+      console.log("No password or admin role provided. Using public role.");
+      userProvidedIdentifier = "none";
+    }
+
+    console.log(
+      `Determined role: ${determinedRole} (based on: ${userProvidedIdentifier})`
+    ); // Using userProvidedIdentifier
+
+    const roleSpecificContext = await getContextForRole(determinedRole);
+    console.log(
+      `Context length for role ${determinedRole}: ${roleSpecificContext.length} characters`
+    ); // Added for Task 2.4.2.1
+
+    // --- Construct the system instruction using role-specific context ---
+    const systemInstruction: Content = {
+      role: "user",
+      parts: [
+        {
+          text: `You are Safya, the Myo Clinic Staff Assistant AI. Your current role is ${determinedRole}. Base your responses on the following information provided for your role:\n${roleSpecificContext}`,
+        },
+      ],
+    };
+    const modelAcknowledgement: Content = {
+      role: "model",
+      parts: [{ text: "Verstanden." }],
+    };
+
+    // Combine system instruction, model acknowledgement, and actual chat history
+    const fullHistory = [
+      systemInstruction,
+      modelAcknowledgement,
+      ...formattedHistory,
     ];
-
-    // Combine system history with the actual chat history from the frontend
-    const fullHistory = [...systemHistory, ...formattedHistory]; // Use const as it's not reassigned
 
     // --- Use generateContentStream directly (Stateless Approach) ---
     // Construct the 'contents' array expected by generateContentStream
