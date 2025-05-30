@@ -9,7 +9,7 @@ export const roleContextMapping: RoleContextMapping = {
   public: {
     // No specific public procedures defined in the new document
     files: [],
-    directories: [],
+    directories: ["new"],
   },
   colaboradores: {
     files: [
@@ -35,6 +35,7 @@ export const roleContextMapping: RoleContextMapping = {
       "Fisio - Cliente/Chamadas para Leads", // For "Gestão de LEADs", "Contacto LEADs"
       "Fisio - Cliente/Avaliação de Diagnóstico", // For "Consentimento Informado (Fisioterapia)"
       // Not including "Fisio Técnico" based on the new document's procedure list for Colaboradores
+      "new",
     ],
   },
   managers: {
@@ -43,6 +44,7 @@ export const roleContextMapping: RoleContextMapping = {
       "Processos_Software", // Full access for all financial and operational procedures
       "Fisio - Cliente", // Full access for client management and commercial processes
       "Fisio Técnico", // Access for deeper understanding and potentially for "Correção de Agenda" if it involves technicalities
+      "new",
     ],
   },
   franchising: {
@@ -51,6 +53,7 @@ export const roleContextMapping: RoleContextMapping = {
       "Processos_Software", // Broad access similar to managers
       "Fisio - Cliente", // Broad access similar to managers
       "Fisio Técnico", // For understanding core business, quality control
+      "new",
     ],
   },
   admin_full_context: {
@@ -62,6 +65,7 @@ export const roleContextMapping: RoleContextMapping = {
       "Processos_Software",
       "Fisio - Cliente",
       "Fisio Técnico",
+      "new",
       // Any other directories in context/ should be listed here for full admin access
     ],
   },
