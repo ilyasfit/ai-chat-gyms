@@ -428,7 +428,8 @@ export async function POST(req: NextRequest) {
       { role: "user", parts: [{ text: message }] },
     ];
 
-    // --- Save the request payload to a JSON file ---
+    // --- Save the request payload to a JSON file --- (Auskommentiert)
+    /*
     try {
       const timestamp = new Date().toISOString().replace(/[:.]/g, "-");
       // Ensure the 'python' directory exists.
@@ -461,6 +462,7 @@ export async function POST(req: NextRequest) {
         saveError
       );
     }
+    */
     // --- End of save ---
 
     const streamResult = await genAI.models.generateContentStream({
