@@ -1,0 +1,36 @@
+# Procedimento Operacional Padrão (POP)
+
+## 1. Objetivo
+
+Fornecer instruções passo a passo para verificar as entradas disponíveis do cliente dentro do software SportStudio (v. 3.08.8811).
+
+## 2. Âmbito
+
+Este POP aplica-se a todos os utilizadores responsáveis pela gestão de contas de utentes no módulo "Utentes" do SportStudio.
+
+## 3. Pré-requisitos
+
+- Utilizador com sessão iniciada na aplicação SportStudio.
+- O ecrã/separador "Utentes" está aberto.
+- O utente a ser ativado está identificado.
+
+## 4. Procedimento
+
+| Passo | Ação                                | Descrição e Elemento da Interface                                                                                                |
+| :---- | :---------------------------------- | :------------------------------------------------------------------------------------------------------------------------------- |
+| 1     | Selecionar Utente         | Garantir que o utente desejado (ex: "Formação SportStudio") está selecionado na lista principal do ecrã "Utentes".                 |
+| 2     | Ver Entradas              | Clicar no botão "Entradas" na barra de ferramentas superior.                                                                     |
+| 3     | Voltar                    | Clicar no botão "Voltar" no canto superior direito do ecrã "Entradas".                                                           |
+| 4     | Abrir Menu Histórico      | Clicar no botão "Histórico" na barra de ferramentas superior.                                                                    |
+| 5     | Ver Histórico de Status   | Selecionar a opção "Status" no menu suspenso que aparece.                                                                        |
+| 6     | Voltar                    | Clicar no botão "Voltar" no canto superior direito do ecrã "Histórico de status".                                                |
+| 7     | Abrir Menu Histórico      | Clicar novamente no botão "Histórico" na barra de ferramentas superior.                                                           |
+| 8     | Ver Histórico do Utente   | Selecionar a opção "Utente" no menu suspenso.                                                                                    |
+| 9     | Voltar                    | Clicar no botão "Voltar" no canto superior direito do ecrã "Histórico".                                                          |
+| 10    | Abrir Menu Histórico      | Clicar novamente no botão "Histórico" na barra de ferramentas superior.                                                           |
+| 11    | Ver Histórico de Pagamentos | Selecionar a opção "Pagamentos" no menu suspenso.                                                                                |
+| 12    | Voltar                    | Clicar no botão "Voltar" no canto superior direito do ecrã "Histórico de pagamentos" para retornar ao ecrã principal "Utentes". |
+
+## 5. Resultado Esperado
+
+O estado da conta do utente

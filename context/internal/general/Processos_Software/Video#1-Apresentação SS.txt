@@ -1,0 +1,38 @@
+# Procedimento Operacional Padrão (POP)
+
+## 1. Objetivo
+
+Fornecer instruções passo a passo para iniciar sessão no SportStudio, navegar para a secção de Utentes, pesquisar um utente específico pelo nome e aceder ao seu ecrã de Pagamentos, conforme demonstrado no vídeo "Video#1-Apresentação SS".
+
+## 2. Âmbito
+
+Este POP aplica-se a todos os utilizadores que necessitam de aceder ao software SportStudio (v. 3.08.8811), localizar utentes e visualizar informações básicas ou ecrãs relacionados, como Pagamentos.
+
+## 3. Pré-requisitos
+
+- Aplicação SportStudio instalada no computador.
+- Credenciais de login válidas (Operador e Password).
+
+## 4. Procedimento
+
+| Passo | Ação                     | Descrição e Elemento da Interface                                                                 |
+|-------|--------------------------|---------------------------------------------------------------------------------------------------|
+| 1     | Iniciar Aplicação  | Duplo clique no ícone do SportStudio no ambiente de trabalho.                                       |
+| 2     | Inserir Operador   | Digitar o nome de utilizador no campo "Operador:" da janela de login.                             |
+| 3     | Inserir Password   | Digitar a palavra-passe no campo "Password:".                                                     |
+| 4     | Confirmar Login    | Clicar no botão "Ok" na janela de login.                                                          |
+| 5     | Aceder a Utentes   | Clicar no ícone "Utentes" na barra de ferramentas principal da aplicação.                         |
+| 6     | Aceder a Agenda    | (Navegação Opcional) Clicar no ícone "Agenda" na barra de ferramentas principal.                  |
+| 7     | Voltar a Utentes   | Clicar novamente no ícone "Utentes" na barra de ferramentas principal.                            |
+| 8     | Inserir Nome       | No ecrã "Utentes", digitar "teste" no campo de pesquisa "Nome:".                                  |
+| 9     | Pesquisar Utente   | Clicar no ícone "Pesquisar" (lupa) ao lado dos campos de pesquisa.                                |
+| 10    | Aceder a Pagamentos | Com o utente "Teste Formação" (ID 615) selecionado na lista, clicar no ícone "Pagar" na barra de ferramentas do ecrã "Utentes". |
+| 11    | Voltar             | No ecrã "Pagamentos", clicar no ícone "Voltar" (seta para a esquerda) no canto superior direito. |
+
+## 5. Resultado Esperado
+
+O utilizador consegue iniciar sessão no SportStudio, navegar até à secção de Utentes, pesquisar e encontrar o utente "Teste Formação", aceder ao seu ecrã de Pagamentos e regressar à lista de Utentes.
+
+## 6. Referências
+
+Vídeo: "Video#1-Apresentação SS"

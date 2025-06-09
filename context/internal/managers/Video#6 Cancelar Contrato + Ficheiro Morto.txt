@@ -1,0 +1,62 @@
+# Procedimento Operacional Padrão (POP)
+
+## Titel: Fim de Contrato e Inativação de Cliente no SportStudio
+
+**Versão:** 1.0 -- 09/06/2025
+
+## 1. Objetivo
+
+Definir o processo padronizado para terminar o contrato de um cliente, ajustar os seus registos financeiros para evitar cobranças futuras e alterar o seu estado para inativo ("Ficheiro Morto") no software SportStudio, garantindo a integridade dos dados e o correto registo do motivo da saída.
+
+## 2. Âmbito
+
+Este procedimento aplica-se a todo o pessoal administrativo, rececionistas e coordenadores responsáveis pela gestão de clientes, contratos e faturação na clínica.
+
+## 3. Cenário Comum
+
+Um cliente informa a clínica sobre a sua intenção de cessar os serviços. Esta ação requer a atualização do sistema para refletir o término do contrato no final do período acordado, garantindo que não sejam geradas novas faturas e que o perfil do cliente seja corretamente arquivado.
+
+## 4. Procedimento: Como agir passo-a-passo
+
+O processo é dividido em duas fases principais: primeiro, o ajuste financeiro do contrato e, segundo, a inativação formal do perfil do cliente.
+
+| Passo | Ação | Descrição |
+| :--- | :--- | :--- |
+| **Fase 1** | **Ajustar Parcelas do Contrato** | **(Impede cobranças futuras)** |
+| 1 | Localizar o cliente | Na janela "Utentes", pesquisar e selecionar o cliente cujo contrato será terminado. |
+| 2 | Aceder ao contrato | Com o cliente selecionado, clicar no botão **"Contrato"** na barra de ferramentas superior. |
+| 3 | Editar as parcelas ativas | Fazer duplo clique em cada linha de serviço/parcela ativa (ex: "Inscrição Anual", "Sessão Fisioterapia"). Na janela de edição, preencher o campo **"Até"** com a data final do serviço. |
+| 4 | Guardar como "Correção" | Clicar em **"Gravar"**. Na janela de confirmação que surge, selecionar a opção **(C) Correção** e clicar em "OK". Repetir para todas as parcelas ativas. |
+| 5 | Verificar a conta corrente | Clicar no botão **"Dívidas"** para confirmar que todas as mensalidades futuras, posteriores à data de fim, foram removidas da conta corrente do cliente. |
+| **Fase 2** | **Cancelar Contrato e Inativar Utente** | **(Altera o estado do cliente)** |
+| 6 | Voltar à ficha do utente | Regressar à janela principal de "Utentes" clicando em **"Voltar"**. |
+| 7 | Iniciar o cancelamento | Clicar com o botão direito do rato sobre o nome do cliente e selecionar a opção **"Cancelar/Outras..."**. |
+| 8 | Alterar estado e cancelar contrato | Na janela "Operações sobre utente", ativar as seguintes opções:<br>- **Mudar estado do utente para:** selecionar **"F. Morto"**.<br>- **Cancelar Contrato:** definir a data oficial do cancelamento.<br>- **Desativar Entradas:** para revogar o acesso do cliente às instalações. |
+| 9 | Preencher o questionário | Clicar em **"OK"**. Preencher o questionário de "Cancelamentos" com o motivo da saída indicado pelo cliente. Clicar em **"Gravar"**. |
+| 10 | Finalizar a operação | Clicar novamente em **"OK"** na janela de "Operações". O cliente desaparecerá da lista ativa, confirmando que o seu perfil foi movido para o ficheiro morto. |
+
+## 5. Script de Comunicação Sugerido
+
+> "Compreendido, vamos então proceder ao cancelamento do seu contrato a partir da data que indicou. Apenas para nosso registo interno e para podermos melhorar os nossos serviços, poderia partilhar o motivo da sua saída? A sua opinião é muito valiosa para nós."
+
+## 6. Variações de Situação
+
+*   **Se o sistema apresentar um erro com datas futuras:**
+    > O sistema pode impedir a desativação de turmas ou entradas com uma data no futuro. Neste caso, o contrato e o estado do utente podem ser agendados, mas a desativação efetiva dos acessos deve ser executada na data real do cancelamento.
+
+## 7. Erros a evitar
+
+*   **Não ajustar a data "Até" das parcelas:** Isto resultará em cobranças indevidas ao cliente no futuro.
+*   **Apenas alterar o estado para "F. Morto":** É crucial também cancelar formalmente o contrato e os serviços associados para garantir a consistência dos dados.
+*   **Não verificar a conta corrente ("Dívidas"):** Deixar de confirmar a remoção de faturas futuras pode levar a erros de faturação.
+*   **Não preencher o questionário de cancelamento:** A clínica perde a oportunidade de recolher feedback valioso para a melhoria contínua dos seus serviços.
+
+## 8. Notas de Comunicação (Internas)
+
+*   Verificar sempre o separador "Dívidas" após a Fase 1 para garantir que a conta corrente está correta.
+*   O estado "F. Morto" remove o cliente da lista ativa padrão. Para o localizar novamente, será necessário alterar os filtros de pesquisa de utentes para incluir os inativos.
+*   Garantir que a data de cancelamento do contrato (Passo 8) é consistente com a data final das parcelas (Passo 3).
+
+## 9. Resultado Esperado
+
+O contrato do cliente é terminado de forma oficial no sistema. Todas as cobranças futuras são canceladas, e o perfil do cliente é movido para um arquivo de inativos ("Ficheiro Morto"). O motivo da saída fica registado, permitindo análises futuras e prevenindo erros financeiros.

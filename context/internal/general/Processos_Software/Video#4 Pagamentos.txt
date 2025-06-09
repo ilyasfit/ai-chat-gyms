@@ -1,0 +1,61 @@
+# Procedimento Operacional Padrão (POP)
+
+## Título: Correção de Contrato para Anular um Pagamento Já Registado
+
+Versão: 1.0 -- 22/08/2023
+
+## 1. Objetivo
+
+Definir o processo passo a passo para anular um pagamento associado a uma parcela de contrato que foi registado incorretamente no software SportStudio. Este procedimento permite que a dívida volte a ficar pendente na conta corrente do utente, possibilitando a sua correção ou eliminação posterior.
+
+## 2. Âmbito
+
+Este procedimento aplica-se a todos os utilizadores com permissões de gestão de contratos e pagamentos (receção, administração, coordenação) que operam o software SportStudio.
+
+## 3. Cenário Comum
+
+Este procedimento é necessário quando:
+- Um pagamento de uma parcela de contrato (ex: Inscrição Anual, Mensalidade) foi registado por engano.
+- O valor registado no pagamento está incorreto e é preciso reverter a operação para lançar o valor correto.
+- Uma dívida foi liquidada, mas o contrato precisa de ser alterado, o que exige que a dívida original seja reposta como pendente.
+
+## 4. Procedimento: Como agir passo-a-passo
+
+| Passo | Ação | Descrição |
+| :--- | :--- | :--- |
+| 1 | **Aceder à Ficha do Utente** | No menu principal, localizar e abrir a ficha do utente cujo pagamento precisa de ser anulado. |
+| 2 | **Abrir o Contrato** | Na barra de ferramentas do perfil do utente, clicar no ícone **"Contrato"**. |
+| 3 | **Editar a Parcela do Contrato** | Na secção "Parcelas do contrato", fazer **duplo clique** sobre a linha da parcela cujo pagamento se pretende anular. |
+| 4 | **Gravar a Correção** | Na janela de edição do contrato que se abre, clicar imediatamente no botão **"Gravar"** (ícone do disquete), **sem alterar qualquer informação**. |
+| 5 | **Confirmar a Operação de Correção**| Na caixa de diálogo que surge, selecionar a opção **"(C) Correcção (Correcção das condições de contrato)"**. |
+| 6 | **Finalizar a Correção** | Clicar no botão **"OK"**. A janela de edição será fechada. |
+| 7 | **Verificar o Resultado** | Clicar em **"Voltar"** para regressar à ficha do utente. Aceder ao separador **"Dívidas"** para confirmar que a dívida foi reposta. O pagamento já não deverá constar como liquidado. |
+
+## 5. Script de Comunicação Sugerido (Interno)
+
+> "Para anular o pagamento que foi registado por engano no contrato do(a) [Nome do Cliente], segui o procedimento de correção de contrato. A dívida já está novamente disponível na conta corrente para ser processada corretamente."
+
+## 6. Variações de Situação
+
+- **Se, após anular o pagamento, a dívida precisar de ser eliminada:**
+  > No separador "Dívidas", selecionar a linha em questão, clicar no botão "Eliminar" e confirmar a operação. **Atenção: Esta ação é irreversível.**
+
+- **Se for necessário registar um novo pagamento manual (não associado a uma dívida):**
+  > No ecrã "Pagar", clicar no campo "Código" da grelha de pagamentos. Na janela "Lista do Inventário", procurar e selecionar o serviço/produto correto para o adicionar manualmente à transação.
+
+## 7. Erros a evitar
+
+- **Alterar dados no contrato (Passo 4)** se o objetivo for apenas anular o pagamento.
+- **Selecionar as opções "(A) Alteração" ou "(R) Renovação" (Passo 5)**, pois têm outras finalidades e não garantem a anulação do pagamento.
+- **Tentar eliminar uma dívida liquidada diretamente**, sem primeiro anular o pagamento através deste procedimento.
+- **Criar uma nota de crédito** quando este procedimento de correção é mais simples e direto para resolver erros de registo.
+
+## 8. Notas de Comunicação (Internas)
+
+- Este procedimento é uma "solução de contorno" (workaround) eficaz para anular um pagamento de contrato sem gerar documentos de retificação.
+- Utilizar apenas quando se tem a certeza de que o pagamento precisa ser revertido.
+- Verificar sempre o resultado final nos separadores "Dívidas" e no ecrã "Pagar" para garantir que a operação foi bem-sucedida.
+
+## 9. Resultado Esperado
+
+O pagamento incorreto é removido do sistema e dos registos de caixa. A dívida original é restaurada na conta corrente do utente, ficando disponível para ser paga corretamente, alterada ou eliminada. O processo é concluído de forma limpa e eficiente.

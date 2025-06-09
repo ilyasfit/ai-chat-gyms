@@ -1,0 +1,58 @@
+# Procedimento Operacional Padrão (POP)
+
+## Título: Eliminar Contrato Recorrente e Realizar Pagamento Único de Pacote
+
+Versão: 1.0 -- 30/05/2024
+
+## 1. Objetivo
+
+Definir o procedimento correto para substituir um contrato com pagamentos recorrentes (mensalidades) por um pagamento único de um pacote de serviços. Este processo visa anular futuras cobranças automáticas e regularizar a conta do cliente com uma única transação.
+
+## 2. Âmbito
+
+Este procedimento aplica-se a todos os colaboradores da receção e administração com permissões para gerir contratos e pagamentos no software SportStudio.
+
+## 3. Cenário Comum
+
+O cliente possui um contrato ativo com mensalidades (ex: "Sessão Fisioterapia 1x Semana") e deseja alterar o seu plano, optando por adquirir um pacote de sessões (ex: "Pacote 24 Sessões") e efetuar o pagamento do valor total de uma só vez.
+
+## 4. Procedimento: Como agir passo-a-passo
+
+| Passo | Ação | Descrição |
+| :--- | :--- | :--- |
+| **1** | **Localizar o Cliente** | No menu "Utentes", pesquisar e selecionar o cliente cujo contrato será alterado. |
+| **2** | **Aceder ao Contrato** | Com o cliente selecionado, clicar no botão **"Contrato"** para visualizar as parcelas ativas (inscrição, mensalidades, etc.). |
+| **3** | **Eliminar as Parcelas do Contrato** | Selecionar **todas** as linhas de parcelas ativas no contrato e clicar no botão **"Eliminar"**. |
+| **4** | **Confirmar a Eliminação** | Uma janela de confirmação irá surgir. Marcar a caixa de seleção **"Sim, Confirmo a operação"** e clicar em **"OK"**. *Atenção: Esta ação é irreversível e irá apagar todas as dívidas futuras associadas ao contrato.* |
+| **5** | **Iniciar o Novo Pagamento** | Voltar ao perfil do cliente e clicar no botão **"Pagar"**. A janela de pagamentos deverá estar vazia. |
+| **6** | **Adicionar o Pacote** | Clicar na linha vazia de pagamento para abrir a **"Lista do inventário"**. Procurar e selecionar o novo pacote que o cliente deseja adquirir (ex: "PACK_05"). Clicar em **"OK"**. |
+| **7** | **Concluir o Pagamento** | O novo item aparecerá na janela de pagamento com o valor total. Clicar em **"Concluir"**, selecionar o método de pagamento (ex: Multibanco, Transferência) e finalizar a transação para emitir o respetivo documento fiscal. |
+
+## 5. Script de Comunicação Sugerido
+
+> "Claro que sim, podemos fazer essa alteração. Para isso, vou primeiro cancelar o seu contrato de mensalidades atual para que não sejam geradas mais cobranças. De seguida, faremos o pagamento único do novo pacote de 24 sessões no valor de 1.000€. Concorda?"
+
+## 6. Variações de Situação
+
+*   **Se o cliente tiver dívidas pendentes do contrato antigo:**
+    *   Antes de eliminar o contrato, é necessário liquidar primeiro os valores em atraso. O sistema irá apresentá-los na janela "Pagar" (Passo 5) antes de estar vazia.
+
+*   **Se o pacote desejado não estiver na lista:**
+    *   É necessário verificar se o item está corretamente criado no inventário do sistema. Contactar a coordenação, se necessário.
+
+## 7. Erros a evitar
+
+-   **Adicionar o novo pacote sem antes eliminar o contrato antigo.** Isso resultará em dupla cobrança para o cliente (mensalidade + valor do pacote).
+-   **Eliminar o contrato sem a confirmação explícita do cliente.** A ação é irreversível.
+-   **Selecionar o pacote ou o preço errado na lista de inventário.** Sempre confirmar com o cliente o item e valor antes de concluir.
+-   **Esquecer-se de selecionar todas as linhas do contrato** ao eliminar, deixando alguma parcela ativa.
+
+## 8. Notas de Comunicação
+
+-   Ser transparente sobre o processo: "Vou apagar o seu plano antigo para criar o novo."
+-   Confirmar sempre o valor final antes de processar o pagamento.
+-   Explicar que esta mudança impede cobranças futuras automáticas, dando ao cliente controlo sobre a próxima renovação.
+
+## 9. Resultado Esperado
+
+O contrato recorrente do cliente é terminado com sucesso. A sua conta corrente fica regularizada com o pagamento de um novo pacote de serviços. O sistema não irá gerar mais mensalidades automáticas, e o cliente fica com um saldo de sessões para utilizar.

@@ -43,11 +43,6 @@ export default function RootLayout({
               '<elevenlabs-convai agent-id="vNsUiF8EdRUktvmiPxkV"></elevenlabs-convai>',
           }}
         />
-        <script
-          src="https://elevenlabs.io/convai-widget/index.js"
-          async
-          type="text/javascript"
-        ></script>
       </body>
     </html>
   );

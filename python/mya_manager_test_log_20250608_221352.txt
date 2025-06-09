@@ -1,0 +1,169 @@
+MYA Manager Role Test Log - Started at 20250608_221352
+===================================================
+
+--- Question 1 ---
+User: Como é que eu, enquanto gestor, finalizo um contrato de um cliente e arquivo os seus dados de forma definitiva?
+
+MYA:
+Basierend auf den vorliegenden Dokumenten kann ich Ihnen das Verfahren zur **Beendigung eines Vertrags** für einen Kunden erklären.
+
+Das Verfahren zum **endgültigen Archivieren der Daten** eines Kunden wird in den bereitgestellten Dokumenten nicht detailliert beschrieben. Die Dokumentation über den Softwareprozess zur Statusänderung eines Nutzers (z. B. von "Suspenso" auf "Ativo") beschreibt nicht das definitive Archivieren von Daten im System.
+
+Hier ist das Verfahren zum **Beenden eines Vertrags**:
+
+1.  Öffnen Sie den Vertrag des Kunden im SportStudio Software.
+2.  Wählen Sie das Feld 'Até:' (Bis:), das das Enddatum des Vertrags festlegt.
+3.  Geben Sie das gewünschte Enddatum für den Vertrag ein.
+4.  Drücken Sie 'Gravar' (Speichern).
+5.  Wenn ein Bestätigungsfenster erscheint, wählen Sie 'Correcção.' (Korrektur).
+6.  Bestätigen Sie mit 'Ok'.
+
+Durch das Setzen eines Enddatums wird der Vertrag beendet, und dies wirkt sich auf die Zahlungen und Schulden des Kunden aus.
+
+Ich habe keinen Zugriff auf Informationen darüber, wie die Daten eines Kunden nach Beendigung des Vertrags endgültig im System archiviert werden.
+---------------------------------------------------
+
+--- Question 2 ---
+User: Podes explicar resumidamente os passos para gerar o ficheiro para os débitos diretos dos clientes?
+
+MYA:
+Error: HTTP error occurred: 500 Server Error: Internal Server Error for url: http://localhost:3000/api/chat - Response: {"error":"got status: 429 Too Many Requests. {\"error\":{\"message\":\"exception parsing response\",\"code\":429,\"status\":\"Too Many Requests\"}}"}
+---------------------------------------------------
+
+--- Question 3 ---
+User: Um cliente está suspenso. Quais são os passos no sistema para o reativar?
+
+MYA:
+Error: HTTP error occurred: 500 Server Error: Internal Server Error for url: http://localhost:3000/api/chat - Response: {"error":"got status: 429 Too Many Requests. {\"error\":{\"message\":\"exception parsing response\",\"code\":429,\"status\":\"Too Many Requests\"}}"}
+---------------------------------------------------
+
+--- Question 4 ---
+User: O que devo fazer se um cliente faltar repetidamente às sessões? Qual é a nossa abordagem?
+
+MYA:
+Basierend auf dem Dokument "POP - Faltas Frequentes às Sessões.md" ist hier die Vorgehensweise bei Kunden, die häufig Sitzungen versäumen:
+
+**Ziel:**
+Eine standardisierte, empathische und professionelle Vorgehensweise im Umgang mit Kunden definieren, die häufig Sitzungen versäumen, um die therapeutische Kontinuität und den Respekt vor der Agenda der Klinik zu gewährleisten.
+
+**Häufiges Szenario:**
+Der Kunde fehlt mehrmals im Monat, mit oder ohne Vorankündigung.
+
+**Schritt-für-Schritt-Verfahren:**
+
+1.  **Muster der Fehlzeiten überprüfen:** Bestätigen Sie die Anzahl der unentschuldigten Abwesenheiten in den letzten 30 Tagen (oder einem anderen festgelegten Zeitraum).
+2.  **Klinischen Einfluss bewerten:** Überlegen Sie, ob die Fehlzeiten den Therapieplan und die erwarteten Ergebnisse beeinträchtigen.
+3.  **Empfang oder Koordination benachrichtigen:** Informieren Sie das Team für eine zentrale Registrierung und eventuellen Kontakt mit dem Kunden.
+4.  **Kunden kontaktieren:** Gehen Sie freundlich und proaktiv auf den Kunden zu, idealerweise per Telefon oder in der nächsten Sitzung.
+5.  **Verpflichtung bekräftigen:** Erklären Sie empathisch die Bedeutung der Kontinuität im Prozess.
+6.  **Nächste Schritte definieren:** Bestätigen Sie die Motivation des Kunden, passen Sie gegebenenfalls die Frequenz an oder organisieren Sie den Plan neu.
+
+**Empfohlenes Kommunikations-Skript:**
+"Das Team hat bemerkt, dass es in den letzten Wochen mehrere Abwesenheiten gab. Wir wissen, dass Unvorhergesehenes passiert, aber die Kontinuität ist entscheidend, damit der Plan funktioniert und gute Ergebnisse erzielt werden. Wir möchten sicherstellen, dass Sie sich mit dem Prozess wohl und motiviert fühlen. Die Klinik steht zur Verfügung, um die Termine anzupassen oder über alles Notwendige zu sprechen, um die Kontinuität zu erleichtern."
+
+**Variationen für spezifische Fälle:**
+*   Bei Demotivation: Bieten Sie an, den Plan anzupassen, um ihn leichter und an die aktuelle Realität angepasst zu gestalten.
+*   Bei finanziellen Gründen: Bewerten Sie gemeinsam Möglichkeiten, die Betreuung im Rahmen der aktuellen Möglichkeiten fortzusetzen (z. B. Gruppenkurse, geringere wöchentliche Frequenz).
+*   Wenn der Kunde später wiederkommen möchte: Respektieren Sie die Entscheidung, empfehlen Sie jedoch, zumindest sporadischen Kontakt zu halten, um Rückschritte zu vermeiden, und bieten Sie Unterstützung für die zukünftige Wiederaufnahme an (z. B. Packs vorschlagen).
+
+**Zu vermeidende Fehler:**
+*   Das Muster der Fehlzeiten ignorieren.
+*   Den Kunden beurteilen oder beschuldigen.
+*   Frustration oder Enttäuschung persönlich zeigen.
+*   Termine ohne aktives Zuhören aufzwingen.
+
+**Kommunikationshinweise:**
+*   Ton: Immer freundlich und nicht anklagend.
+*   Echte Besorgnis um das Wohlbefinden und den Fortschritt des Kunden zeigen.
+*   Die Verpflichtung als Teil einer gemeinsamen Arbeit bekräftigen.
+*   Das Gespräch basierend auf der klinischen Vorgeschichte und der etablierten Beziehung personalisieren.
+
+**Erwartetes Ergebnis:**
+Der Kunde versteht die Auswirkungen der Abwesenheiten, fühlt sich gut aufgenommen und ist motiviert, den Plan mit Kontinuität fortzusetzen oder ihn mit Unterstützung des Teams anzupassen.
+---------------------------------------------------
+
+--- Question 5 ---
+User: Preciso de criar um ficheiro para as operações mensais. Podes ajudar-me com o procedimento?
+
+MYA:
+Error: HTTP error occurred: 500 Server Error: Internal Server Error for url: http://localhost:3000/api/chat - Response: {"error":"got status: 429 Too Many Requests. {\"error\":{\"message\":\"exception parsing response\",\"code\":429,\"status\":\"Too Many Requests\"}}"}
+---------------------------------------------------
+
+--- Question 6 ---
+User: Como é a gestão de um cliente que tem pagamentos em atraso?
+
+MYA:
+Basierend auf dem Dokument "Manual Geral Myo Clinic.txt" werden Sie über fällige Zahlungen informiert, wenn der SportStudio-Software automatische Kommunikationen sendet.
+
+Hier sind die Punkte, die in den bereitgestellten Dokumenten zur Verwaltung von Zahlungen in Verzug erwähnt werden:
+
+*   **Automatische Benachrichtigungen:** Der SportStudio-Software sendet automatische Benachrichtigungen über fehlende Zahlungen, wenn diese nicht zu den fälligen Terminen verifiziert werden (siehe Abschnitt "Software – SportStudio").
+*   **Überprüfung der Dívidas:** Sie können den Zahlungsstatus eines Kunden jederzeit überprüfen, indem Sie im Modul 'Utentes' auf 'Dívidas' klicken. Hier sehen Sie die Zahlungsposten. Orangefarbene Linien zeigen an, dass die Zahlung noch aussteht, während grüne Linien anzeigen, dass sie bezahlt wurde (siehe Abschnitt "Conta Corrente Cliente (Dívidas)" und "Pagamentos de Mensalidades").
+*   **Regelmäßige Überprüfung:** Es ist unerlässlich, die Einträge des Kunden (saldo de sessões) regelmäßig zu überprüfen. Dieses Guthaben wird durch erfolgte Zahlungen hinzugefügt. Ein fehlendes Guthaben kann auf eine nicht erfolgte Zahlung hindeuten (siehe Abschnitt "Entradas").
+*   **Folgeprozess für Rücklastschriften (Débitos Diretos):** Falls ein Lastschrifteinzug nicht ausgeführt werden konnte (z. B. wegen unzureichender Deckung), wird ein Rücklastschriftfile (ficheiro de retorno) vom Bank-Login in den SportStudio-Software importiert. Wenn Fehler bei Zahlungslinien auftreten, muss der Verantwortliche den Kunden kontaktieren, um die Gründe zu erfahren und alternative Zahlungsmöglichkeiten zu vereinbaren (siehe Abschnitt "Débitos Diretos" und "Ficheiro de Retorno").
+
+Zusammenfassend lässt sich sagen, dass die Verwaltung von Zahlungen in Verzug die Überwachung der automatischen Benachrichtigungen, die regelmäßige Überprüfung des Zahlungsstatus (Dívidas) und des Guthabens (Entradas) des Kunden im SportStudio-Software sowie die Kontaktaufnahme mit dem Kunden beinhaltet, insbesondere im Falle von fehlgeschlagenen Lastschriften.
+---------------------------------------------------
+
+--- Question 7 ---
+User: Quais são as minhas responsabilidades principais na gestão da clínica no dia-a-dia?
+
+MYA:
+Error: HTTP error occurred: 500 Server Error: Internal Server Error for url: http://localhost:3000/api/chat - Response: {"error":"got status: 429 Too Many Requests. {\"error\":{\"message\":\"exception parsing response\",\"code\":429,\"status\":\"Too Many Requests\"}}"}
+---------------------------------------------------
+
+--- Question 8 ---
+User: Um cliente pediu para falar com a coordenação sobre um problema. Como devo proceder segundo os nossos POPs?
+
+MYA:
+Error: HTTP error occurred: 500 Server Error: Internal Server Error for url: http://localhost:3000/api/chat - Response: {"error":"got status: 429 Too Many Requests. {\"error\":{\"message\":\"exception parsing response\",\"code\":429,\"status\":\"Too Many Requests\"}}"}
+---------------------------------------------------
+
+--- Question 9 ---
+User: Preciso de informações sobre o processo de cancelamento. Podes detalhar?
+
+MYA:
+Basierend auf den vorliegenden Dokumenten gibt es Informationen zum **Beenden eines Vertrags** und zum Umgang mit **Sitzungsabsagen durch den Kunden**. Das allgemeine "Processo de Cancelamento" als eigenständiger, übergreifender Prozess ist nicht detailliert beschrieben, aber die Einzelheiten in Bezug auf Verträge und Sitzungen sind verfügbar.
+
+Hier sind die Details, die ich aus den Dokumenten entnehmen kann:
+
+**1. Beendigung eines Vertrags (Fim de Contrato - Monatsbeiträge):**
+
+*   Der Vertrag wird automatisch um gleiche und aufeinanderfolgende Zeiträume verlängert, es sei denn, eine der Parteien kündigt ihn mit einer Frist von 30 Tagen vor Ablauf der ursprünglichen Laufzeit oder einer ihrer Verlängerungen.
+*   Der Kunde kann den Vertrag mit einer Frist von 15 Tagen kündigen in Fällen von:
+    *   Dauerhafter Krankheit oder Invalidität, die die Teilnahme an den von Myo Clinic angebotenen Aktivitäten verhindert.
+    *   Anderen Gründen höherer Gewalt, wie z. B. Wohnortwechsel, die ordnungsgemäß nachgewiesen und zuvor geprüft und validiert werden müssen.
+*   Es ist für den Mitarbeiter von Myo Clinic unerlässlich, die Gründe für die Nichtverlängerung des Kunden zu verstehen, um zu beurteilen, ob die Gründe kontrollierbar oder unvermeidlich sind.
+*   Um den Vertrag im Softwaresystem zu beenden, müssen Sie:
+    1.  Den Vertrag öffnen.
+    2.  Das Enddatum im Feld 'Até:' eingeben.
+    3.  'Gravar' (Speichern) drücken.
+    4.  Im Bestätigungsfenster 'Correcção.' (Korrektur) auswählen.
+    5.  Mit 'Ok' bestätigen.
+
+**2. Umgang mit Sitzungsabsagen des Kunden (POP - Cancelamento de Sessão com Menos de 3h):**
+
+*   Dieses Verfahren betrifft Absagen, die weniger als 3 Stunden vor der Sitzung erfolgen.
+*   **Ziel:** Standardisierung der Reaktion des Teams, um Empathie, Bestimmtheit und Kohärenz mit der internen Richtlinie zu gewährleisten.
+*   **Verfahren:**
+    1.  Aktives Zuhören des Kundenwunsches.
+    2.  Überprüfung, ob die Absage außerhalb der Frist für kostenlose Stornierung liegt (< 3 Stunden).
+    3.  Antworten mit Empathie und Bestimmtheit, wobei die Regel der Verrechnung bei kurzfristiger Absage (weniger als 3 Stunden) mitgeteilt wird.
+    4.  Die Sitzung im System als "cancelada com menos de 3horas" registrieren.
+    5.  Den Kunden informieren, dass die Sitzung verrechnet wird und die nächste Sitzung bestätigen.
+*   **Empfohlenes Skript:** "Olá [nome do cliente], compreendo perfeitamente, imprevistos acontecem. Como o pedido foi feito com menos de 3h de antecedência, a sessão de hoje será contabilizada conforme informado inicialmente. Relembro que a sua próxima sessão é no (verificar data)."
+*   **Variationen:** Es gibt spezifische Skripte für Fälle, in denen der Kunde krank/aufgewühlt ist, insistiert/verhandeln möchte, es das erste Mal ist, der Kunde behauptet, früher abgesagt zu haben, oder der Kunde die Regel nicht kannte.
+*   **Zu vermeidende Fehler:** Sich für die Richtlinie entschuldigen, einen anklagenden Ton verwenden, Ausnahmen ohne Genehmigung versprechen, den Kunden ohne Antwort lassen.
+*   **Wichtige Hinweise:** Alle Richtlinien sollten im Vertrag sichtbar sein und in der ersten Sitzung bekräftigt werden. Bei häufigen Wiederholungen die Geschäftsleitung informieren.
+
+Diese Informationen decken die vertragliche und die Sitzungs-bezogene Seite des "Abbruchs" oder "Cancelamento" ab, basierend auf den bereitgestellten Dokumenten.
+---------------------------------------------------
+
+--- Question 10 ---
+User: Como funciona a avaliação Myo Health? Preciso de preparar algo específico?
+
+MYA:
+Error: HTTP error occurred: 500 Server Error: Internal Server Error for url: http://localhost:3000/api/chat - Response: {"error":"got status: 429 Too Many Requests. {\"error\":{\"message\":\"exception parsing response\",\"code\":429,\"status\":\"Too Many Requests\"}}"}
+---------------------------------------------------
+
+Test session finished.

@@ -11,9 +11,9 @@
 
 export const passwordRoleMap: { [password: string]: string } = {
   // Beispiel-Passwörter für die Entwicklung:
-  "colabMyo123!": "colaboradores",
-  "managerMyo456@": "managers",
-  "franchMyo789#": "franchising",
+  "!": "colaboradores",
+  "@": "managers",
+  "#": "franchising",
   // Das Passwort für die Rolle "administrador" wird nicht hier direkt gemappt,
   // da der Admin-Zugang über einen separaten Admin-Login erfolgt
   // und die Auswahl der Rolle "administrador" im Frontend den Kontext bestimmt.
