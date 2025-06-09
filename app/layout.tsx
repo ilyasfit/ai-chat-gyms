@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Safya | Demo",
+  title: "MYA AI Assistant",
   description: "Powerful AI solutions",
 };
 

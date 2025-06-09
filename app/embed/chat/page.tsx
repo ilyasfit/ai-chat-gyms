@@ -12,6 +12,9 @@ export default function ChatEmbedPage() {
         The h-[600px] and max-w-md are inside ExpandableChatEmbed.
         This page provides a basic container.
       */}
+      <div className="h-screen">Test</div>
+      Hello there!
+      <div className="h-screen">Test</div>
       <ExpandableChatEmbed />
     </div>
   );

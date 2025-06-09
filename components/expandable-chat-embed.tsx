@@ -59,7 +59,7 @@ export function ExpandableChatEmbed() {
     const aiMessageId = Date.now() + "_ai";
 
     try {
-      const response = await fetch("/api/chat", {
+      const response = await fetch("/api/chat/public", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ message: currentInput, history: apiHistory }),

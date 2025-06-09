@@ -106,7 +106,7 @@ export function V0AIChat({
           <p
             className="text-3xl font-medium text-[#0A0A0A] dark:text-[#F9F8F6]" // Theme colors
           >
-            Hey, I&apos;m Safya
+            Hey, I&apos;m Mya
           </p>
           <p
             className="text-3xl font-medium mt-0 text-[#56585C] dark:text-[#B8BCC0]" // Reduced top margin (mt-0), theme colors
@@ -205,7 +205,7 @@ ChatInputProps) {
               adjustHeight();
             }}
             onKeyDown={handleKeyDown}
-            placeholder="Ask Safya a question..." // Updated placeholder
+            placeholder="Ask Mya a question..." // Updated placeholder
             className={cn(
               "w-full px-4 py-3", // Adjusted padding (removed pl-12)
               "resize-none",
