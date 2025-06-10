@@ -134,17 +134,17 @@ export function V0AIChat({
         <Image
           src="/myo-light.svg"
           alt="Myo Clinic Logo"
-          width={100} // Adjust width as needed, e.g., 100
-          height={24} // Adjust height as needed, e.g., 24 (maintaining aspect ratio)
-          className="block dark:hidden h-6 w-auto" // Smaller height, auto width
+          width={98} // Intrinsic aspect ratio: 4946/1210 ≈ 4.0876. For height 24, width ≈ 98
+          height={24} // Corresponds to h-6 (24px)
+          className="block dark:hidden h-6 w-auto" // Display height h-6 (24px), width auto
         />
         {/* Dark mode logo */}
         <Image
           src="/myo-dark.svg"
           alt="Myo Clinic Logo"
-          width={100} // Adjust width as needed
-          height={24} // Adjust height as needed
-          className="hidden dark:block h-6 w-auto" // Smaller height, auto width
+          width={98} // Intrinsic aspect ratio: 4946/1210 ≈ 4.0876. For height 24, width ≈ 98
+          height={24} // Corresponds to h-6 (24px)
+          className="hidden dark:block h-6 w-auto" // Display height h-6 (24px), width auto
         />
       </div>
       {/* Main container content */}
