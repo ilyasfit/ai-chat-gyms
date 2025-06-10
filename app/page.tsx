@@ -373,9 +373,9 @@ export default function Home() {
                 <Image
                   src={theme === "dark" ? "/myo-dark.svg" : "/myo-light.svg"}
                   alt="MYO Logo"
-                  width={120}
+                  width={80}
                   height={48}
-                  className="h-12"
+                  className="h-12 w-auto"
                 />
               </div>
               {/* <CardTitle className="text-2xl text-center">
