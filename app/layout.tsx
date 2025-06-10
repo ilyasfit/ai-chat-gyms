@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "MYA AI Assistant",
-  description: "Powerful AI solutions",
+  title: "MYA | Myo Clinic",
+  description: "Assistente virtual da Myo Clinic",
 };
 
 export default function RootLayout({
@@ -36,13 +36,6 @@ export default function RootLayout({
         >
           {children}
         </ThemeProvider>
-        {/* ElevenLabs Convai Widget */}
-        <div
-          dangerouslySetInnerHTML={{
-            __html:
-              '<elevenlabs-convai agent-id="vNsUiF8EdRUktvmiPxkV"></elevenlabs-convai>',
-          }}
-        />
       </body>
     </html>
   );

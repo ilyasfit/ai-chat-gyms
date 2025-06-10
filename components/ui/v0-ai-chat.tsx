@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useCallback, useState } from "react";
+import Image from "next/image"; // Import Next Image
 import { Textarea } from "@/components/ui/textarea";
 import { cn } from "@/lib/utils";
 import { ArrowUpIcon, ArrowDownIcon } from "lucide-react"; // Added ArrowDownIcon
@@ -128,6 +129,24 @@ export function V0AIChat({
     // Use theme variable for background, add relative positioning for the logo
     <div className="relative flex flex-col h-screen bg-background">
       {/* Logo Container - Positioned Top Left */}
+      <div className="absolute top-4 left-4 z-10">
+        {/* Light mode logo */}
+        <Image
+          src="/myo-light.svg"
+          alt="Myo Clinic Logo"
+          width={100} // Adjust width as needed, e.g., 100
+          height={24} // Adjust height as needed, e.g., 24 (maintaining aspect ratio)
+          className="block dark:hidden h-6 w-auto" // Smaller height, auto width
+        />
+        {/* Dark mode logo */}
+        <Image
+          src="/myo-dark.svg"
+          alt="Myo Clinic Logo"
+          width={100} // Adjust width as needed
+          height={24} // Adjust height as needed
+          className="hidden dark:block h-6 w-auto" // Smaller height, auto width
+        />
+      </div>
       {/* Main container content */}
       <AIChatMessages
         messages={messages}
