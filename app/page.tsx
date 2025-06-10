@@ -16,7 +16,6 @@ import {
   CardContent,
   CardFooter,
   CardHeader,
-  CardTitle,
 } from "@/components/ui/card"; // Import Card components
 import { ADMIN_UI_PASSWORD, passwordRoleMap } from "../src/config/passwords"; // Import ADMIN_UI_PASSWORD and passwordRoleMap
 import { LogOut } from "lucide-react";
@@ -36,16 +35,16 @@ interface ChatRequestBody {
 
 // Define shimmer messages here as they are used for state in this component
 const shimmerMessages = [
-  "Mya is pondering your request...",
-  "Processing with Mya's brilliance...",
-  "Mya is crafting a response...",
-  "Thinking deeply, Mya-style...",
-  "Mya's gears are turning...",
-  "Hold on, Mya’s got this...",
-  "Mya is working her magic...",
-  "Analyzing with Mya’s wisdom...",
-  "Mya’s thoughts are loading...",
-  "Give Mya a moment to shine...",
+  "Mya está a ponderar o seu pedido...",
+  "A processar com o brilhantismo da Mya...",
+  "Mya está a elaborar uma resposta...",
+  "A pensar profundamente, ao estilo da Mya...",
+  "As engrenagens da Mya estão a girar...",
+  "Aguarde, Mya já trata disso...",
+  "Mya está a fazer a sua magia...",
+  "A analisar com a sabedoria da Mya...",
+  "Os pensamentos da Mya estão a carregar...",
+  "Dê um momento à Mya para brilhar...",
 ];
 
 export default function Home() {
@@ -366,15 +365,23 @@ export default function Home() {
         <div className="flex items-center justify-center min-h-screen bg-background px-4">
           {" "}
           {/* Use bg-background */}
-          <Card className="w-full max-w-sm">
+          <Card className="w-full max-w-sm bg-background border-0 shadow-none">
             {" "}
             {/* Use Card component */}
             <CardHeader>
-              <CardTitle className="text-2xl text-center">
+              <div className="flex justify-center mb-4">
+                <Image
+                  src={theme === "dark" ? "/myo-dark.svg" : "/myo-light.svg"}
+                  alt="MYO Logo"
+                  width={120}
+                  height={48}
+                  className="h-12"
+                />
+              </div>
+              {/* <CardTitle className="text-2xl text-center">
                 {" "}
-                {/* Use CardTitle */}
                 Enter Password
-              </CardTitle>
+              </CardTitle> */}
               {/* Optional: <CardDescription>Enter password to continue</CardDescription> */}
             </CardHeader>
             <form onSubmit={handlePasswordSubmit}>
@@ -396,7 +403,7 @@ export default function Home() {
                     type="password"
                     value={passwordInput}
                     onChange={(e) => setPasswordInput(e.target.value)}
-                    placeholder="Password"
+                    placeholder="Palavra-passe"
                     required
                     // Input Komponente verwendet bereits Theme-Variablen (bg-input, border, ring etc.)
                   />
@@ -405,7 +412,11 @@ export default function Home() {
               <CardFooter>
                 {" "}
                 {/* Use CardFooter */}
-                <Button type="submit" className="w-full mt-4 cursor-pointer">
+                <Button
+                  type="submit"
+                  className="w-full mt-4 cursor-pointer"
+                  disabled={passwordInput.trim() === ""}
+                >
                   {" "}
                   {/* Use Button component (primary variant by default) */}
                   Access
@@ -440,7 +451,7 @@ export default function Home() {
             <ThemeToggle />
             {isAuthenticated && ( // Show logout button only when authenticated
               <Button variant="outline" size="icon" onClick={handleLogout}>
-                <LogOut size={14} />
+                <LogOut size={12} />
               </Button>
             )}
           </div>

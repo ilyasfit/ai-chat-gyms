@@ -30,7 +30,7 @@ export default function RootLayout({
       >
         <ThemeProvider
           attribute="class"
-          defaultTheme="light" // Default to dark as current UI is dark
+          defaultTheme="system" // Default to dark as current UI is dark
           enableSystem
           disableTransitionOnChange
         >

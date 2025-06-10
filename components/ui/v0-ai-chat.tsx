@@ -106,12 +106,12 @@ export function V0AIChat({
           <p
             className="text-3xl font-medium text-[#0A0A0A] dark:text-[#F9F8F6]" // Theme colors
           >
-            Hey, I&apos;m Mya
+            Olá, sou a Mya
           </p>
           <p
             className="text-3xl font-medium mt-0 text-[#56585C] dark:text-[#B8BCC0]" // Reduced top margin (mt-0), theme colors
           >
-            How can I help you today?
+            Em que é que te posso ajudar?
           </p>
         </div>
         {/* Render ChatInput centered */}
@@ -205,7 +205,7 @@ ChatInputProps) {
               adjustHeight();
             }}
             onKeyDown={handleKeyDown}
-            placeholder="Ask Mya a question..." // Updated placeholder
+            placeholder="Faça uma pergunta à Mya" // Updated placeholder
             className={cn(
               "w-full px-4 py-3", // Adjusted padding (removed pl-12)
               "resize-none",
@@ -321,15 +321,13 @@ function AIChatMessages({
       {isLoading && (
         // Wrap loading indicator in the exact same structure as an assistant message for alignment
         <div className="flex w-full max-w-2xl mx-auto justify-start">
-          {/* Inner container matching assistant message (no padding/border/color here) */}
-          <div className="text-foreground">
-            {/* Prose wrapper matching assistant message */}
-            <div className="prose-sm dark:prose-invert max-w-none">
-              {/* Apply text-muted-foreground directly to shimmer if needed, or rely on prose styles */}
-              <TextShimmer className="text-muted-foreground">
-                {currentShimmerText}
-              </TextShimmer>
-            </div>
+          <div className="text-foreground px-4 py-2">
+            {" "}
+            {/* Align padding with message bubbles */}
+            {/* Removed prose wrapper for TextShimmer to allow more direct control over its vertical alignment */}
+            <TextShimmer className="text-muted-foreground">
+              {currentShimmerText}
+            </TextShimmer>
           </div>
         </div>
       )}
