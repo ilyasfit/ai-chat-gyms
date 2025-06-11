@@ -1,8 +1,8 @@
 "use client";
 
 import { useState, useCallback, useEffect } from "react"; // Added useCallback, useEffect
-import Image from "next/image"; // Import Next Image
-import { useTheme } from "next-themes"; // Import useTheme
+// Removed unused Image import
+import { useTheme } from "next-themes"; // Import useTheme - still used for theme toggle logic indirectly or potentially later
 // Import the main component and the type
 import {
   V0AIChat,
@@ -19,6 +19,7 @@ import {
 } from "@/components/ui/card"; // Import Card components
 import { ADMIN_UI_PASSWORD, passwordRoleMap } from "../src/config/passwords"; // Import ADMIN_UI_PASSWORD and passwordRoleMap
 import { LogOut } from "lucide-react";
+import { ThemeAwareLogo } from "@/components/ui/ThemeAwareLogo"; // Import ThemeAwareLogo
 
 // Define a new Message type that allows AsyncIterable
 type Message = Omit<V0ChatMessage, "content"> & {
@@ -59,7 +60,7 @@ export default function Home() {
     useState<string>("colaboradores"); // Default role
   const [, setCurrentDisplayRole] = useState<string>("Public"); // New state for displaying role
   const [loginError, setLoginError] = useState<string>(""); // State for login error messages
-  const { theme } = useTheme(); // Get current theme
+  useTheme(); // Call useTheme hook, its return value is not directly used here but establishes context for ThemeToggle
   const [determinedUserRole, setDeterminedUserRole] = useState<string | null>(
     null
   ); // New state for determined user role
@@ -369,15 +370,7 @@ export default function Home() {
             {" "}
             {/* Use Card component */}
             <CardHeader>
-              <div className="flex justify-center mb-4">
-                <Image
-                  src={theme === "dark" ? "/myo-dark.svg" : "/myo-light.svg"}
-                  alt="MYO Logo"
-                  width={80}
-                  height={48}
-                  className="h-12 w-auto"
-                />
-              </div>
+              {/* Removed Logo from Login Form Header */}
               {/* <CardTitle className="text-2xl text-center">
                 {" "}
                 Enter Password
@@ -390,6 +383,9 @@ export default function Home() {
               <CardContent className="space-y-4">
                 {" "}
                 {/* Use CardContent */}
+                <div className="flex justify-center mb-6">
+                  <ThemeAwareLogo width={150} height={75} />
+                </div>
                 {loginError && (
                   <p className="text-sm text-red-500 text-center">
                     {loginError}
@@ -419,7 +415,7 @@ export default function Home() {
                 >
                   {" "}
                   {/* Use Button component (primary variant by default) */}
-                  Access
+                  Acesso
                 </Button>
               </CardFooter>
             </form>
@@ -429,18 +425,7 @@ export default function Home() {
         // Authenticated Chat Section
         // Use bg-background for Theme-Konsistenz as suggested
         <main className="relative bg-background">
-          {/* Logo top-left */}
-          {isAuthenticated && (
-            <div className="absolute p-4 z-10 mt-2">
-              <Image
-                src={theme === "dark" ? "/myo-dark.svg" : "/myo-light.svg"}
-                alt="MYO Logo"
-                width={100} // Width for 3:1 aspect ratio with 48px height
-                height={40} // Height (h-12 equivalent)
-                className="h-12 w-[144px]" // Explicit height and width
-              />
-            </div>
-          )}
+          {/* Removed Logo top-left from here, V0AIChat now handles its own logo */}
           {/* Add ThemeToggle button and Role Display */}
           <div className="absolute top-4 right-4 z-10 flex items-center space-x-2">
             {/* {isAuthenticated && (

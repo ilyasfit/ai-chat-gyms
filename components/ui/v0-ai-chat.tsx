@@ -1,13 +1,14 @@
 "use client";
 
 import { useEffect, useRef, useCallback, useState } from "react";
-import Image from "next/image"; // Import Next Image
+// Removed Image import as ThemeAwareLogo will be used
 import { Textarea } from "@/components/ui/textarea";
 import { cn } from "@/lib/utils";
 import { ArrowUpIcon, ArrowDownIcon } from "lucide-react"; // Added ArrowDownIcon
 import { TextShimmer } from "@/components/ui/text-shimmer";
 import { ResponseStream } from "@/components/ui/response-stream";
 import { useAutoScroll } from "@/hooks/use-auto-scroll"; // Added useAutoScroll import
+import { ThemeAwareLogo } from "@/components/ui/ThemeAwareLogo"; // Import ThemeAwareLogo
 
 // --- Types ---
 export interface Message {
@@ -98,75 +99,62 @@ export function V0AIChat({
     setTimeout(() => scrollToBottom(), 50);
   };
 
-  // Conditional rendering based on messages length
-  if (messages.length === 0) {
-    return (
-      <div className="flex flex-col h-screen justify-center items-center bg-background p-4">
-        {/* Increased bottom margin (mb-8), adjusted text size (text-3xl), changed text content and colors */}
-        <div className="text-center mb-8">
-          <p
-            className="text-3xl font-medium text-[#0A0A0A] dark:text-[#F9F8F6]" // Theme colors
-          >
-            Olá, sou a Mya
-          </p>
-          <p
-            className="text-3xl font-medium mt-0 text-[#56585C] dark:text-[#B8BCC0]" // Reduced top margin (mt-0), theme colors
-          >
-            Em que é que te posso ajudar?
-          </p>
-        </div>
-        {/* Render ChatInput centered */}
-        <ChatInput
-          onSendMessage={handleSendMessageAndScroll}
-          isLoading={isLoading}
-        />
-      </div>
-    );
-  }
-
-  // Default layout when messages exist
+  // Common parent div for consistent logo display
   return (
-    // Use theme variable for background, add relative positioning for the logo
     <div className="relative flex flex-col h-screen bg-background">
-      {/* Logo Container - Positioned Top Left */}
+      {/* Logo Container - Positioned Top Left - ALWAYS VISIBLE */}
       <div className="absolute top-4 left-4 z-10">
-        {/* Light mode logo */}
-        <Image
-          src="/myo-light.svg"
-          alt="Myo Clinic Logo"
-          width={98} // Intrinsic aspect ratio: 4946/1210 ≈ 4.0876. For height 24, width ≈ 98
-          height={24} // Corresponds to h-6 (24px)
-          className="block dark:hidden h-6 w-auto" // Display height h-6 (24px), width auto
-        />
-        {/* Dark mode logo */}
-        <Image
-          src="/myo-dark.svg"
-          alt="Myo Clinic Logo"
-          width={98} // Intrinsic aspect ratio: 4946/1210 ≈ 4.0876. For height 24, width ≈ 98
-          height={24} // Corresponds to h-6 (24px)
-          className="hidden dark:block h-6 w-auto" // Display height h-6 (24px), width auto
-        />
-      </div>
-      {/* Main container content */}
-      <AIChatMessages
-        messages={messages}
-        isLoading={isLoading}
-        currentShimmerText={currentShimmerText}
-        // Pass down scroll props
-        scrollRef={scrollRef}
-        isAtBottom={isAtBottom}
-        scrollToBottom={scrollToBottom}
-      />
-      {/* Input area wrapper: Removed padding and border, added flex centering, ADDED bottom padding */}
-      <div className="flex justify-center pb-4">
         {" "}
-        {/* Added pb-4 */}
-        <ChatInput
-          onSendMessage={handleSendMessageAndScroll} // Use the combined handler
-          isLoading={isLoading}
-          // Removed unnecessary scrollToBottom prop pass-down
-        />
+        {/* Changed left-4 to left-0 pl-4 */}
+        <ThemeAwareLogo width={98} height={24} className="h-6 w-auto" />
       </div>
+
+      {/* Conditional content area */}
+      {messages.length === 0 ? (
+        // Initial screen UI (no messages)
+        // Added flex-1 to allow this div to grow and center its content within the parent flex container
+        <div className="flex flex-1 flex-col justify-center items-center p-4">
+          <div className="text-center mb-8">
+            <p
+              className="text-3xl font-medium text-[#0A0A0A] dark:text-[#F9F8F6]" // Theme colors
+            >
+              Olá, sou a Mya
+            </p>
+            <p
+              className="text-3xl font-medium mt-0 text-[#56585C] dark:text-[#B8BCC0]" // Reduced top margin (mt-0), theme colors
+            >
+              Em que é que te posso ajudar?
+            </p>
+          </div>
+          <ChatInput
+            onSendMessage={handleSendMessageAndScroll}
+            isLoading={isLoading}
+          />
+        </div>
+      ) : (
+        // Active chat screen UI (with messages)
+        // This part needs to be a flex container itself to manage AIChatMessages and ChatInput
+        // Use a fragment here if AIChatMessages and ChatInput's wrapper can manage their own flex growth.
+        // Or, wrap them in a flex-1 container if needed.
+        // Given AIChatMessages has flex-1, this structure should work.
+        <>
+          <AIChatMessages
+            messages={messages}
+            isLoading={isLoading}
+            currentShimmerText={currentShimmerText}
+            scrollRef={scrollRef}
+            isAtBottom={isAtBottom}
+            scrollToBottom={scrollToBottom}
+          />
+          {/* Input area wrapper */}
+          <div className="flex justify-center pb-4">
+            <ChatInput
+              onSendMessage={handleSendMessageAndScroll}
+              isLoading={isLoading}
+            />
+          </div>
+        </>
+      )}
     </div>
   );
 }
