@@ -238,11 +238,11 @@ export default function Home() {
           );
         }
         console.log(
-          "[Frontend] Final requestBody to send to /api/chat/internal:",
+          "[Frontend] Final requestBody to send to /api/chat/rag:",
           JSON.stringify(requestBody)
         );
 
-        const response = await fetch("/api/chat/internal", {
+        const response = await fetch("/api/chat/rag", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

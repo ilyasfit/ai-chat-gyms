@@ -496,7 +496,7 @@ export async function POST(req: NextRequest) {
     // --- End of save ---
 
     const streamResult = await genAI.models.generateContentStream({
-      model: "gemini-2.0-flash", // Ensure this model name is correct
+      model: "gemini-2.5-flash-lite", // Ensure this model name is correct
       contents: contents,
       // generationConfig: { // Optional: configure temperature, max output tokens, etc.
       //   temperature: 0.7, // Example: Adjust for more creative or factual responses
