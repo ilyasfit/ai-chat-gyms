@@ -123,7 +123,7 @@ export function V0AIChat({
             <p
               className="text-3xl font-medium mt-0 text-[#56585C] dark:text-[#B8BCC0]" // Reduced top margin (mt-0), theme colors
             >
-              Em que é que te posso ajudar?
+              Em que posso ajudar?
             </p>
           </div>
           <ChatInput
